@@ -1,0 +1,118 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    749.6      59.3 | LTE
+    749.6      81.0 | -
+    749.6      85.0 | FDD device category
+    742.0     233.3 | Max data rate
+    742.0     310.0 | （
+    742.0     322.0 | peak
+    742.0     349.4 | ）
+    741.8     438.3 | Modulation type
+    734.0      59.3 | (Downlink)
+    717.8      59.3 | Category M1 1Mbps QPSK/16QAM
+    700.4      59.3 | LTE
+    700.4      81.0 | -
+    700.4      85.0 | FDD device category
+    692.8     233.3 | Max data rate
+    692.8     310.0 | （
+    692.8     322.0 | peak
+    692.8     349.4 | ）
+    692.6     438.3 | Modulation type
+    684.8      59.3 | (Uplink)
+    668.6      59.3 | Category M1 375kbps QPSK/16QAM
+    611.5      49.6 | 8.2 Related Documents
+    573.7      49.6 | Table 43: Related Documents
+    555.0      59.3 | NO.
+    555.0      94.9 | Title
+    555.0     250.9 | Description
+    539.2      94.9 | A7600 Series_AT Command
+    533.2      59.3 | [1]
+    533.2     251.0 | AT Command Manual
+    527.1      94.9 | Manual _V
+    527.1     145.0 | 1
+    527.1     150.8 | .
+    527.1     153.8 | 00
+    527.1     165.5 | .
+    527.1     168.4 | 04
+    514.8      94.9 | ITU
+    514.8     111.8 | -
+    514.8     115.3 | T Draft new
+    508.7      59.3 | [2]
+    508.7     251.0 | Serial asynchronous automatic dialing and control
+    502.7      94.9 | recommendationV.25ter
+    490.4     251.0 | Digital cellular telecommunications (Phase 2+); AT command
+    484.3      59.3 | [3]
+    484.3      94.9 | GSM 07.07
+    478.3     251.0 | set for GSM Mobile Equipment (ME)
+    466.0      59.3 | [
+    466.0      62.2 | 4
+    466.0      68.0 | ]
+    466.0      94.9 | GSM 07.10
+    466.0     251.0 | Support GSM 07.10 multiplexing protocol
+    453.7     251.0 | Digital cellular telecommunications (Phase 2+); Use of Data
+    441.6     251.0 | Terminal Equipment –
+    441.6     364.3 | Data Circuit terminating Equipment
+    435.5      59.3 | [5]
+    435.5      94.9 | GSM 07.05
+    429.5     251.0 | (DTE – DCE) interface for Short Message Service (SMS) and
+    417.4     251.0 | Cell Broadcast Service (CBS)
+    405.1     251.0 | Digital cellular telecommunications system (Phase 2+);
+    393.1      59.3 | [6]
+    393.1      94.9 | GSM 11.14
+    393.1     251.0 | Specification of the SIM Application Toolkit for the Subscriber
+    380.9     251.0 | Identity Module
+    380.9     325.1 | –
+    380.9     333.8 | Mobile Equipment (SIM
+    380.9     445.9 | –
+    380.9     454.6 | ME) interface
+    368.6     251.0 | Digital cellular telecommunications system (Phase 2+);
+    356.6      59.3 | [7]
+    356.6      94.9 | GSM 11.11
+    356.6     251.0 | Specification of the Subscriber Identity Module –  Mobile
+    344.5     251.0 | Equipment (SIM
+    344.5     329.2 | –
+    344.5     337.9 | ME) interface
+    332.2     251.0 | Digital
+    332.2     289.1 | cellular telecommunications system (Phase 2+);
+    326.2      59.3 | [8]
+    326.2      94.9 | GSM 03.38
+    320.1     251.0 | Alphabets and language
+    320.1     364.2 | -
+    320.1     367.7 | specific information
+    307.1     251.0 | Digital cellular telecommunications system (Phase 2)
+    307.1     525.5 | ；
+    294.2      59.3 | [9]
+    294.2      94.9 | GSM 11.10
+    293.5     251.0 | Mobile Station (MS) conformance specification
+    293.5     483.2 | ；
+    293.5     501.5 | Part 1:
+    280.6     251.0 | Conformance specification
+    266.5     251.0 | Digital cellular telecommunications system (Release 5);
+    258.7      59.3 | [10]
+    258.7      94.9 | 3GPP TS 51.010-1
+    250.9     251.0 | Mobile Station (MS) conformance specification
+    227.2      59.3 | [11]
+    227.2      94.9 | 3GPP TS 34.124 Electromagnetic Compatibility (EMC) for mobile terminals and ancillary equipment.
+    205.3     251.0 | Electromagnetic
+    205.3     329.0 | Compatibility (EMC) for mobile terminals and
+    199.3      59.3 | [12]
+    199.3      94.9 | 3GPP TS 34.121
+    193.3     251.0 | ancillary equipment.
+    180.9     251.0 | Technical Specification Group Radio Access Network;
+    168.8      59.3 | [13]
+    168.8      94.9 | 3GPP TS 34.123-1
+    168.8     251.0 | Terminal conformance specification; Radio transmission and
+    156.8     251.0 | reception (FDD)
+    144.4     251.0 | User Equipment (U
+    144.4     348.3 | E) conformance specification; Part 3:
+    138.4      59.3 | [14]
+    138.4      94.9 | 3GPP TS 34.123-3
+    132.4     251.0 | Abstract Test Suites.
+    120.1     251.8 | Electromagnetic compatibility and Radio spectrum Matters
+    108.0     251.8 | (ERM); Base Stations (BS) and User Equipment (UE) for
+     95.9     251.8 | IMT-2000.  Third Generation cellular networks; Part 2:
+     89.9      59.3 | [15]
+     89.9      94.9 | EN 301 908-02 V2.2.1
+     83.8     251.8 | Harmonized EN for IMT-2000, CDMA Direct Spread
+     71.8     251.8 | (UTRA FDD) (UE) covering essential requirements of article
+     59.7     251.8 | 3.2 of the R&TTE Directive
+     19.3      49.6 | www.simcom.com 57/61

@@ -1,0 +1,46 @@
+﻿Type,Severity,X_mm,Y_mm,Description
+via_dangling,warning,,, || Via [/M3V3] on F.Cu - B.Cu
+via_dangling,warning,,, || Via [/PKEY] on F.Cu - B.Cu
+via_dangling,warning,,, || Via [GPS_RF] on F.Cu - B.Cu
+silk_edge_clearance,warning,,, || Segment on Edge.Cuts | Polygon of U1 on F.Silkscreen
+silk_overlap,warning,,, || Reference field of J3 | Rectangle of J3 on F.Silkscreen
+silk_overlap,warning,,, || Reference field of J4 | Rectangle of J4 on F.Silkscreen
+silk_overlap,warning,,, || Reference field of SW1 | Rectangle of SW1 on F.Silkscreen
+silk_overlap,warning,,, || Reference field of J5 | Rectangle of J5 on F.Silkscreen
+silk_overlap,warning,,, || Reference field of J2 | Rectangle of J2 on F.Silkscreen
+silk_overlap,warning,,, || Rectangle of ANT1 on F.Silkscreen | Reference field of ANT1
+silk_overlap,warning,,, || Reference field of C1 | Rectangle of C1 on F.Silkscreen
+silk_overlap,warning,,, || Reference field of J7 | Rectangle of J7 on F.Silkscreen
+silk_overlap,warning,,, || Rectangle of J6 on F.Silkscreen | Reference field of J6
+silk_over_copper,warning,,, || Rectangle of TP4 on F.Silkscreen | Pad 1 [/QUECTEL_TP] of TP4 on F.Cu
+silk_over_copper,warning,,, || Rectangle of TP1 on F.Silkscreen | Pad 1 [/GPS_TX] of TP1 on F.Cu
+silk_over_copper,warning,,, || Rectangle of J3 on F.Silkscreen | Pad 3 [/USB_DM_F] of J3 on F.Cu
+silk_over_copper,warning,,, || Rectangle of J3 on F.Silkscreen | Pad 1 [/USB_VBUS] of J3 on F.Cu
+silk_over_copper,warning,,, || Rectangle of TP2 on F.Silkscreen | Pad 1 [/GPS_RX] of TP2 on F.Cu
+silk_over_copper,warning,,, || Reference field of SW1 | Pad 1 [/PKEY] of SW1 on F.Cu
+silk_over_copper,warning,,, || Reference field of SW1 | Pad 2 [/GND] of SW1 on F.Cu
+silk_over_copper,warning,,, || Rectangle of J4 on F.Silkscreen | Pad 1 [/M3V3] of J4 on F.Cu
+silk_over_copper,warning,,, || Reference field of J5 | Pad 1 [/VBAT] of J5 on F.Cu
+silk_over_copper,warning,,, || Rectangle of J4 on F.Silkscreen | Pad 3 [/M3V3] of J4 on F.Cu
+silk_over_copper,warning,,, || Rectangle of TP3 on F.Silkscreen | Pad 1 [/GPS_RX] of TP3 on F.Cu
+silk_over_copper,warning,,, || Rectangle of ANT1 on F.Silkscreen | Pad 2 [/GND] of ANT1 on F.Cu
+silk_over_copper,warning,,, || Rectangle of ANT1 on F.Silkscreen | Pad 1 [/ANT_4G_RF] of ANT1 on F.Cu
+silk_over_copper,warning,,, || Rectangle of J7 on F.Silkscreen | Pad 3 [/GND] of J7 on F.Cu
+silk_over_copper,warning,,, || Rectangle of J7 on F.Silkscreen | Pad 1 [/BOOT] of J7 on F.Cu
+silk_over_copper,warning,,, || Reference field of J6 | Pad 1 [/SPK_P] of J6 on F.Cu
+silk_over_copper,warning,,, || Reference field of J6 | Pad 2 [/SPK_N] of J6 on F.Cu
+silk_overlap,warning,,, || Rectangle of AE2 on B.Silkscreen | Reference field of U4
+silk_overlap,warning,,, || Rectangle of AE2 on B.Silkscreen | Reference field of R1
+silk_overlap,warning,,, || Reference field of TP5 | Rectangle of TP5 on B.Silkscreen
+silk_overlap,warning,,, || Rectangle of TP8 on B.Silkscreen | Reference field of TP8
+silk_overlap,warning,,, || Reference field of TP7 | Rectangle of TP7 on B.Silkscreen
+silk_overlap,warning,,, || Rectangle of TP6 on B.Silkscreen | Reference field of TP6
+silk_overlap,warning,,, || Reference field of LED3 | Reference field of LED2
+silk_overlap,warning,,, || Reference field of LED1 | Reference field of LED2
+silk_over_copper,warning,,, || Rectangle of TP5 on B.Silkscreen | Pad 1 [/MIC_P] of TP5 on B.Cu
+silk_over_copper,warning,,, || Rectangle of TP8 on B.Silkscreen | Pad 1 [/PKEY] of TP8 on B.Cu
+silk_over_copper,warning,,, || Rectangle of TP7 on B.Silkscreen | Pad 1 [/VBAT] of TP7 on B.Cu
+silk_over_copper,warning,,, || Reference field of R2 | Pad 36 [<no net>] of U4 on B.Cu
+silk_over_copper,warning,,, || Rectangle of TP6 on B.Silkscreen | Pad 1 [/GND] of TP6 on B.Cu
+silk_over_copper,warning,,, || Rectangle of SW2 on B.Silkscreen | Pad 2 [/GND] of SW2 on B.Cu
+silk_over_copper,warning,,, || Rectangle of SW2 on B.Silkscreen | Pad 1 [/SOS] of SW2 on B.Cu

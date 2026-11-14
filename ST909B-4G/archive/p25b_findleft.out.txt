@@ -1,0 +1,3 @@
+STILL PRESENT idx 24: /LED_EN B (26.05,12.20)->(22.94,12.20)
+STILL PRESENT idx 26: /LED_EN F (26.05,59.75)->(26.05,12.20)
+check done

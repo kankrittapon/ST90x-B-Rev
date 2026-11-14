@@ -1,0 +1,26 @@
+# =====================================================
+#  ST909B-4G Tracker — .gitattributes
+#  ปล่อยให้ git normalize ข้อความเป็น LF ใน repo (KiCad อ่านได้ทั้ง LF/CRLF)
+#  และล็อกไฟล์ binary ไม่ให้ถูกแปลง
+# =====================================================
+
+* text=auto
+
+# สคริปต์ Windows เก็บ CRLF เสมอ (รันด้วย cmd/PowerShell)
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+
+# Python — ชี้ diff driver ให้อ่าน diff สวยขึ้น
+*.py   text diff=python
+
+# ----- binary: ห้าม normalize / ห้าม diff ข้อความ -----
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.pdf   binary
+*.zip   binary
+*.step  binary
+*.stp   binary
+*.wrl   binary

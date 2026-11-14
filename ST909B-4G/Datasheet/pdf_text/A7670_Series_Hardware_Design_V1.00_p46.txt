@@ -1,0 +1,47 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.1      49.6 | 5.3.3 Minimum functionality mode and Flight mode
+    719.6      49.6 | Minimum functionality mode ceasesa majority functionof the module, thus minimizing the power
+    704.0      49.6 | consumption. This mode is set by the AT command which provides a choice of the functionality levels.
+    672.8      49.6 | 
+    672.8      57.5 | AT+CFUN=0: Minimum functionality
+    657.2      49.6 | 
+    657.2      57.5 | AT+CFUN=1: Full functionality (Default)
+    641.6      49.6 | 
+    641.6      57.5 | AT+CFUN=4: Flight mode
+    610.4      49.6 | If A7670 has been set to minimum functionality mode, the RF function and SIM card function will be closed.
+    594.8      49.6 | In this case, the serial port and USB are still accessible, but RF function andSIM card will be unavailable.
+    579.2      49.6 | If A7670 has been set to flight mode, the RF function will be closed. In this case, the serial port and USB are
+    563.6      49.6 | still accessible, but RF function will be unavailable.
+    547.9      49.6 | When A7670 is in minimum functionality or flight mode, it can return to full functionality by the AT command
+    532.3      49.6 | “AT+CFUN=1”.
+    476.3      49.6 | 5.4 Current Consumption
+    438.8      49.6 | The current consumption is listed in the table below.
+    407.4      49.6 | Table 35: Current consumption on VBAT Pins (VBAT=3.8V)
+    388.7      59.3 | GSM sleep/idle mode
+    371.2      59.3 | GSM supply current
+    371.2     262.9 | Sleep mode@BS_PA_MFRMS=2Typical: TBD
+    355.6      59.3 | (GNSS off
+    355.6     107.0 | ，
+    355.6     117.4 | without USB connection)
+    355.6     262.9 | Idle mode@BS_PA_MFRMS=2  Typical: TBD
+    336.7      59.3 | LTE sleep/idle mode
+    319.1      59.3 | LTE supply current
+    319.1     262.9 | Sleep modeTypical: TBD
+    305.3     262.9 | Idle mode Typical: TBD
+    303.5      59.3 | (GNSS off
+    303.5     107.0 | ，
+    303.5     117.4 | without USB connection)
+    284.6      59.3 | GSM Talk
+    266.3      59.3 | EGSM 900 @power level #5 Typical: 320 mA
+    248.8      59.3 | DCS1800 @power level #5 Typical: 262 mA
+    229.3      59.3 | GPRS
+    211.0      59.3 | EGSM900( 2 Rx,4 Tx ) @power level #5 Typical: 630mA
+    193.4      59.3 | DCS1800( 2 Rx,4 Tx ) @power level #0Typical:395mA
+    176.0      59.3 | EGSM900( 3Rx, 2 Tx ) @power level #5 Typical:370mA
+    158.5      59.3 | DCS1800( 3Rx, 2 Tx ) @power level #0Typical:275mA
+    138.9      59.3 | EDGE
+    120.6      59.3 | EGSM900( 2 Rx,4 Tx ) @power level #8Typical:460mA
+    103.1      59.3 | DCS1800( 2 Rx,4 Tx ) @power level #2Typical:300mA
+     85.6      59.3 | EGSM900( 3Rx, 2 Tx ) @power level #8Typical: 336mA
+     68.1      59.3 | DCS1800( 3Rx, 2 Tx ) @power level #2Typical:208mA
+     19.3      49.6 | www.simcom.com 46/61

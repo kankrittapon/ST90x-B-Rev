@@ -1,0 +1,4 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.3      49.6 | Test conditions: The module is on the SIMCom development board (the development board has the
+    734.7      49.6 | necessary ESD protection devices)
+     19.3      49.6 | www.simcom.com 48/61

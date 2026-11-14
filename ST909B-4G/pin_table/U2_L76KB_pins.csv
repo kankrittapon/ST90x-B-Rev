@@ -1,0 +1,19 @@
+﻿pin_number,pin_name,net_name,note
+1,GND,/GND,⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+2,TXD,/GPS_RX,"L76 TX -> MCU RX (TP2 LTX, TP3 GTX อยู่บน net นี้); ยืนยัน ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58"
+3,RXD,/GPS_TX,MCU TX -> L76 RX (TP1 LRX); ยืนยัน ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+4,1PPS,,ปล่อยลอยได้ ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+5,WAKE_UP,,"active low, pull-up ภายใน; ปล่อยลอยได้ ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58"
+6,V_BCKP,,ยังไม่ทราบว่าต่อ /G3V3 หรือ R1/R2 (P1 วัด) ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+7,RESERVED,,ลอย ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+8,VCC,/G3V3,LDO U6 >=100 mA ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+9,RESET_N,,ปล่อยลอยได้ถ้าไม่ใช้ ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+10,GND,/GND,⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+11,RF_IN,/GPS_RF,"50 ohm; ต่อ AE2 (via ที่ 11.5,44 ปัจจุบัน dangling) ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58"
+12,GND,/GND,⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+13,ANTON,,ใช้เมื่อเสาแอคทีฟ; ไม่ใช้ลอย ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+14,VDD_RF,,จ่ายไฟเสาแอคทีฟ; patch passive ลอย (R1/R2 อาจเกี่ยว) ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+15,RESERVED,,ลอย ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+16,RESERVED,,ลอย ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+17,RESERVED,,ลอย ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58
+18,SET,,"ลอย=BDS+GPS, ต่ำ=GPS+GLONASS ⚠️ L76K HW Design V1.1 (cn); ยังไม่เทียบ L76KB-A58"

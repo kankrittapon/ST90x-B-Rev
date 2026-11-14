@@ -1,0 +1,52 @@
+(footprint "L76KB_MODULE"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL block outline for Quectel L76KB-A58 GNSS module (~10.1x9.7mm)")
+  (tags "provisional block outline")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "9b930196-dd37-42b5-a855-0cd9c005069e")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "L76KB_MODULE" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "7731fa5d-ef89-4177-8b98-5eb22566575d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "b077a8ce-ebc8-4558-ab00-8715bf8110eb")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -5.35 -5.15)
+    (end 5.35 5.15)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "9e7c07b0-fae6-4997-8e0f-f53c05d90e46")
+  )
+
+  (fp_rect
+    (start -4.75 -4.55)
+    (end 4.75 4.55)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "007451cf-edd6-41c9-9a7c-bdf117507f6d")
+  )
+
+  (fp_rect
+    (start -4.75 -4.55)
+    (end 4.75 4.55)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "eed286cc-8940-4653-9505-b3990915a1b0")
+  )
+
+)

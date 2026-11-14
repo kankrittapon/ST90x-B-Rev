@@ -1,0 +1,52 @@
+(footprint "A7670SA_MODULE"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL block outline for SIMCom A7670SA LGA 4G module (~24x24mm, pad detail TBD from datasheet)")
+  (tags "provisional block outline")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "eb5f3dcd-1e40-4255-8789-fc950f4e93bd")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "A7670SA_MODULE" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "5c88e9fa-7a07-47e6-a6fc-5535e4c8eba7")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "b41e9db9-4cfe-4c7c-8625-f016589ec4c4")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -12.3 -12.3)
+    (end 12.3 12.3)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "088d366e-6b96-438a-9048-2263eb3f33fb")
+  )
+
+  (fp_rect
+    (start -11.7 -11.7)
+    (end 11.7 11.7)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "775ada94-7a49-4f52-aa52-16527678ff53")
+  )
+
+  (fp_rect
+    (start -11.7 -11.7)
+    (end 11.7 11.7)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "cfe012ae-d6cc-497c-97e4-28efc5a79b4f")
+  )
+
+)

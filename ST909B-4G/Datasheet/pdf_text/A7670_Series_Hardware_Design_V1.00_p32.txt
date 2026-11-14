@@ -1,0 +1,107 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    741.5      49.6 | 3.5 SIM Interface
+    704.0      49.6 | A7670 supports both 1.8V and 3.0V USIM Cards. The interface power of the USIM card is provided by the
+    688.4      49.6 | voltage regulator inside the module, and the normal voltage value is 3V or 1.8V.
+    643.2      49.6 | Table 13: USIM electronic characteristic in 1.8V mode (USIM_VDD=1.8V)
+    625.1      55.0 | Symbol
+    625.1     127.7 | Parameter
+    625.1     273.2 | Min.
+    625.1     367.9 | Typ.
+    625.1     411.5 | Max.
+    625.1     506.1 | Unit
+    606.7      55.0 | USIM_VDD
+    606.7     127.7 | LDO power output voltage
+    606.7     273.2 | 1.62
+    606.7     367.9 | 1.8
+    606.7     411.5 | 1.98
+    606.7     506.1 | V
+    589.2      55.0 | VIH
+    589.2     127.7 | High-level input voltage
+    589.2     273.2 | 0.7*USIM_VDD
+    589.2     367.9 | -
+    589.2     411.5 | USIM_VDD +0.4
+    589.2     506.1 | V
+    571.7      55.0 | VIL
+    571.7     127.7 | Low-level input voltage
+    571.7     273.2 | -0.4
+    571.7     367.9 | 0
+    571.7     411.5 | 0.25*USIM_VDD
+    571.7     506.1 | V
+    554.2      55.0 | VOH
+    554.2     127.7 | High-level output voltage
+    554.2     273.2 | USIM_VDD -0.4
+    554.2     367.9 | -
+    554.2     411.5 | USIM_VDD
+    554.2     506.1 | V
+    536.7      55.0 | VOL
+    536.7     127.7 | Low-level output voltage
+    536.7     273.2 | 0
+    536.7     367.9 | 0
+    536.7     411.5 | 0.2
+    536.7     506.1 | V
+    504.1      49.6 | Table 14: USIM electronic characteristic 3.0V mode (USIM_VDD=3V)
+    485.0      59.3 | Symbol
+    485.0     132.1 | Parameter
+    485.0     277.6 | Min.
+    484.9     372.2 | Typ.
+    484.9     415.9 | Max.
+    484.9     510.4 | Unit
+    464.1      59.3 | USIM_VDD
+    464.1     132.1 | LDO power output voltage
+    464.1     277.6 | 2.7
+    464.1     372.2 | 3
+    464.1     415.9 | 3.3
+    464.1     510.4 | V
+    443.5      59.3 | VIH
+    443.5     132.1 | High-level input voltage
+    443.5     277.6 | 0.7*USIM_VDD
+    443.5     372.2 | -
+    443.5     415.9 | USIM_VDD +0.4
+    443.5     510.4 | V
+    423.0     132.1 | Low-level input voltage
+    422.9      59.3 | VIL
+    422.9     277.6 | -0.4
+    422.9     372.2 | 0
+    422.9     415.9 | 0.25*USIM_VDD
+    422.9     510.4 | V
+    402.4      59.3 | VOH
+    402.4     132.1 | High-level output voltage
+    402.4     277.6 | USIM_VDD -0.45
+    402.4     372.2 | -
+    402.4     415.9 | USIM_VDD
+    402.4     510.4 | V
+    381.8      59.3 | VOL
+    381.8     132.1 | Low-level output voltage
+    381.8     277.6 | 0
+    381.8     372.2 | 0
+    381.8     415.9 | 0.3
+    381.8     510.4 | V
+    316.0      49.6 | 3.5.1 SIM Application Guide
+    285.5      49.6 | It is recommended to use an ESD protection component such as ESDA6V1W5 produced by ST
+    269.9      49.6 | (www.st.com) or SMF15C produced by ON SEMI (www.onsemi.com). Note that the USIM peripheral
+    254.3      49.6 | circuit should be close to the USIM card socket. The following figure shows the 6- pin SIM card holder
+    238.7      49.6 | reference circuit.
+    223.1      49.6 | The following figure shows the 6-pin SIM card holder reference circuit.
+    190.9     150.0 | Module
+    181.0     391.2 | SIM Socket
+    169.7     160.3 | USIM_VDD
+    169.6     381.2 | VCC GND
+    163.1     312.5 | 22
+    163.1     312.5 | Ω
+    160.4     162.3 | USIM_RST
+    160.2     381.7 | RST VPP
+    154.3     312.5 | 22
+    154.3     312.5 | Ω
+    151.5     381.3 | CLK I/O
+    151.3     161.1 | USIM_CLK
+    132.2     312.5 | 22
+    132.2     312.5 | Ω
+    129.7     155.9 | USIM_DATA
+    116.1     304.2 | 33pF
+    114.8     280.0 | 100nF
+    110.0     369.3 | NM
+     95.9     248.8 | 22pF_NM
+     95.6     214.1 | 22pF_NM
+     95.2     231.9 | 22pF_NM
+     54.9     196.1 | Figure 19: SIM interface reference circuit
+     19.3      49.6 | www.simcom.com 32/61

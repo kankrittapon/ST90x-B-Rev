@@ -1,0 +1,8 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    689.8      97.8 | 6 SMT Production Guide
+    645.7      49.6 | 6.1 Top and Bottom View of A7670
+    283.9     195.3 | Figure 26: Top and bottom view of A7670
+    244.7      53.0 | NOTE
+    209.2      49.6 | The above is the design effect diagram of the module for reference. The actual appearance is subject to
+    193.6      49.6 | the actual product.
+     19.3      49.6 | www.simcom.com 49/61

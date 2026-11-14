@@ -1,0 +1,22 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    727.5     216.9 | Module
+    726.8     345.5 | Equipment
+    700.6     253.2 | SCL SCL
+    690.4     252.7 | SDA SDA
+    668.9     331.3 | GNDGND
+    613.8     220.7 | Figure 23: I2C reference circuit
+    574.6      53.0 | NOTE
+    539.1      49.6 | SCL and SDA have pull-up resistor inside, external resistor is not needed.
+    466.0      49.6 | 3.9 Network status
+    428.4      49.6 | The NETLIGHT pin is used to control Network Status LED, its reference circuit is shown in the following
+    412.8      49.6 | figure.
+    368.7     372.4 | VBAT
+    302.3     369.0 | R
+    283.8     199.5 | Module
+    262.3     298.8 | 4.7K
+    254.4     202.0 | NETLIGHT
+    227.1     333.2 | 47K
+    145.0     202.6 | Figure 24: NETLIGHT reference circuit
+     90.2      53.0 | NOTE
+     54.7      49.6 | The value of the resistor named “R” depends on the LED characteristic.
+     19.3      49.6 | www.simcom.com 36/61

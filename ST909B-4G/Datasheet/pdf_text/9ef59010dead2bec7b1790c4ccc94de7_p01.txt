@@ -1,0 +1,43 @@
+    718.8      13.4 | V: 2020.02
+    710.5      68.1 | A7670 Series
+    687.7      68.1 | SIMCom LTE Cat 1 Module
+    610.2     299.0 | Product Description
+    579.3     299.0 | The A7670 series is the LTE Cat 1 module which supports
+    561.9     299.0 | wireless communication modes of LTE-TDD/LTE-FDD/
+    544.5     299.1 | GSM/GPRS/EDGE. It supports maximum 10Mbps downlink
+    527.1     299.1 | rate and 5Mbps uplink rate.
+    499.7     299.0 | The A7670 series adopts LGA form factor and is
+    482.2     299.0 | compatible with SIM7000/SIM7070 series(NB/Cat M
+    464.8     299.0 | modules), and SIM800A/SIM800F(2G modules), which
+    447.3     299.0 | enables smooth migration from 2G/NB/Cat M products to
+    446.2      86.4 | Multi-
+    435.8      87.2 | Band Cat 1 LGA
+    429.9     299.0 | LTE Cat 1 products, and greatly facilitates more
+    412.4     299.0 | compatible product design for the customer needs.
+    384.9     299.0 | The A7670 series supports multiple built-in network
+    369.7      81.9 | TCP/IP Compact
+    367.5     299.0 | protocols, supports drivers for main operation systems
+    362.6     159.4 | Size FOTA
+    350.0     299.0 | (USB driver for Windows, Linux and Android etc.) and
+    332.6     299.0 | software function, AT commands are compatible with
+    315.1     299.0 | SIM7500/SIM7600 series modules.  Meanwhile the  A7670
+    298.1      87.7 | IPV6 USB 2.0 SSL
+    297.6     299.0 | series integrates main industrial standard interfaces, with
+    280.2     299.0 | powerful expansibility, including abundant interfaces such
+    262.7     299.0 | as UART, USB, I2C, GPIO, which is suitable for main IOT
+    245.3     299.0 | applications such as telematics, surveillance devices, POS,
+    227.8     299.0 | industrial routers, and remote diagnostics etc.
+    195.4      66.1 | Key Benefits
+    166.3      66.4 | 
+    166.3      81.0 | Small size LTE Cat 1 module
+    148.8      66.4 | 
+    148.8      81.0 | LGA form factor with abundant interfaces
+    131.4      66.4 | 
+    131.4      81.0 | Suitable for LTE and GSM networks
+    113.9      66.4 | 
+    113.9      81.0 | Abundant software functions: FOTA, LBS, SSL
+     94.1      66.4 | 
+     94.1      81.0 | The form factor of A7670 series are compatible with the SIM7000/SIM7070 series
+     50.3      67.5 | Copyright © 2020 SIMCom Wireless  Solutions Limited All Rights Reserved
+     37.4      67.5 | Building B, SIM Technology Building, No.633, Jinzhong Road Changning District, Shanghai P.R.China
+     24.4      67.5 | Tel: 86-21-31575100     Email: support@simcom.com     Web: www.simcom.com

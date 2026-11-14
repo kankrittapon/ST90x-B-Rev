@@ -1,0 +1,6 @@
+board loaded
+deleted tracks 10/10, vias 2/2
+moved U6 (5.00,44.90) -> (5.00,44.15)
+pad39 zone conn set, readback=2
+added tracks 9/9, vias 2/2
+saved

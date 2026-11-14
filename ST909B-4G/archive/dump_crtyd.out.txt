@@ -1,0 +1,62 @@
+== U6 center=(5.00,44.90)
+   CrtYd outline 0 pts=16: (5.89,43.20) (5.89,44.35) (6.92,44.35) (6.92,45.45) (5.89,45.45) (5.89,46.59) (4.11,46.59) (4.11,46.40) (3.08,46.40) (3.08,45.30) (4.11,45.30) (4.11,44.51) (3.08,44.51) (3.08,43.41) (4.11,43.41) (4.11,43.20)
+   CrtYd bbox=(3.08..6.92, 43.20..46.59)
+   pad 1 net=/GND       (4.06,43.95) size 1.48x0.60
+   pad 2 net=/G3V3      (4.06,45.85) size 1.48x0.60
+   pad 3 net=/VBAT      (5.94,44.90) size 1.48x0.60
+== U2 center=(9.00,52.00)
+   CrtYd outline 0 pts=4: (14.99,46.10) (14.99,57.90) (3.00,57.90) (3.00,46.10)
+   CrtYd bbox=(3.00..14.99, 46.10..57.90)
+   pad 1 net=/GND       (4.15,47.60) size 1.80x0.80
+   pad 2 net=/GPS_RX    (4.15,48.70) size 1.80x0.80
+   pad 3 net=/GPS_TX    (4.15,49.80) size 1.80x0.80
+   pad 4 net=-          (4.15,50.90) size 1.80x0.80
+   pad 5 net=-          (4.15,52.00) size 1.80x0.80
+   pad 6 net=-          (4.15,53.10) size 1.80x0.80
+   pad 7 net=-          (4.15,54.20) size 1.80x0.80
+   pad 8 net=/G3V3      (4.15,55.30) size 1.80x0.80
+   pad 9 net=-          (4.15,56.40) size 1.80x0.80
+   pad 10 net=/GND       (13.85,56.40) size 1.80x0.80
+   pad 11 net=/GPS_RF    (13.85,55.30) size 1.80x0.80
+   pad 12 net=/GND       (13.85,54.20) size 1.80x0.80
+   pad 13 net=-          (13.85,53.10) size 1.80x0.80
+   pad 14 net=-          (13.85,52.00) size 1.80x0.80
+   pad 15 net=-          (13.85,50.90) size 1.80x0.80
+   pad 16 net=-          (13.85,49.80) size 1.80x0.80
+   pad 17 net=-          (13.85,48.70) size 1.80x0.80
+   pad 18 net=-          (13.85,47.60) size 1.80x0.80
+== J3 center=(8.50,40.50)
+   CrtYd outline 0 pts=4: (11.39,39.01) (11.39,41.99) (5.61,41.99) (5.61,39.01)
+   CrtYd bbox=(5.61..11.39, 39.01..41.99)
+   pad 1 net=/USB_VBUS  (6.50,40.50) size 1.20x1.20
+   pad 2 net=/USB_DP_F  (8.50,40.50) size 1.20x1.20
+   pad 3 net=/USB_DM_F  (10.50,40.50) size 1.20x1.20
+== U1 pads 34..60
+   pad 34 net=/SIM_DET     (21.00,28.90) size 0.60x0.80
+   pad 35 net=-            (24.40,25.50) size 0.80x0.60
+   pad 36 net=-            (24.40,24.50) size 0.80x0.60
+   pad 37 net=-            (24.40,23.50) size 0.80x0.60
+   pad 38 net=-            (24.40,22.50) size 0.80x0.60
+   pad 39 net=/GND         (24.40,21.50) size 0.80x0.60
+   pad 40 net=-            (24.40,20.50) size 0.80x0.60
+   pad 41 net=-            (24.40,19.50) size 0.80x0.60
+   pad 42 net=-            (24.40,18.50) size 0.80x0.60
+   pad 43 net=-            (24.40,17.50) size 0.80x0.60
+   pad 44 net=-            (24.40,16.50) size 0.80x0.60
+   pad 45 net=/GND         (24.40,15.50) size 0.80x0.60
+   pad 46 net=/GND         (24.40,14.50) size 0.80x0.60
+   pad 47 net=-            (24.40,13.50) size 0.80x0.60
+   pad 48 net=-            (24.40,12.50) size 0.80x0.60
+   pad 49 net=-            (24.40,11.50) size 0.80x0.60
+   pad 50 net=-            (24.40,10.50) size 0.80x0.60
+   pad 51 net=-            (24.40,9.50) size 0.80x0.60
+   pad 52 net=-            (21.00,6.10) size 0.60x0.80
+   pad 53 net=-            (20.00,6.10) size 0.60x0.80
+   pad 54 net=/GND         (19.00,6.10) size 0.60x0.80
+   pad 55 net=/VBAT        (18.00,6.10) size 0.60x0.80
+   pad 56 net=/VBAT        (17.00,6.10) size 0.60x0.80
+   pad 57 net=/VBAT        (16.00,6.10) size 0.60x0.80
+   pad 58 net=/GND         (15.00,6.10) size 0.60x0.80
+   pad 59 net=/GND         (14.00,6.10) size 0.60x0.80
+   pad 60 net=/ANT_4G_RF   (13.00,6.10) size 0.60x0.80
+done

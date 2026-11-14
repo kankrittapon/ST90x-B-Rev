@@ -1,0 +1,48 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    741.5      49.6 | 8.4 Safety Caution
+    703.8      49.6 | Table 45: Safety Caution
+    685.1      59.3 | Marks
+    685.1     139.1 | Requirements
+    668.3     139.1 | When in a hospital or other health care facility, observe the restrictions about the use
+    656.2     139.1 | of mobiles. Switch the cellular terminal or mobile off, medical equipment may be
+    644.2     139.1 | sensitive
+    644.2     182.9 | and
+    644.2     203.3 | not operate normally
+    644.2     301.9 | due to
+    644.2     334.1 | RF energy interference.
+    630.6     139.1 | Switch off the cellular terminal or mobile before boarding an aircraft. Make sure it is
+    618.5     139.1 | switched off. The operation of wireless appliances in an aircraft is forbidden to prevent
+    606.4     139.1 | interference with communication systems. Forgetting to think much of these
+    594.4     139.1 | ins
+    594.4     152.6 | tructions may
+    594.4     217.9 | impact
+    594.4     251.8 | the flight safety
+    594.4     321.6 | ,
+    594.4     327.5 | or offend  local legal action, or both.
+    581.8     139.1 | Do not operate the cellular terminal or mobile in the presence of flammable gases or
+    569.7     139.1 | fumes. Switch off the cellular terminal when you are near petrol stations, fuel depots,
+    557.6     139.1 | chemical plants or where blasting operations are in progress. Operation of any
+    545.6     139.1 | electrical equipment in potentially explosive atmospheres can constitute a safety
+    533.5     139.1 | hazard.
+    520.2     139.1 | Your cellular terminal or mobile receives and transmits radio frequency energy while
+    508.1     139.1 | switched on. RF interference can occur if it is used close to TV sets, radios,
+    496.1     139.1 | computers or other electric equipment.
+    482.8     139.1 | Road safety comes first! Do not use a hand
+    482.8     353.8 | -
+    482.8     357.3 | held cellular terminal or mobile when
+    470.7     139.1 | driving a vehicle, unless it is securely mounted in a holder for hands free operation.
+    458.6     139.1 | Before making a call with a hand
+    458.6     290.9 | -
+    458.6     294.4 | held terminal or mobile, park the vehicle.
+    446.0     139.1 | GSM cellular terminals or mobiles operate over radio frequency signals and cellular
+    434.0     139.1 | networks and cannot be guaranteed to connect in all conditi ons, especially with a
+    421.9     139.1 | mobile fee or an invalid SIM card. While you are in this condition and need emergent
+    409.8     139.1 | help, please remember to use emergency calls. In order to make or receive calls, the
+    397.7     139.1 | cellular terminal or mobile must be switched on and in a service area with adequate
+    385.7     139.1 | cellular signal strength.
+    373.6     139.1 | Some networks do not allow for emergency call if certain network services or phone
+    361.5     139.1 | features are in use (e.g. lock functions, fixed dialing etc.). You may have to deactivate
+    349.4     139.1 | those features before you can make an emergency call.
+    337.4     139.1 | Also, some networks require that a valid SIM card be properly inserted in the cellular
+    325.3     139.1 | terminal or mobile.
+     19.3      49.6 | www.simcom.com 61/61

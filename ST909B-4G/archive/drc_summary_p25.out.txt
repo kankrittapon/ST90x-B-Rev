@@ -1,0 +1,118 @@
+violations: 60  unconnected: 14  parity: 0
+-- by severity/type --
+   error    clearance                3
+   error    courtyards_overlap       1
+   error    items_not_allowed        1
+   error    shorting_items           1
+   error    starved_thermal          2
+   error    tracks_crossing          4
+   warning  silk_edge_clearance      1
+   warning  silk_over_copper         24
+   warning  silk_overlap             17
+   warning  track_dangling           2
+   warning  via_dangling             4
+-- all ERROR details --
+  items_not_allowed      (9.50, 45.50)
+     Items not allowed
+       - Track [/GPS_RX] on B.Cu, length 7.2500 mm @(9.50, 45.50)
+  tracks_crossing        (26.30, 28.00)
+     Tracks crossing
+       - Track [/LED_CHR] on F.Cu, length 0.8000 mm @(26.30, 28.00)
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(26.00, 59.75)
+  tracks_crossing        (32.30, 59.10)
+     Tracks crossing
+       - Track [/SOS] on B.Cu, length 9.9000 mm @(32.30, 59.10)
+       - Track [/LED_4G] on B.Cu, length 53.3500 mm @(27.00, 68.25)
+  shorting_items         (26.30, 15.45)
+     Items shorting two nets (nets /LED_CHR and /LED_EN)
+       - Via [/LED_CHR] on F.Cu - B.Cu @(26.30, 15.45)
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(26.00, 59.75)
+  tracks_crossing        (25.50, 23.00)
+     Tracks crossing
+       - Track [/LED_CHR] on F.Cu, length 0.8000 mm @(25.50, 23.00)
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(26.00, 59.75)
+  tracks_crossing        (23.60, 61.25)
+     Tracks crossing
+       - Track [/LED_GPS] on B.Cu, length 3.2500 mm @(23.60, 61.25)
+       - Track [/LED_EN] on B.Cu, length 3.1900 mm @(21.16, 59.75)
+  clearance              (26.30, 15.45)
+     Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)
+       - Via [/LED_CHR] on F.Cu - B.Cu @(26.30, 15.45)
+       - Track [/LED_4G] on B.Cu, length 9.2900 mm @(27.00, 14.90)
+  clearance              (26.30, 67.60)
+     Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+       - Track [/LED_CHR] on F.Cu, length 39.6000 mm @(26.30, 67.60)
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(26.00, 59.75)
+  clearance              (26.30, 23.00)
+     Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)
+       - Track [/LED_CHR] on F.Cu, length 7.5500 mm @(26.30, 23.00)
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(26.00, 59.75)
+  courtyards_overlap     (5.00, 43.50)
+     Courtyards overlap
+       - Footprint U6 @(5.00, 43.50)
+       - Footprint J3 @(8.50, 40.50)
+  starved_thermal        (0.50, 0.50)
+     Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+       - Zone [/GND] on F.Cu, priority 0 @(0.50, 0.50)
+       - Pad 2 [/GND] of U1 on F.Cu @(1.60, 10.50)
+  starved_thermal        (0.50, 0.50)
+     Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+       - Zone [/GND] on F.Cu, priority 0 @(0.50, 0.50)
+       - Pad 29 [/GND] of U1 on F.Cu @(16.00, 28.90)
+-- unconnected details --
+  unconnected_items      (4.06, 44.45)
+     Missing connection between items
+       - Pad 2 [/G3V3] of U6 on F.Cu @(4.06, 44.45)
+       - Pad 8 [/G3V3] of U2 on F.Cu @(4.15, 55.30)
+  unconnected_items      (6.50, 43.50)
+     Missing connection between items
+       - Track [/VBAT] on F.Cu, length 5.5000 mm @(6.50, 43.50)
+       - Pad 57 [/VBAT] of U1 on F.Cu @(16.00, 6.10)
+  unconnected_items      (17.00, 6.10)
+     Missing connection between items
+       - Pad 56 [/VBAT] of U1 on F.Cu @(17.00, 6.10)
+       - Pad 57 [/VBAT] of U1 on F.Cu @(16.00, 6.10)
+  unconnected_items      (18.00, 6.10)
+     Missing connection between items
+       - Pad 55 [/VBAT] of U1 on F.Cu @(18.00, 6.10)
+       - Pad 56 [/VBAT] of U1 on F.Cu @(17.00, 6.10)
+  unconnected_items      (4.15, 49.80)
+     Missing connection between items
+       - Pad 3 [/GPS_TX] of U2 on F.Cu @(4.15, 49.80)
+       - Track [/GPS_TX] on F.Cu, length 0.9000 mm @(7.00, 37.00)
+  unconnected_items      (6.50, 40.50)
+     Missing connection between items
+       - Pad 1 [/USB_VBUS] of J3 on F.Cu @(6.50, 40.50)
+       - Pad 24 [/USB_VBUS] of U1 on F.Cu @(11.00, 28.90)
+  unconnected_items      (17.75, 71.50)
+     Missing connection between items
+       - Track [/PKEY] on F.Cu, length 13.6250 mm @(17.75, 71.50)
+       - Pad 1 [/PKEY] of U1 on F.Cu @(1.60, 9.50)
+  unconnected_items      (9.50, 45.50)
+     Missing connection between items
+       - Track [/GPS_RX] on B.Cu, length 7.2500 mm @(9.50, 45.50)
+       - Pad 2 [/GPS_RX] of U2 on F.Cu @(4.15, 48.70)
+  unconnected_items      (3.25, 3.00)
+     Missing connection between items
+       - Pad 1 [/ANT_4G_RF] of ANT1 on F.Cu @(3.25, 3.00)
+       - Pad 60 [/ANT_4G_RF] of U1 on F.Cu @(13.00, 6.10)
+  unconnected_items      (1.60, 23.50)
+     Missing connection between items
+       - Pad 15 [/VDD_EXT] of U1 on F.Cu @(1.60, 23.50)
+       - Pad 1 [/VDD_EXT] of U5 on F.Cu @(28.36, 32.05)
+  unconnected_items      (1.60, 17.50)
+     Missing connection between items
+       - Pad 9 [/4G_TXD_1V8] of U1 on F.Cu @(1.60, 17.50)
+       - Pad 2 [/4G_TXD_1V8] of U5 on F.Cu @(28.36, 33.00)
+  unconnected_items      (1.60, 18.50)
+     Missing connection between items
+       - Pad 10 [/4G_RXD_1V8] of U1 on F.Cu @(1.60, 18.50)
+       - Pad 3 [/4G_RXD_1V8] of U5 on F.Cu @(28.36, 33.95)
+  unconnected_items      (20.10, 32.60)
+     Missing connection between items
+       - Track [/USB_DP_M] on F.Cu, length 1.0600 mm @(20.10, 32.60)
+       - Pad 27 [/USB_DP_M] of U1 on F.Cu @(14.00, 28.90)
+  unconnected_items      (20.10, 34.20)
+     Missing connection between items
+       - Track [/USB_DM_M] on F.Cu, length 0.6000 mm @(20.10, 34.20)
+       - Pad 28 [/USB_DM_M] of U1 on F.Cu @(15.00, 28.90)

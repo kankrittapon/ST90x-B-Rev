@@ -1,0 +1,48 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    457.8     221.5 | Figure 1: A7670 block diagram
+    389.9      49.6 | 1.4 Functional Overview
+    352.2      49.6 | Table 2: General features
+    334.1      59.3 | Feature
+    334.1     221.2 | Implementation
+    315.7      59.3 | Power supply
+    315.7     221.2 | VBAT: 3.4V ~4.2V,Recommended VBAT: 3.8V
+    298.2     221.2 | Current in sleep mode : TBD
+    298.1      59.3 | Power saving
+    280.7      59.3 | Radio frequency bands
+    280.7     221.2 | Please refer to the table 1
+    265.6     221.2 | GSM/GPRS power class:
+    251.8     230.2 | ●
+    251.8     235.6 | EGSM900: 4 (33dBm±2dB)
+    236.2     230.2 | ●
+    236.2     235.6 | DCS1800: 1 (30dBm±2dB)
+    222.4      59.3 | Transmitting power
+    222.4     221.2 | EDGE power class:
+    208.6     230.2 | ●
+    208.6     235.6 | EGSM900: E2 (27dBm±3dB)
+    193.0     230.2 | ●
+    193.0     235.6 | DCS1800 : E1 (26dBm+3dB/-4dB)
+    179.1     221.2 | LTE power class: 3 (
+    179.1     316.9 | 23dBm
+    179.1     350.1 | ±2
+    179.1     361.7 | .7
+    179.1     370.4 | dB
+    179.1     383.3 | )
+    164.8     221.2 | GPRS multi-slot class 12
+    149.2     221.2 | EDGE multi-slot class 12
+    131.8      59.3 | Data Transmission
+    125.5     221.2 | LTE-FDD CAT1
+    125.5     295.3 | ：
+    125.5     295.3 | 10 Mbps (DL)
+    125.5     311.6 | ，
+    125.5     311.6 | 5 Mbps (UL)
+    119.7      59.3 | Throughput
+     94.3     221.2 | LTE-TDD CAT1
+     94.3     300.5 | ：
+     94.3     300.5 | 10 Mbps (DL)
+     94.3     316.9 | ，
+     94.3     316.9 | 5 Mbps (UL)
+     70.0      59.3 | Antenna
+     70.0     221.2 | GSM/LTE Main antenna interface
+     52.4      59.3 | SMS
+     52.4     221.2 | MT,MO, CB, Text , PDU mode
+     19.3      49.6 | www.simcom.com 11/61

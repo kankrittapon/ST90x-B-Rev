@@ -1,0 +1,119 @@
+    745.7      35.7 | Product A7670C A7670E A7670SA
+    732.3     156.9 | LGA LGA LGA
+    732.0      35.7 | Form Factor
+    720.1     156.9 | 24.0*24.0*2.3 24.0*24.0*2.3 24.0*24.0*2.3
+    719.7      35.7 | Dimensions(mm)
+    708.2     105.9 | LTE-FDD
+    707.8     156.9 | B1/B3/B5/B8 B1/B3/B5/B7/B8/B20 B1/B2/B3/B4/B5/B7/B8/B28/B66
+    701.8      35.7 | Frequency
+    696.3     105.9 | LTE-TDD
+    696.0     156.9 | B34/B38/B39/B40/B41
+    691.0      35.7 | Bands
+    685.3     105.9 | GSM
+    684.9     156.9 | 900/1800MHz 900/1800MHz 850/900/1800/1900MHz
+    673.4     156.9 | -40
+    673.4     176.4 | ~ +85
+    673.4     207.2 | -40
+    673.4     312.5 | ~ +85
+    673.4     343.3 | -40
+    673.4     444.5 | ~ +85
+    673.3     168.4 | ℃
+    673.3     199.2 | ℃
+    673.3     304.5 | ℃
+    673.3     335.3 | ℃
+    673.3     436.6 | ℃
+    673.3     467.3 | ℃
+    673.0      35.7 | Temperature
+    660.8      35.7 | Electrical Features
+    649.1     156.9 | 3.4~ 4.2 3.4~ 4.2 3.4~ 4.2
+    648.7      35.7 | Supply Voltage(V)
+    636.9     105.9 | LTE
+    636.6     156.9 | 3.8 3.8 3.8
+    635.7      35.7 | Power
+    624.9      35.7 | Consumption
+    623.2     105.9 | GSM,BS_PA_
+    618.6     156.9 | 3.5 3.5 3.5
+    614.8     105.9 | MFRMS=2
+    614.1      35.7 | (mA)
+    600.8      35.7 | Data Transfer
+    588.9     156.9 | 10(DL)/5(UL) 10(DL)/5(UL) 10(DL)/5(UL)
+    588.6      35.7 | LTE(Mbps)
+    576.7     156.9 | 236.8(DL)/236.8(UL) 236.8(DL)/236.8(UL) 236.8(DL)/236.8(UL)
+    576.3      35.7 | GPRS/EDGE(Kbps)
+    564.1      35.7 | Software Features
+    548.2     156.9 | TCP/IP/IPV4/IPV6/Multi-PDP/FTP/ FTPS /HTTP/HTTPS/DNS TCP/IP/IPV4/IPV6/Multi-PDP/FTP/ FTPS /HTTP/HTTPS/DNS TCP/IP/IPV4/IPV6/Multi-PDP/FTP/ FTPS /HTTP/HTTPS/DNS
+    543.0      35.7 | Protocol
+    522.0      35.7 | TLS
+    521.9     156.9 | ●
+    521.9     293.0 | ●
+    521.9     425.0 | ●
+    509.8      35.7 | File System
+    509.7     156.9 | ●
+    509.7     293.0 | ●
+    509.7     425.0 | ●
+    497.9     156.9 | o o o
+    497.5      35.7 | Audio Record/Play
+    485.6     156.9 | o o o
+    485.3      35.7 | TTS
+    473.0      35.7 | LBS
+    473.0     156.9 | ●
+    473.0     293.0 | ●
+    473.0     425.0 | ●
+    460.8      35.7 | FOTA
+    460.7     156.9 | ●
+    460.7     293.0 | ●
+    460.7     425.0 | ●
+    448.9     156.9 | Android 5.0/6.0/7.0/8.0/9.0
+    448.9     293.0 | Android 5.0/6.0/7.0/8.0/9.0
+    448.9     425.0 | Android 5.0/6.0/7.0/8.0/9.0
+    448.6      35.7 | Android RIL
+    435.4     156.9 | Microsoft Windows 7/8/10 Linux/Android Microsoft Windows 7/8/10 Linux/Android Microsoft Windows 7/8/10 Linux/Android
+    430.3      35.7 | USB Driver
+    412.0      35.7 | WWAN (RNDIS)
+    411.9     156.9 | ●
+    411.9     293.0 | ●
+    411.9     425.0 | ●
+    399.8      35.7 | ECM
+    399.7     156.9 | ●
+    399.7     293.0 | ●
+    399.7     425.0 | ●
+    387.9     156.9 | o o o
+    387.5      35.7 | Embedded AT
+    375.6     156.9 | USB/FOTA
+    375.6     293.0 | USB/FOTA
+    375.6     425.0 | USB/FOTA
+    375.3      35.7 | Firmware Upgrade
+    363.0      35.7 | Interfaces
+    351.2     156.9 | 1.8V/3.0V 1.8V/3.0V 1.8V/3.0V
+    350.8      35.7 | SIM Card
+    338.6      35.7 | UART
+    338.5     156.9 | ●
+    338.5     293.0 | ●
+    338.5     425.0 | ●
+    326.3      35.7 | USB
+    326.3     156.9 | ●
+    326.3     293.0 | ●
+    326.3     425.0 | ●
+    314.5     156.9 | o o o
+    314.1      35.7 | PCM
+    301.9      35.7 | ADC
+    301.8     156.9 | ●
+    301.8     293.0 | ●
+    301.8     425.0 | ●
+    289.6      35.7 | GPIO
+    289.6     156.9 | ●
+    289.6     293.0 | ●
+    289.6     425.0 | ●
+    277.4      35.7 | I2C
+    277.3     156.9 | ●
+    277.3     293.0 | ●
+    277.3     425.0 | ●
+    265.1      35.7 | Certification
+    246.0     156.9 | 3C*/SRRC*/NAL* CE-RED*/RoHS*/ REACH* CE-RED*/RCM*/FCC*/Anatel*/RoHS*/ REACH*
+    245.6      35.7 | Certification
+     69.4     407.5 | ●
+     69.4     412.3 | :  support     o:  optional      * :  on going
+     50.3      39.1 | Copyright © 2020 SIMCom Wireless  Solutions Limited All Rights Reserved
+     37.4      39.1 | Building B, SIM Technology Building, No.633, Jinzhong Road Changning District, Shanghai P.R.China
+     35.9     512.9 | 2
+     24.4      39.1 | Tel: 86-21-31575100     Email: support@simcom.com     Web: www.simcom.com

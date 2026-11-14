@@ -1,0 +1,44 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    749.8      59.3 | 66
+    749.8     121.1 | -104.7 -101.7 -100 -97 -95.2 -94 TBD FDD
+    732.6      59.3 | 34
+    732.6     121.1 | - - -100 -97 -95.2 - -97.5 TDD
+    715.3      59.3 | 38
+    715.3     121.1 | - - -100 -97 -95.2 -94 -98.6 TDD
+    698.1      59.3 | 39
+    698.1     121.1 | - - -100 -97 -95.2 -94 -97.8 TDD
+    680.8      59.3 | 40
+    680.8     121.1 | - - -100 -97 -95.2 -94 -98.2 TDD
+    663.6      59.3 | 41
+    663.6     121.1 | - - -98 -95 -93.2 -92 -98.6 TDD
+    619.9      53.0 | NOTE
+    584.4      49.6 | The measured value is the main antenna under 10 MHz.
+    495.7      49.6 | 4.2 GSM/LTE Antenna Design Guide
+    458.1      49.6 | Users should connect antennas to A7670’s antenna pads through micro-strip line or other types of RF trace
+    442.5      49.6 | and the trace impedance must be controlled in 50
+    442.5      49.6 | Ω
+    442.5     299.8 | . SIMCom recommends that the total insertion loss
+    426.9      49.7 | between the antenna pads and antennas should meet the following requirements:
+    395.5      49.7 | Table 27: Traceloss
+    376.8      59.3 | Frequency
+    376.8     296.2 | Loss
+    358.6      59.3 | 700MHz-960MHz <0.5dB
+    341.0      59.3 | 1710MHz-2170MHz <0.9dB
+    323.5      59.3 | 2300MHz-2650MHz <1.2dB
+    291.1      49.6 | To facilitate the antenna tuning and certification test, a RF connector and an antenna matching circuit
+    275.5      49.6 | should be added. The following figure is the recommended circuit.
+    221.0     245.9 | RF connector
+    212.3     315.3 | Matching circuit
+    198.5     230.4 | 60MAIN_ANT
+    191.0     323.0 | R1
+    191.0     360.6 | R2
+    184.7     396.4 | D1
+    184.1     203.3 | GND
+    184.1     230.4 | 61
+    181.2     314.0 | C1
+    181.2     354.0 | C2
+    169.3     396.4 | TVS
+    158.4     183.1 | 模块
+     91.7     176.1 | Figure 25: Antenna matching circuit (MAIN_ANT)
+     48.7      49.6 | In above figure, the components R1,C1,C2 and R2 are used for antenna matching, the values  of
+     19.3      49.6 | www.simcom.com 41/61

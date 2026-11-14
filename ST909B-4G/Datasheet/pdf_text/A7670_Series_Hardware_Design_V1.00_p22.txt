@@ -1,0 +1,69 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    689.8      97.8 | 3 Interface Application
+    645.7      49.6 | 3.1 Power Supply
+    608.1      49.6 | A7670 offers four power supply pins (55, 56, 57,) as VBAT power input pin. A7670 use these three pins
+    592.5      49.6 | supply the internal RF and baseband circuit.
+    576.9      49.6 | When the module is at the maximum power in GSM TX mode, the peak current can reach 2.8A (peak
+    561.3      49.6 | current), which results in a large voltage drop on Vbat. In order to ensure that the voltage drop is less than
+    545.7      49.6 | 300mV, the power supply capacity of external power supply must be no less than 2.8A.
+    506.8      99.7 | 577
+    506.8     119.4 | us
+    506.8     176.5 | 4
+    506.8     183.0 | .
+    506.8     186.3 | 615
+    506.8     206.0 | ms
+    461.1     468.6 | Burst
+    461.1     496.1 | :
+    461.1     499.3 | 2
+    461.1     505.9 | .
+    461.1     509.2 | 8
+    461.1     515.7 | A
+    460.0      83.7 | I
+    458.4      86.9 | VBAT
+    421.4      80.0 | VBAT
+    402.5     475.0 | Max
+    402.5     497.3 | :
+    402.5     500.5 | 300
+    402.5     520.2 | mV
+    346.3     134.0 | Figure 6: VBAT voltage drop during burst emission (EDGE/GPRS)
+    307.1      53.0 | NOTE
+    271.6      49.6 | Test condition:Vbat power supply 3.8V, Cd = 100
+    271.6     282.2 | μf tantalum capacitance (ESR equal to 0.7 Ω), CF =
+    256.0      49.6 | 100nF. (Refer to figure 7 for circuit)
+    207.5      49.6 | Table 7: VBAT pins electronic characteristic
+    189.2      59.3 | Parameter
+    189.2     137.9 | Description
+    189.2     378.8 | Min
+    189.2     418.7 | Typ.
+    189.2     458.7 | Max
+    189.2     498.7 | Unit
+    170.3      59.3 | VBAT
+    170.3     137.9 | Module supply voltage
+    170.3     378.8 | 3.4
+    170.3     418.7 | 3.8
+    170.3     458.7 | 4.2
+    170.3     498.7 | V
+    152.8      59.3 | IVBAT(peak)
+    152.8     137.9 | Module consumption peak current
+    152.8     378.8 | -
+    152.8     418.7 | 2.8
+    152.8     458.7 | -
+    152.8     498.7 | A
+    136.3      59.3 | IVBAT(averag
+    136.3     137.9 | Module average consumption current (normal
+    121.3      59.3 | e)
+    121.3     137.9 | mode)
+    113.5     378.8 | Refer to figure
+    113.5     378.8 | 34
+    105.8     137.9 | Module average consumption current (sleep
+     98.3      59.3 | IVBAT(sleep)
+     90.8     137.9 | mode)
+     75.2      59.3 | IVBAT(power-
+     75.2     137.9 | Module average consumption current(off leakage
+     67.7     378.8 | -
+     67.7     418.7 | -
+     67.7     458.7 | 20
+     67.7     498.7 | uA
+     60.2      59.3 | off)
+     60.2     137.9 | current)
+     19.3      49.6 | www.simcom.com 22/61

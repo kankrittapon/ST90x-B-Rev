@@ -1,0 +1,43 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    710.3      49.6 | 3.4 USB Interface
+    672.8      49.6 | The A7670 contains a USB interface compliant with the USB2.0 specification as a peripheral, but does not
+    657.2      49.6 | support USB charging function and does not support USB HOST mode.
+    626.0      49.6 | USB is the main debugging port and software upgrade interface. It is recommended that customers reserve
+    610.4      49.6 | USB test points during design. If a main control chip is connected, 0R resistors must be reserved for
+    594.8      49.6 | switching external test points during design, as shown in the figure below.
+    562.9      49.6 | 3.4.1 USB Reference Design
+    532.4      49.6 | A7670 can be used as a USB slave device. The recommended connection circuit diagram is as follows:
+    498.0     235.5 | USB_VBUS
+    493.8     286.3 | 0R_NM
+    489.1     179.9 | Module Host
+    483.8     286.3 | 0R_NM Test point
+    465.6     189.6 | USB_VBUS
+    452.4     366.6 | D-
+    452.2     290.0 | 0R
+    451.5     198.7 | USB_DN
+    438.9     290.0 | 0R
+    438.2     199.9 | USB_DP
+    437.4     366.4 | D+
+    425.7     367.0 | GND
+    425.6     210.9 | GND
+    412.7     201.8 | USB_ID
+    380.7     266.7 | D1
+    380.6     249.8 | D3
+    380.6     278.0 | D2
+    333.0     221.0 | Figure 16: USB circuit diagram
+    290.0      49.6 | Because of the high bit rate on USB bus, more attention should be paid to the influence of the junction
+    274.4      49.6 | capacitance of the ESD component on USB data lines. On USB_VBUS line, customers should pay
+    258.8      49.6 | attention to the selection of the D3 device when using it. It is recommended to choose an anti -static and
+    243.2      49.6 | anti-surge two-in-one device.
+    200.2      53.0 | NOTE
+    164.3      49.6 | 1. The USB data
+    164.3     130.7 | cable must be strictly routed in 90Ω +/
+    164.3     307.9 | - 10% differential. The TVS devices D1 and D2
+    149.3      49.6 | on the data line must be selected with equivalent capacitance less than 1pF. The TVS device should be
+    134.3      49.6 | placed near the USB connector or test point, recommended models ESD73011N and WS05DUCFM.
+    119.3      49.6 | 2. The detection of USB2.0 speed is determined automatically by the USB protocol. The customer does
+    104.3      49.6 | not need to pull up the DP
+    104.3     173.8 | external
+    104.3     211.1 | , otherwise it may affect the device USB
+    104.3     399.5 | enumeration.
+     19.3      49.6 | www.simcom.com 30/61

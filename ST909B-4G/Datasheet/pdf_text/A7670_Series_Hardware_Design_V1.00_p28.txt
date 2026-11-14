@@ -1,0 +1,42 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.1      49.6 | 3.2.3 Reset Function
+    719.6      49.6 | A7670 can restart the module by pulling down the reset pin of the module. Reset pin also has the function
+    704.0      49.6 | of power onwhen PMU first time be given a valid supply voltage (active low, but this key has no shutdown
+    688.4      49.6 | function). After first time power on, some register of this pin will be written then it willlose this function,so it
+    672.8      49.6 | is recommended to use PWRKEY to power on the module and RESET key only used as reset function.
+    641.6      49.6 | A 50K Ω resistor is used to pull
+    641.6     200.9 | -up to VBAT inside the module, so it is no need to add pull -up resistor
+    626.0      49.6 | outside. The recommended circuit is showed as follows:
+    584.6     373.0 | Module
+    562.3     350.9 | VBAT
+    532.9     253.0 | Treset
+    529.1     372.4 | 50K
+    519.4     334.4 | 0
+    519.4     339.3 | Ω
+    515.9     132.9 | Reset impulse RESET
+    512.0     405.9 | Reset logic
+    494.2     176.4 | 4.7K
+    467.3     215.3 | 47K
+    395.4     214.5 | Figure 13: Reference reset circuit
+    352.2      49.6 | Table 11: RESET pin electronic characteristic
+    333.5      55.0 | Symbol
+    333.5     132.7 | Description
+    333.5     377.5 | Min.
+    333.5     423.5 | Typ.
+    333.5     461.9 | Max.
+    333.5     500.3 | Unit
+    316.0     132.7 | The active low level time impulse on RESET pin to
+    308.2      55.0 | Treset
+    308.2     393.4 | - 1.5 - s
+    300.4     132.7 | reset module
+    283.6      55.0 | VIH
+    283.6     132.7 | Input high level voltage 2.94 - VBAT V
+    266.0      55.0 | VIL
+    266.0     132.7 | Input low level voltage 0 0 0.5 V
+    237.1      63.8 | NOTE
+    202.2      59.3 | it is recommended to use the reset pin only in case of emergency, such as the module is not responding.
+    186.6      59.3 | The reset time is recommended to be 1.5s.
+    113.5      49.6 | 3.3 UART Interface
+     75.9      49.6 | A7670 provides three serial ports, the main communication serial port is UART(RTS/CTS flow control
+     60.3      49.6 | function debugging), one ordinary serial port, and the UART_LOG dedicate to printing log.
+     19.3      49.6 | www.simcom.com 28/61

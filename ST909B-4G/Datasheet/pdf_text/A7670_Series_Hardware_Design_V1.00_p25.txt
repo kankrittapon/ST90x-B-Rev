@@ -1,0 +1,33 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.1      49.6 | 3.1.3 Voltage Monitor
+    719.6      49.6 | AT command ‘AT+CBC’ can be used to monitor VBAT voltage.
+    704.0      49.6 | AT command ‘AT+CVALARM’  can be used to set high/low voltage alarm, When the actual voltage
+    688.4      49.6 | exceeds the preset range, a warning message will be reported through the AT port.
+    672.8      49.6 | AT command ‘AT+CPMVT’ can be used to set high/low voltage power off, When the actual voltage
+    657.2      49.6 | exceeds the preset range, the module will shut down automatically.
+    614.2      53.0 | NOTE
+    578.7      49.6 | overvoltage alarm and overvoltage shutdown are off by default. For details of at commands, please
+    563.1      49.6 | refer to document [1].
+    490.0      49.6 | 3.2 Power On/ Off And Reset
+    451.7      49.6 | 3.2.1 Power on
+    421.2      49.6 | Customer can power on the module by pulling down the PWRKEY pin. This pin has been pulled up inside
+    405.6      49.6 | the module to Vbat.
+    390.0      49.6 | It is recommended that when using the module, adding TVS diode at the module pin can effectively
+    374.4      49.6 | enhance the ESD performance.
+    358.8      49.6 | The recommended circuit is as follows:
+    306.9     377.8 | Module
+    288.8     189.3 | PWRKEY default high
+    285.3     356.8 | VBAT
+    257.9     373.3 | 50K
+    248.0     154.8 | Turn on/off
+    246.1     342.4 | 1K
+    245.6     299.3 | PWRKEY
+    240.0     404.6 | Power on/off
+    237.0     161.6 | impulse
+    229.0     419.7 | logic
+    221.9     191.3 | 4.7K
+    196.3     228.2 | 47K
+    128.2     195.6 | Figure 10: Reference power on/off circuit
+     90.3      53.5 | NOTE
+     54.9      49.6 | Do not parallel capacitors which the value is exceed 10 n F on PWRKEY or RESET pin. It will cause
+     19.3      49.6 | www.simcom.com 25/61

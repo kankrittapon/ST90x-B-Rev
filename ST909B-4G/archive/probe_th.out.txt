@@ -1,0 +1,13 @@
+board loaded
+total TH pads: 0
+J7   pad1 layers=F.Cu,F.Mask,F.Paste drill=0.00
+J6   pad1 layers=F.Cu,F.Mask,F.Paste drill=0.00
+SH1  pad1 layers=B.Cu,B.Mask,B.Paste drill=0.00
+TP3  pad1 layers=F.Cu,F.Mask,F.Paste drill=0.00
+TP4  pad1 layers=F.Cu,F.Mask,F.Paste drill=0.00
+U4   pad9 layers=B.Cu,B.Mask,B.Paste drill=0.00
+AE2  (no pads)
+J1   (no pads)
+C1   (no pads)
+U3   (no pads)
+done

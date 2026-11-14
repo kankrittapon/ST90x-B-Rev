@@ -1,0 +1,19 @@
+# EditorConfig — ให้ editor ต่าง ๆ ตรงกัน
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown คง trailing whitespace (ใช้เว้นบรรทัดบางกรณี)
+[*.md]
+trim_trailing_whitespace = false
+
+[*.py]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+
+[*.{bat,cmd,ps1}]
+end_of_line = crlf

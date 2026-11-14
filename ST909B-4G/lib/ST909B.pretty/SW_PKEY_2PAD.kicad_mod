@@ -1,0 +1,57 @@
+(footprint "SW_PKEY_2PAD"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL 2-pad external power-key contact (PKEY label, case button), pitch 2.5")
+  (tags "provisional block outline")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "f500e63e-761b-4947-b2aa-6564934b0888")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "SW_PKEY_2PAD" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "6708a259-7867-4748-a2d2-5a29768c6028")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "2ddac6f8-3082-4781-844b-136585d60b8d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -3.3 -1.8)
+    (end 3.3 1.8)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "4b798a00-bdce-4afe-991e-e0194ec84548")
+  )
+
+  (fp_rect
+    (start -2.7 -1.2)
+    (end 2.7 1.2)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "ceec68ec-c694-469b-bba9-c6e1861c095b")
+  )
+
+  (pad "1" smd rect
+    (at -1.25 0)
+    (size 1.5 1.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "55ac8b41-2d10-4f0e-9ba4-7211d25d9a5a")
+  )
+
+  (pad "2" smd rect
+    (at 1.25 0)
+    (size 1.5 1.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "67418850-b455-405c-924c-117ab618b6f8")
+  )
+
+)

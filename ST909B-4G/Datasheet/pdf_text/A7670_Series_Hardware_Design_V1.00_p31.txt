@@ -1,0 +1,37 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.1      49.6 | 3.4.2 USB_BOOT Interface
+    719.6      49.6 | A7670 provides one forced download boot interface ‘USB_BOOT’.
+    688.2      49.6 | Table 12: USB_BOOT description
+    669.2      49.6 | Pin
+    669.2     326.6 | Power
+    669.2     405.1 | Default
+    661.7     119.3 | Pin name
+    661.7     190.8 | I/O
+    661.7     226.5 | Description
+    661.7     476.6 | Remark
+    654.2      49.6 | number
+    654.2     326.6 | domain
+    654.2     405.1 | state
+    638.7     226.5 | Force download
+    631.2      49.6 | 6 USB_BOOT DI
+    631.2     326.6 | 1.8V B-PD
+    623.7     226.5 | boot
+    623.7     249.8 | port
+    593.3      49.6 | If the module upgrade fails to boot, you can force upgrade through the USB_BOOT port.
+    577.7      49.6 | Before the module is powered on, pull the USB_BOOT pin to 1.8V, then apply VBAT power to the module,
+    562.1      49.6 | and press RESET to enter the download mode. After entering the download mode, you need to release
+    546.5      49.6 | USB_BOOT and remove the pull-up.
+    506.8     355.0 | VDD_1V8
+    484.2     196.5 | Module
+    482.0     275.7 | Disconnect when download
+    471.4     310.7 | finished
+    459.3     389.2 | 10K
+    437.7     207.0 | USB_BOOT
+    370.9     302.7 | TVS
+    315.9     197.9 | Figure 17: Reference USB_BOOT circuit
+    272.9      49.6 | Customers will see the download port in the device manager port of the widows system.
+    198.3     218.9 | Figure 18: Force-download port
+    143.5      53.0 | NOTE
+    107.6      49.6 | USB_BOOT only has the function of forcing download and booting before booting (it cannot be pulled
+     92.6      49.6 | up).
+     19.3      49.6 | www.simcom.com 31/61

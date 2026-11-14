@@ -1,0 +1,7 @@
+zones:
+   net=/GND       layer=F.Cu  keepout=?
+   net=/GND       layer=F.Cu  keepout=?
+   net=           layer=F.Cu  keepout=?
+fill ok: True
+filled zones after: 2
+saved

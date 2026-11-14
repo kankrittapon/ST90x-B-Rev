@@ -1,0 +1,117 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.1     140.6 | 12
+    750.1     197.9 | 1.8V
+    750.1     251.3 | I/O,PD
+    750.1     295.7 | PCM SYNC signal
+    749.3      59.3 | PCM_SYNC
+    732.6     197.9 | 1.8V
+    732.5     140.6 | 11
+    732.5     251.3 | DO,PU
+    732.5     295.7 | PCM clock output
+    731.9      59.3 | PCM_CLK
+    713.0      59.3 | GPIO
+    695.5     450.8 | If unused, keep it
+    687.7      59.3 | GPIO1
+    687.7     140.6 | 19
+    687.7     208.4 | 1.8V
+    687.7     251.3 | IO,PU
+    687.7     295.7 | General purple I/O
+    679.9     450.8 | open.
+    663.7     450.8 | If unused, keep it
+    655.9      59.3 | GPIO2
+    655.9     140.6 | 20
+    655.9     208.4 | 1.8V
+    655.9     251.3 | IO,PU
+    655.9     295.7 | General purple I/O
+    648.1     450.8 | open.
+    632.0     450.8 | If unused, keep it
+    624.2      59.3 | GPIO3
+    624.2     140.6 | 21
+    624.2     208.4 | 1.8V
+    624.2     251.3 | IO,PD
+    624.2     295.7 | General purple I/O
+    616.4     450.8 | open.
+    600.4     450.8 | If unused, keep it
+    592.6      59.3 | GPIO4
+    592.6     140.6 | 49
+    592.6     208.4 | 1.8V
+    592.6     251.3 | IO,PD
+    592.6     295.7 | General purple I/O
+    584.8     450.8 | open.
+    568.6     450.8 | If unused, keep it
+    560.8      59.3 | GPIO5
+    560.8     140.6 | 50
+    560.8     208.4 | 1.8V
+    560.8     251.3 | IO,PU
+    560.8     295.7 | General purple I/O
+    553.0     450.8 | open.
+    536.9     450.8 | If unused, keep it
+    529.1      59.3 | GPIO9
+    529.1     140.6 | 48
+    529.1     208.4 | 1.8V
+    529.1     251.3 | IO,PU
+    529.1     295.7 | General purple I/O
+    521.3     450.8 | open.
+    505.3     450.8 | If unused, keep it
+    497.5      59.3 | GPIO10
+    497.5     140.6 | 67
+    497.5     208.4 | 1.8V
+    497.5     251.3 | IO,PD
+    497.5     295.7 | General purple I/O
+    489.7     450.8 | open.
+    473.5     450.8 | If unused, keep it
+    465.7      59.3 | GPIO11
+    465.7     140.6 | 68
+    465.7     208.4 | 1.8V
+    465.7     251.3 | IO,PU
+    465.7     295.7 | General purple I/O
+    457.9     450.8 | open.
+    439.1      59.3 | ANT interface
+    420.8     140.6 | 60
+    420.8     197.9 | -
+    420.8     251.3 | AIO
+    420.8     295.7 | Main ANT interface
+    420.1      59.3 | MAIN_ANT
+    401.2      59.3 | Other pins
+    383.6     450.8 | If unused, keep it
+    375.8     140.6 | 25
+    375.8     197.9 | -
+    375.8     251.3 | AI
+    375.8     295.7 | General Purpose ADC
+    375.1      59.3 | ADC1
+    368.0     450.8 | open.
+    352.0     295.7 | Network registration status
+    336.4     295.7 | indicator (LED).
+    328.5     140.6 | 52
+    328.5     197.9 | 1.8V
+    328.5     251.3 | DO
+    327.8      59.3 | NETLIGHT
+    320.8     295.7 | For more detail, please refer
+    305.2     295.7 | the chapter 3.12.
+    288.4     295.7 | Module status indicator (LED).
+    288.3     140.6 | 66
+    288.3     197.9 | 1.8V
+    288.3     251.3 | DI
+    287.6      59.3 | STATUS
+    273.3     450.8 | Do place 2 test
+    261.2     295.7 | Firmware download guide
+    261.2     450.8 | points for debug.
+    249.1     295.7 | control input. when pull-up to
+    249.1     450.8 | DO NOT PULL
+    237.1     140.6 | 6
+    237.1     197.9 | 1.8V
+    237.1     251.3 | DI
+    237.1     295.7 | 1.8V and press
+    237.1     450.8 | UP USB_BOOT
+    236.3      59.3 | USB_BOOT
+    225.0     295.7 | PWRKEY,A7670 will access in
+    225.0     450.8 | DURING
+    212.9     295.7 | USB download mode.
+    212.9     450.8 | NORMAL
+    200.8     450.8 | POWER UP!
+    159.4      53.0 | NOTE
+    123.9      49.6 | Please reserve a test point for USB_BOOT, VDD_EXT and UART
+    123.9     377.7 | _LOG_TX. If there is no USB
+    108.3      49.6 | connector, please also reserve a test point for USB_VBUS, USB_DP, and USB_DM for Firmware
+     92.7      49.6 | upgrade.
+     19.3      49.6 | www.simcom.com 18/61

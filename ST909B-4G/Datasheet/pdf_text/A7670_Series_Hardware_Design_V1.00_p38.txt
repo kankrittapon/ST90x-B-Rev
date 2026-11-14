@@ -1,0 +1,19 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.1      49.6 | 3.10.2 LDO
+    719.6      49.6 | A7670 has 1 LDO output, VDD_1V8.
+    704.0      49.6 | VDD_1V8 is the module's system IO power supply, which can only provide a current capacity of 50mA. It
+    688.4      49.6 | cannot be used as a high current drive source.
+    657.0      49.6 | Table 21: VDD_1V8 Electrical characteristics
+    638.7      49.6 | Symbol
+    638.7     133.0 | Description
+    638.7     310.1 | Min.
+    638.7     366.8 | Typ.
+    638.7     416.5 | Max.
+    638.7     473.2 | Unit
+    619.0      49.6 | VVDD_1V8 Output voltage - 1.8 - V
+    602.9      49.6 | IO Output current - - 50 mA
+    575.2      53.0 | NOTE
+    539.8      49.6 | This power supply is the system power supply. If the damage will affect the
+    539.8     429.8 | system startup, it is
+    524.2      49.6 | recommended that customers add TVS protection. The recommended model is ESD56051N.
+     19.3      49.6 | www.simcom.com 38/61

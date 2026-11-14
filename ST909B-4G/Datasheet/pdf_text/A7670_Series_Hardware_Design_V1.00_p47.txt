@@ -1,0 +1,95 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    747.5      59.3 | LTE
+    747.5      84.4 | Cat
+    747.5     103.7 | -
+    747.5     107.7 | M
+    729.2      59.3 | LTE-FDD B1 @10MTypical:490 mA
+    711.7      59.3 | LTE-FDD B2 @10M Typical:TBD
+    694.2      59.3 | LTE-FDD B3 @10MTypical:670 mA
+    676.7      59.3 | LTE-FDD B4 @10M Typical:TBD
+    659.2      59.3 | LTE-FDD B5 @10M Typical:510 mA
+    641.7      59.3 | LTE-FDD B7 @10M Typical:TBD
+    624.2      59.3 | LTE-FDD B8 @10M Typical:490mA
+    606.7      59.3 | LTE-FDD B20 @10M Typical:TBD
+    589.2      59.3 | LTE-FDD B28 @10M Typical:TBD
+    571.7      59.3 | LTE-FDD B66 @10M Typical:TBD
+    556.7     262.9 | @
+    556.7     273.6 | 5Mbps  23.2dBm
+    556.7     360.4 | Typical
+    556.7     393.0 | :
+    556.7     398.7 | TBD
+    544.6      59.3 | LTE-TDD B34
+    544.6     262.9 | @10Mbps 23.3dBm Typical: 230mA
+    532.6     262.9 | @
+    532.6     273.6 | 20Mbps
+    532.6     313.9 | 23.3dBm
+    532.6     358.6 | Typical
+    532.6     391.3 | :
+    532.6     397.0 | TBD
+    520.0     262.9 | @
+    520.0     273.6 | 5Mbps  23.2dBm
+    520.0     360.4 | Typical
+    520.0     393.0 | :
+    520.0     398.7 | TBD
+    507.9      59.3 | LTE-TDD B38
+    507.9     262.9 | @10Mbps 23.3dBm Typical: 250 mA
+    495.8     262.9 | @
+    495.8     273.6 | 20Mbps 23.3dBm
+    495.8     358.6 | Typical
+    495.8     391.3 | :
+    495.8     397.0 | TBD
+    483.2     262.9 | @
+    483.2     273.6 | 5Mbps  22.7dBm
+    483.2     360.4 | Typical
+    483.2     393.0 | :
+    483.2     398.7 | TBD
+    471.2      59.3 | LTE-TDD B39
+    471.2     262.9 | @10Mbps 22.9dBm Typical: 220 mA
+    459.1     262.9 | @
+    459.1     273.6 | 20Mbps 22.8dBm
+    459.1     358.6 | Typical
+    459.1     391.3 | :
+    459.1     397.0 | TBD
+    446.5     262.9 | @
+    446.5     273.6 | 5Mbps
+    446.5     315.7 | 22.9dBm
+    446.5     360.4 | Typical
+    446.5     393.0 | :
+    446.5     398.7 | TBD
+    434.5      59.3 | LTE-TDD B40
+    434.5     262.9 | @10Mbps 23.0dBm Typical: TBD
+    422.3     262.9 | @
+    422.3     273.6 | 20Mbps 22.9dBm
+    422.3     358.6 | Typical
+    422.3     391.3 | :
+    422.3     397.0 | TBD
+    409.8     262.9 | @
+    409.8     273.6 | 5Mbps  23.1dBm
+    409.8     360.4 | Typical
+    409.8     393.0 | :
+    409.8     398.7 | TBD
+    397.7      59.3 | LTE-TDD B41
+    397.7     262.9 | @10Mbps 23.1dBm Typical: 260 mA
+    385.6     262.9 | @
+    385.6     273.6 | 20Mbps 23.0dBm
+    385.6     358.6 | Typical
+    385.6     391.3 | :
+    385.6     397.0 | TBD
+    331.1      49.6 | 5.5 ESD Notes
+    293.6      49.6 | A7670 is sensitive to ESD in the process of storage, transporting, and assembling. WhenA7670 is mounted
+    278.0      49.6 | on the users’ mother board, the ESD components should be placed beside the connectors which human
+    262.4      49.6 | body may touch, such as SIM  card holder, audio jacks, switches, keys, etc. The following table shows the
+    246.8      49.6 | A7670 ESD measurement performance without any external ESD component.
+    215.6      49.6 | Table 36: The ESD performance measurement table (Temperature: 25
+    215.6     392.8 | ℃
+    215.6     403.4 | , Humidity: 45%.)
+    196.7      59.3 | Part
+    196.7     242.8 | Contact discharge
+    196.7     389.6 | Air discharge
+    178.4      59.3 | VBAT,GND +/-5K +/-10K
+    160.9      59.3 | Antenna port +/-5K +/-10K
+    143.4      59.3 | USB interface +/-4K +/-8K
+    125.9      59.3 | UARTinterface +/-4K +/-6K
+    108.4      59.3 | Other PADs +/-1K +/-2K
+     79.8      53.0 | NOTE
+     19.3      49.6 | www.simcom.com 47/61

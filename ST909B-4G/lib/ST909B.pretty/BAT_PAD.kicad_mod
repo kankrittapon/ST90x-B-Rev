@@ -1,0 +1,50 @@
+(footprint "BAT_PAD"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL large rectangular battery-wire solder pad 4x3mm")
+  (tags "provisional pads")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "cc0cac75-c0e4-4449-8249-7df379daf632")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "BAT_PAD" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "a5b7c067-8241-4c95-9c0a-3c79179d99a9")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "22f854d2-08c3-480b-9a0b-9b6ac26f8f9a")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -2.9 -2.4)
+    (end 2.9 2.4)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "fcf75f4c-f9c7-457c-a54e-8fe12cc16f15")
+  )
+
+  (fp_rect
+    (start -2.3 -1.8)
+    (end 2.3 1.8)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "0a2c7a13-38db-4910-a9ea-3d637b2beb27")
+  )
+
+  (pad "1" smd rect
+    (at 0 0)
+    (size 4 3)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "61626ddc-f978-4b70-8ba9-db7bbb80c5f3")
+  )
+
+)

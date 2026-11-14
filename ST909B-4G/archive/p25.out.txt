@@ -1,0 +1,27 @@
+board loaded
+zone 0 net=/GND       layer=F.Cu  bbox=(0.50..34.50, 0.50..73.50) GetIsRuleArea=False GetDoNotAllowVias=True
+zone 1 net=/GND       layer=F.Cu  bbox=(0.50..34.50, 0.50..73.50) GetIsRuleArea=False GetDoNotAllowVias=True
+zone 2 net=-          layer=F.Cu  bbox=(2.50..20.50, 35.00..53.00) GetIsRuleArea=True GetDoNotAllowVias=False
+deleted tracks 18/18, vias 6/6
+moved U6 (5.00,44.50) -> (5.00,43.50)
+moved TP4 (2.20,52.00) -> (2.20,40.60)
+added tracks 25/25, vias 6/6
+saved
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+== U1: F.Cu hits 0 (ต้องเป็น 0), B.Cu tracks 16 (อนุญาต)
+== U2: F.Cu hits 0 (ต้องเป็น 0), B.Cu tracks 0 (อนุญาต)
+U6 at (5.00,43.50)
+TP4 at (2.20,40.60)
+done

@@ -1,0 +1,89 @@
+﻿pin_number,pin_name,net_name,note
+1,PWRKEY,/PKEY,PWRKEY; SW1/TP8 อยู่บน net นี้ ⚠️ V1.00 generic A7670; verify V1.03 SA
+2,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+3,DTR,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+4,RI,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+5,DCD,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+6,USB_BOOT,/USB_BOOT,ห้ามดึงขึ้นก่อนจ่ายไฟ; แนะนำ test point. net ใหม่ ยังไม่ทราบว่าเกี่ยวกับ J7 /BOOT หรือไม่ (P1 วัด continuity) ⚠️ V1.00 generic A7670; verify V1.03 SA
+7,CTS,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+8,RTS,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+9,TXD,/4G_TXD_1V8,module TXD 1.8V -> U5 level shifter; ยืนยันทิศทาง/ชื่อ net ⚠️ V1.00 generic A7670; verify V1.03 SA
+10,RXD,/4G_RXD_1V8,module RXD 1.8V <- U5; ยืนยัน ⚠️ V1.00 generic A7670; verify V1.03 SA
+11,PCM_CLK,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+12,PCM_SYNC,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+13,PCM_DIN,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+14,PCM_OUT,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+15,VDD_1V8,/VDD_EXT,1.8V ref ของ U5 (datasheet V1.00 ชื่อ VDD_1V8) ⚠️ V1.00 generic A7670; verify V1.03 SA
+16,RESET,,RESET: ตัดสินใจต่อ/ปล่อย ⚠️ V1.00 generic A7670; verify V1.03 SA
+17,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+18,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+19,GPIO1,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+20,GPIO2,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+21,GPIO3,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+22,UART_LOG_RX,/UART_LOG_RX,แนะนำ test point; net ใหม่ ⚠️ V1.00 generic A7670; verify V1.03 SA
+23,UART_LOG_TX,/UART_LOG_TX,datasheet แนะนำให้มี test point; net ใหม่ ⚠️ V1.00 generic A7670; verify V1.03 SA
+24,VBUS,/USB_VBUS,ต่อ J3 pad1 ⚠️ V1.00 generic A7670; verify V1.03 SA
+25,ADC,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+26,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+27,USB_DP,/USB_DP_M,ผ่าน RN1 -> /USB_DP_F -> J3 ⚠️ V1.00 generic A7670; verify V1.03 SA
+28,USB_DM,/USB_DM_M,ผ่าน RN1 -> /USB_DM_F -> J3 ⚠️ V1.00 generic A7670; verify V1.03 SA
+29,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+30,SIM_VDD,/SIM_VDD,J1 (ยังไม่มี pad); net ใหม่ ⚠️ V1.00 generic A7670; verify V1.03 SA
+31,SIM_DATA,/SIM_DATA,J1; net ใหม่ ⚠️ V1.00 generic A7670; verify V1.03 SA
+32,SIM_CLK,/SIM_CLK,J1; net ใหม่ ⚠️ V1.00 generic A7670; verify V1.03 SA
+33,SIM_RST,/SIM_RST,J1; net ใหม่ ⚠️ V1.00 generic A7670; verify V1.03 SA
+34,SIM_DET,/SIM_DET,J1; net ใหม่; ปล่อยลอยได้ถ้าไม่ใช้ ⚠️ V1.00 generic A7670; verify V1.03 SA
+35,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+36,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+37,I2C_SDA,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+38,I2C_SCL,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+39,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+40,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+41,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+42,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+43,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+44,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+45,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+46,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+47,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+48,GPIO9,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+49,GPIO4(UART3_RX),,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+50,GPIO5(UART3_TX),,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+51,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+52,NETLIGHT,,NETLIGHT: ยังไม่ทราบว่าขับ LED3 (/LED_4G) หรือไม่ (P1) ⚠️ V1.00 generic A7670; verify V1.03 SA
+53,NC,,NC ปล่อยลอย ⚠️ V1.00 generic A7670; verify V1.03 SA
+54,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+55,VBAT,/VBAT,"trace/pour >=2 mm, พีค 2.8 A ⚠️ V1.00 generic A7670; verify V1.03 SA"
+56,VBAT,/VBAT,เหมือนขา 55 ⚠️ V1.00 generic A7670; verify V1.03 SA
+57,VBAT,/VBAT,เหมือนขา 55 ⚠️ V1.00 generic A7670; verify V1.03 SA
+58,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+59,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+60,RF_ANT,/ANT_4G_RF,50 ohm; ไป ANT1 pad1 ⚠️ V1.00 generic A7670; verify V1.03 SA
+61,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+62,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+63,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+64,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+65,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+66,STATUS,,STATUS: ว่าง หรือต่อ MCU? (P1) ⚠️ V1.00 generic A7670; verify V1.03 SA
+67,GPIO10,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+68,GPIO11,,ไม่ได้ใช้ในโปรเจกต์ (ยืนยัน) ⚠️ V1.00 generic A7670; verify V1.03 SA
+69,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+70,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+71,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+72,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+73,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+74,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+75,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+76,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+77,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+78,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+79,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+80,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+81,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+82,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+83,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+84,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+85,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+86,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+87,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA
+88,GND,/GND,⚠️ V1.00 generic A7670; verify V1.03 SA

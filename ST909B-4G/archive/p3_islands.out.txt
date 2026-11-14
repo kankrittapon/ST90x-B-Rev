@@ -1,0 +1,5 @@
+gnd vias=1 tracks=0 pads=58
+zone net=/GND layer=F poly#0 bbox=(0.50,0.50)-(34.50,73.50) w=34.00 h=73.00 vias=1 trk-mid=0 pads=43
+zone net=/GND layer=F poly#1 bbox=(25.73,7.19)-(34.50,73.50) w=8.77 h=66.31 vias=0 trk-mid=0 pads=1
+zone net=/GND layer=B poly#0 bbox=(0.50,44.53)-(34.50,73.50) w=34.00 h=28.97 vias=0 trk-mid=0 pads=1
+zone net=/GND layer=B poly#1 bbox=(0.50,0.50)-(34.50,69.15) w=34.00 h=68.65 vias=1 trk-mid=0 pads=12

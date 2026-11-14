@@ -1,0 +1,17 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    749.7     260.6 | ≦
+    749.7     260.6 | 30
+    749.7     260.6 | ℃
+    749.7     260.6 | /60% RH
+    749.6      59.3 | 5 48 hours at
+    732.2     260.6 | ≦
+    732.2     260.6 | 30
+    732.2     260.6 | ℃
+    732.2     260.6 | /60% RH
+    732.1      59.3 | 5a 24 hours at
+    717.0     202.8 | Mandatory bake before use. After bake, it must be reflowed within the
+    711.0      59.3 | 6
+    704.9     202.8 | time limit specified on the label.
+    678.9      53.0 | NOTE
+    643.3      49.6 | IPC / JEDEC J-STD-033standard must be followed for production and storage.
+     19.3      49.6 | www.simcom.com 52/61

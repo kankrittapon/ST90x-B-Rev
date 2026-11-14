@@ -1,0 +1,9 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    689.8      97.8 | 7 Packaging
+    645.7      49.6 | 7.1 Tray packaging
+    608.1      71.2 | A7670 module support tray packaging.
+    361.9     223.3 | Figure 29: packaging diagram
+    319.0      71.2 | Module tray drawing
+    319.0      71.2 | ：
+     72.7     238.4 | Figure 30: Tray drawing
+     19.3      49.6 | www.simcom.com 53/61

@@ -1,0 +1,37 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    735.2      49.6 | With a small physical dimension of 24*24*2.5 mm and with the functions integrated, the module can meet
+    719.6      49.6 | almost any space requirement in users’ applications, such as smart phone, PDA, industrial handhold,
+    704.0      49.6 | machine-to-machine and vehicle application, etc.
+    688.4      49.6 | A7670 provides 88 pins, including 68  LGA pins in the outer ring and 20 LGA pins in the inner ring. This
+    672.8      49.6 | document will introduce all the functional pins.
+    616.7      49.6 | 1.2 Hardware Interface Overview
+    579.2      49.6 | The interfaces are described in detail in the next chapters include:
+    563.6      49.6 | ●
+    563.6      67.6 | Power Supply
+    548.0      49.6 | ●
+    548.0      67.6 | USB 2.0 Interface
+    532.4      49.6 | ●
+    532.4      67.6 | ThreeUART Interface, one full function serial port, one ordinary serial port and one debug serial port
+    516.8      49.6 | ●
+    516.8      67.6 | USIM Interface
+    501.2      49.6 | ●
+    501.2      67.6 | ADC Interface
+    485.6      49.6 | ●
+    485.6      67.6 | LDO Power Output
+    470.0      49.6 | ●
+    470.0      67.6 | PCM Interface
+    454.4      49.6 | ●
+    454.4      67.6 | I2C Interface
+    438.8      49.6 | ●
+    438.8      67.6 | General input and output interfaces (GPIO)
+    423.2      49.6 | ●
+    423.2      67.6 | AntennaInterface
+    407.6      49.6 | ●
+    407.6      67.6 | USB_BOOT interface
+    392.0      49.6 | ●
+    392.0      67.6 | Network status indication interface
+    376.4      49.6 | ●
+    376.4      67.6 | Module operation status indication interface
+    304.7      49.6 | 1.3 Hardware Block Diagram
+    267.2      49.6 | The block diagram of the A7670 module is shown in the figure below.
+     19.3      49.6 | www.simcom.com 10/61

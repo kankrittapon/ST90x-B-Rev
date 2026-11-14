@@ -1,0 +1,64 @@
+(footprint "PADS_ROW_3"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL 3 round pads in a row, pitch 2.0, D1.2 (used for VBUS/DP/DM, M3V3, BOOT)")
+  (tags "provisional pads")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "eb2cd311-91e3-4f64-919e-4f7e9d1c7a04")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "PADS_ROW_3" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "5fcfe729-031c-4779-a7a0-7e0063aec9a9")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "28b2f487-a2eb-4b58-98ac-db92ca65231a")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -2.9 -1.5)
+    (end 2.9 1.5)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "fee7c361-600a-487e-9153-7ade02a34417")
+  )
+
+  (fp_rect
+    (start -2.3 -0.9)
+    (end 2.3 0.9)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "e5a1cab0-87be-4612-b933-742917151439")
+  )
+
+  (pad "1" smd circle
+    (at -2 0)
+    (size 1.2 1.2)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "3aa711ba-27b8-4ada-af6a-8ce39beec32b")
+  )
+
+  (pad "2" smd circle
+    (at 0 0)
+    (size 1.2 1.2)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "e96530a2-bea4-4217-a6e7-a594c1d100db")
+  )
+
+  (pad "3" smd circle
+    (at 2 0)
+    (size 1.2 1.2)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "10017111-de2f-4409-ab38-b95e204c8855")
+  )
+
+)

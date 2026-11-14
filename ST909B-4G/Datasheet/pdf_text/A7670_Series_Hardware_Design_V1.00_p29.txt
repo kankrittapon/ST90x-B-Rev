@@ -1,0 +1,49 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    735.2      49.6 | When using 2-wire serial port, please refer to the following connection mode:
+    698.4     184.9 | Module  ( DCE) Host ( DTE)
+    671.5     235.0 | TXD
+    671.4     344.7 | TXD
+    659.6     234.8 | RXD
+    659.5     344.5 | RXD
+    648.8     236.2 | RTS
+    648.7     344.8 | RTS
+    641.0     382.5 | UARTUART
+    637.9     236.4 | CTS
+    637.8     344.7 | CTS
+    567.0     159.4 | Figure 14: Serial port connection diagram (NULL mode)
+    512.0      49.6 | The following figure shows the use of triode for level shifter circuits. The circuit with dotted line can refer to
+    496.4      49.6 | the circuit with solid line TXD and RXD, and attention shall be paid to the direction of signal.
+    480.8      49.6 | The recommended triode model is MMBT3904.
+    450.6     271.5 | VDD_1V8
+    435.0     307.5 | VIO_MCU
+    434.5     291.7 | 4.7K
+    433.6     267.0 | 1nF
+    426.6     325.5 | 1K~4.7K
+    426.5     300.8 | 470pF_NM
+    413.2     202.4 | Module Host
+    392.6     346.1 | MCU_RXD
+    392.5     236.0 | TXD
+    378.0     235.6 | RXD
+    378.0     346.3 | MCU_TXD
+    370.2     261.2 | 1K~4.7K
+    358.8     278.2 | 4.7K
+    357.4     305.0 | 1nF
+    330.7     273.4 | VDD_1V8
+    325.9     236.8 | RTS
+    325.9     346.0 | CTS
+    317.3     236.8 | CTS
+    317.3     346.0 | RTS
+    308.6     235.1 | GPIO
+    308.6     346.5 | GPIO
+    282.1     235.4 | GND
+    282.1     347.0 | GND
+    250.2     195.2 | Figure 15: Triode level conversion circuit
+    197.3      62.6 | NOTE
+    161.3      59.3 | 1. The RTS/CTS function debugging, the existing version does not support.
+    146.3      59.3 | 2. A7670 supports the following baud rates: 300, 600, 1200, 2400, 4800, 9600, 19200, 38400, 57600,
+    131.3      59.3 | 115200, 230400, 460800, 921600, 1842000, 3686400. The default baud rate is 115200bps.
+    116.3      59.3 | 3. Supports adaptive baud rate, refer to AT+IPR and AT+IPREX instructions in the AT Command
+    101.3      59.3 | Manual, automatic recognition baud rate support: 9600,19200,38400,57600,115200bps.
+     86.3      59.3 | 4. The parasitic capacitance of the transistor will affect the edge of the high-speed digital signal. It is not
+     71.3      59.3 | recommended to use this circuit when the signal speed is higher than 115200bps.
+     19.3      49.6 | www.simcom.com 29/61

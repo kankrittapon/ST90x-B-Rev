@@ -1,0 +1,42 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    741.5      49.6 | 8.3 Terms and Abbreviations
+    703.8      49.6 | Table 44: Terms and Abbreviations
+    685.1      59.3 | Abbreviation
+    685.1     151.9 | Description
+    666.8      59.3 | ADC Analog-to-Digital Converter
+    649.3      59.3 | ARP Antenna Reference Point
+    631.8      59.3 | BER Bit Error Rate
+    614.3      59.3 | BD BeiDou
+    596.8      59.3 | BTS Base Transceiver Station
+    579.3      59.3 | CS Coding Scheme
+    561.8      59.3 | CSD Circuit Switched Data
+    544.3      59.3 | CTS Clear to Send
+    526.8      59.3 | DAC Digital-to-Analog Converter
+    509.3      59.3 | DSP Digital Signal Processor
+    491.8      59.3 | DTE Data Terminal Equipment (typically computer, terminal, printer)
+    474.3      59.3 | DTR Data Terminal Ready
+    456.8      59.3 | DTX Discontinuous Transmission
+    439.3      59.3 | DAM Downloadable Application Module
+    421.8      59.3 | DPO Dynamic Power Optimization
+    404.3      59.3 | EFR Enhanced Full Rate
+    386.8      59.3 | EGSM Enhanced GSM
+    369.3      59.3 | EMC Electromagnetic Compatibility
+    351.8      59.3 | ESD Electrostatic Discharge
+    334.3      59.3 | ETS European Telecommunication Standard
+    316.8      59.3 | FCC Federal Communications Commission (U.S.)
+    299.3      59.3 | FD SIM fix dialing phonebook
+    281.8      59.3 | FDMA Frequency Division Multiple Access
+    264.3      59.3 | FR Full Rate
+    246.8      59.3 | GMSK Gaussian Minimum Shift Keying
+    229.3      59.3 | GNSS Global Navigation Satellite System
+    211.8      59.3 | GPRS General Packet Radio Service
+    194.3      59.3 | GPS Global Positioning System
+    176.8      59.3 | GSM Global Standard for Mobile Communications
+    159.3      59.3 | HR Half Rate
+    141.8      59.3 | I2C Inter-Integrated Circuit
+    124.3      59.3 | IMEI International Mobile Equipment Identity
+    106.8      59.3 | LTE Long Term Evolution
+     89.3      59.3 | MO Mobile Originated
+     71.8      59.3 | MS Mobile Station (GSM engine), also referred to as TE
+     54.3      59.3 | MT Mobile Terminated
+     19.3      49.6 | www.simcom.com 59/61

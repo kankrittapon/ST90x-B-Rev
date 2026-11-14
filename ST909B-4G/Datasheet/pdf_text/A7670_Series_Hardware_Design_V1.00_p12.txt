@@ -1,0 +1,62 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.8     221.2 | Short Message(SMS)storage device: USIM Card, CB does not
+    735.2     221.2 | support saving in SIM Card
+    719.6     221.2 | Support CS domain and PS domain SMS
+    702.8      59.3 | USIM interface
+    702.8     221.2 | Support identity card: 1.8V/ 3V
+    686.0     221.2 | Support SAT class 3, GSM 11.14 Release 98
+    678.2      59.3 | USIM application toolkit
+    670.4     221.2 | Support USAT
+    653.6      59.3 | Phonebook management
+    653.6     221.2 | Support phonebook types : SM/FD/ON/AP/SDN
+    636.1      59.3 | Audio feature
+    636.1     221.2 | PCM Digital Audio interface
+    619.3     221.2 | ●Full function serial port
+    603.7     221.2 | Baud rate support from 300bps to 3686400bps
+    588.1     221.2 | AT command and data can be sent through serial port
+    572.5     221.2 | Support RTS/CTS Hardware flow control(Debugging,Currently not
+    556.9     221.2 | supported)
+    541.3      59.3 | UART interface
+    541.3     221.2 | Support serial port multiplexing function conforming to GSM 07.10
+    525.7     221.2 | protocol
+    510.1     221.2 | ●Debug serial port
+    494.5     221.2 | Support debug usage
+    478.9     221.2 | ●
+    478.9     227.5 | UART3 serial port
+    463.3     221.2 | Ordinary serial port
+    447.2     221.2 | USB 2.0 compliant, host mode not supported.
+    431.6     221.2 | This interface can be used for AT command sending, data
+    431.4      59.3 | USB
+    416.0     221.2 | transmission, software debugging and upgrading.
+    399.2      59.3 | Firmware upgrade
+    399.2     221.2 | Firmware upgrade over USB interface
+    384.1     221.2 | Size:
+    384.1     244.6 | 24
+    384.1     256.2 | *
+    384.1     260.3 | 24
+    384.1     271.9 | *2.
+    384.1     284.8 | 5
+    384.1     290.6 | m
+    376.3      59.3 | Physical characteristics
+    370.3     221.2 | Weight:
+    370.3     256.6 | 3.08g(
+    370.3     286.3 | Typical
+    370.3     319.0 | )
+    354.2     221.2 | Normal operation temperature: -30°C to +80°C
+    338.6     221.2 | Extended operation temperature: -40°C to +85°C*
+    338.5      59.3 | Temperature range
+    323.0     221.2 | Storage temperature
+    323.0     320.3 | -
+    323.0     323.8 | 4
+    323.0     329.6 | 5
+    323.0     335.5 | °C to +90°C
+    279.8      53.0 | NOTE
+    244.3      49.6 | Module is able to make and receive voice calls, data calls, SMS and make GPRS/LTE traffic in -40
+    244.3     492.8 | ℃
+    244.3     492.8 | ~
+    228.7      49.6 | +85
+    228.7      49.6 | ℃
+    228.7      49.6 | . The performance will be reduced slightly from the 3GPP specifications if the temperature is
+    213.1      49.6 | outside the normal operating temperature range and still within the extreme operating temperature
+    197.5      49.6 | range.
+     19.3      49.6 | www.simcom.com 12/61

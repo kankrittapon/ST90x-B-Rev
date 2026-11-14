@@ -1,0 +1,33 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    739.0      53.0 | NOTE
+    703.1      49.6 | USIM_DATA has been pulled up with a 4.7KΩ resistor to USIM_VDD in
+    703.1     385.6 | module. A 100nF capacitor on
+    688.1      49.6 | USIM_VDD is used to reduce interference. For more details of AT commands about USIM, please refer
+    673.1      49.6 | to document [1].USIM_CLK is very important signal, the rise time and fall time of USIM_CLK
+    609.5      49.6 | 3.5.2 Recommend USIM Card Holder
+    579.0      49.6 | It is recommended to use the 6- pin USIM socket such as C707 10M006 512 produced by Amphenol. User
+    563.4      49.6 | can visit http://www.amphenol.com for more information about the holder.
+    270.4     155.6 | Figure 20: Amphenol C707 10M006 512 USIM card socket
+    227.2      49.6 | Table 15: Amphenol USIM socket pin description
+    209.0      59.3 | Pin
+    209.0     117.1 | Signal
+    209.0     201.4 | Description
+    190.7      59.3 | C1
+    190.7     117.1 | USIM_VDD
+    190.7     201.4 | USIM Card Power supply.
+    173.2      59.3 | C2
+    173.2     117.1 | USIM_RST
+    173.2     201.4 | USIM Card Reset.
+    155.7      59.3 | C3
+    155.6     117.1 | USIM_CLK
+    155.6     201.4 | USIM Card Clock.
+    138.2      59.3 | C5
+    138.2     117.1 | GND
+    138.2     201.4 | Connect to GND.
+    120.7      59.3 | C6
+    120.7     117.1 | VPP
+    120.7     201.4 | NC
+    103.2      59.3 | C7
+    103.1     117.1 | USIM_DATA
+    103.1     201.4 | USIM Card data I/O.
+     19.3      49.6 | www.simcom.com 33/61

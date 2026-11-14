@@ -1,0 +1,20 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    741.5      49.6 | 3.6 PCM Interface
+    704.0      49.6 | A7670 provides a PCM interface for external codec, which can be used in master mode with short sync and
+    688.4      49.6 | 16 bits linear format. A7670 supports voice function, customers can add codec on PCM for voice call. For
+    672.8      49.6 | specific parameters and matters, please refer to the relevant software manuals.
+    641.4      49.6 | Table 16: PCMformat
+    619.6      59.3 | Characteristics
+    619.6     194.7 | Specification
+    601.3      59.3 | LineInterfaceFormat Linear(Fixed)
+    583.8      59.3 | Datalength 16bits(Fixed)
+    566.3      59.3 | PCMClock/SyncSource MasterMode(Fixed)
+    548.8      59.3 | PCMClockRate 8KHz/16KHz/48KHz
+    531.3      59.3 | PCMSyncFormat Shortsync(Fixed)
+    513.8      59.3 | DataOrdering MSB
+    465.1      49.6 | 3.6.1 PCM Sequence
+    434.6      49.6 | The related PCM timing is shown in the following figure:
+    250.8     235.3 | Figure 21: PCMsequence
+    191.5      49.6 | 3.6.2 PCM Reference Design(Software development)
+    161.0      49.6 | The following figure showsthe external codec reference design.
+     19.3      49.6 | www.simcom.com 34/61

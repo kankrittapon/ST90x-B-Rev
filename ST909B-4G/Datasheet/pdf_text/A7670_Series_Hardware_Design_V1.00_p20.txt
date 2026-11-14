@@ -1,0 +1,4 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    741.5      49.6 | 2.4 Footprint Recommendation
+    177.0     179.6 | Figure 4: Footprint recommendation (Unit: mm)
+     19.3      49.6 | www.simcom.com 20/61

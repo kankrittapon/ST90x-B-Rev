@@ -1,0 +1,143 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.1     140.6 | 32
+    750.1     197.9 | 1.8/3.0V
+    750.1     257.0 | I/O,PU
+    750.1     301.3 | USIM bus clock output.
+    749.3      59.3 | USIM_CLK
+    735.0     301.3 | USIM card power
+    735.0     385.3 | supply
+    722.9     301.3 | output, Supports 1.8v/3.0v
+    710.9     140.6 | 30
+    710.9     197.9 | 1.8/3.0V
+    710.9     257.0 | PO
+    710.9     301.3 | output according to the card
+    710.2      59.3 | USIM_VDD
+    698.8     301.3 | type, Its output current is up
+    686.8     301.3 | to 50mA.
+    669.6      59.3 | USB interface
+    651.4     140.6 | 24
+    651.4     197.9 | -
+    651.4     257.0 | AI
+    651.4     295.7 | Valid USB detection input.
+    650.6      59.3 | VBUS
+    636.3     295.7 | Negative line of the differential,
+    630.3     140.6 | 28
+    630.3     197.9 | -
+    630.3     257.0 | I/O
+    629.6      59.3 | USB_DN
+    624.2     295.7 | bi
+    624.2     303.8 | -
+    624.2     307.3 | directional USB signal.
+    611.6     295.7 | Positive line of the differential,
+    605.6     140.6 | 27
+    605.6     197.9 | -
+    605.6     257.0 | I/O
+    604.9      59.3 | USB_DP
+    599.6     295.7 | bi
+    599.6     303.8 | -
+    599.6     307.3 | directional USB signal.
+    582.4      59.3 | Full function UART interface
+    564.2     140.6 | 8
+    564.2     197.9 | 1.8V
+    564.2     257.0 | DI
+    564.2     295.7 | RTS input
+    563.5      59.3 | RTS
+    546.7     140.6 | 7
+    546.7     197.9 | 1.8V
+    546.7     257.0 | DO
+    546.7     295.7 | CTS output
+    546.0      59.3 | CTS
+    529.2     140.6 | 10
+    529.2     197.9 | 1.8V
+    529.2     257.0 | DI
+    529.2     295.7 | Data input
+    528.5      59.3 | RXD
+    519.5     450.8 | If unused, keep it
+    511.7     140.6 | 9
+    511.7     197.9 | 1.8V
+    511.7     257.0 | DOH
+    511.7     295.7 | Data output
+    511.0      59.3 | TXD
+    503.9     450.8 | open.
+    494.2     140.6 | 4
+    494.2     197.9 | 1.8V
+    494.2     257.0 | DO
+    494.2     295.7 | Ringing indicator
+    493.5      59.3 | RI
+    476.7     140.6 | 5
+    476.7     197.9 | 1.8V
+    476.7     257.0 | DO
+    476.7     295.7 | Carrier detection
+    476.0      59.3 | DCD
+    459.2     140.6 | 3
+    459.2     197.9 | 1.8V
+    459.2     257.0 | DI
+    459.2     295.7 | DTE Ready
+    458.5      59.3 | DTR
+    439.6      59.3 | Debug UART
+    421.7      59.3 | UART_LOG_T
+    414.9     295.7 | Log output
+    414.8     140.6 | 23
+    414.8     197.9 | 1.8V
+    414.8     257.0 | DOH
+    407.4     450.8 | Default used as
+    406.7      59.3 | XD
+    391.8     450.8 | debug port.
+    391.1      59.3 | UART_LOG_R
+    384.4     140.6 | 22
+    384.4     197.9 | 1.8V
+    384.4     257.0 | DI
+    384.4     295.7 | Log input
+    376.1      59.3 | XD
+    358.2      59.3 | Serial Port UART3
+    340.0     140.6 | 50
+    340.0     197.9 | 1.8V
+    340.0     257.0 | DOH
+    340.0     295.7 | Log output
+    339.3      59.3 | UART
+    339.3      87.7 | 3
+    339.3      93.5 | _TXD
+    339.1     450.8 | Two-wire serial
+    323.5     450.8 | port
+    322.5     140.6 | 49
+    322.5     197.9 | 1.8V
+    322.5     257.0 | DI
+    322.5     295.7 | Log input
+    321.8      59.3 | UART3_RXD
+    302.9      59.3 | I2C interface
+    285.4     450.8 | If unused, keep it
+    269.8     450.8 | open. These pins
+    254.2     450.8 | have been
+    246.8     140.6 | 38
+    246.8     197.9 | 1.8V
+    246.8     257.0 | DO
+    246.8     295.7 | I2C clock output
+    246.1      59.3 | I2C_SCL
+    238.6     450.8 | Internally pull-up
+    223.0     450.8 | to
+    207.4     450.8 | VDD_1.8.External
+    191.8     450.8 | power supply
+    176.2     450.8 | cannot be used to
+    160.6     450.8 | pull up these pins,
+    153.0     140.6 | 37
+    153.0     197.9 | 1.8V
+    153.0     257.0 | I/O
+    153.0     295.7 | I2C data I/O
+    152.3      59.3 | I2C_SDA
+    145.0     450.8 | otherwise there
+    129.4     450.8 | will be voltage
+    113.8     450.8 | leakage.
+     94.9      59.3 | PCM interface
+     76.6     140.6 | 14
+     76.6     197.9 | 1.8V
+     76.6     251.3 | DO,PD
+     76.6     295.7 | PCM data output
+     75.9      59.3 | PCM_OUT
+     75.7     450.8 | If unused, keep it
+     60.1     450.8 | open.
+     59.1     140.6 | 13
+     59.1     197.9 | 1.8V
+     59.1     251.3 | DI,PD
+     59.1     295.7 | PCM data input
+     58.4      59.3 | PCM_IN
+     19.3      49.6 | www.simcom.com 17/61

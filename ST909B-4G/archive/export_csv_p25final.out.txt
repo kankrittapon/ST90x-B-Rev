@@ -1,0 +1,2 @@
+CSV written to D:\Tracker\ST909B-4G\export
+tracks 95 vias 21 footprints 35

@@ -1,0 +1,12 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    712.6      49.6 | Version History
+    686.2      49.6 | Date
+    686.2     127.6 | Version
+    686.2     191.3 | Description of change
+    686.2     439.4 | Author
+    668.9     439.4 | Zhongyi.liu
+    661.1      49.6 | 2020-06-09
+    661.1     127.6 | 1.00
+    661.1     191.3 | Original
+    653.3     439.4 | Peilin.yue
+     19.3      49.6 | www.simcom.com 3/61

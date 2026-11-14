@@ -1,0 +1,9 @@
+    486.5      53.9 | A7670 Series
+    439.7      53.9 | Hardware Design
+    401.9      69.6 | LTE Module
+    147.3     331.6 | SIMCom Wireless Solutions Limited
+    132.3     251.5 | Building B, SIM Technology Building, No.633, Jinzhong Road
+    117.3     349.6 | Changning District, Shanghai P.R.China
+    102.3     438.9 | Tel: 86-21-31575100
+     87.3     431.7 | support@simcom.com
+     72.4     451.7 | www.simcom.com

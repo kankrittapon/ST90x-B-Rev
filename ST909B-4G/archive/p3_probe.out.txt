@@ -1,0 +1,75 @@
+F polys=2 B polys=2
+F (  2.50, 71.20) stitch B-island site   -> 0
+F (  3.00, 71.20) stitch B-island site   -> 0
+F ( 29.00, 15.00) F island NE alt        -> 1
+F ( 31.00, 15.00) F island NE alt        -> 1
+F ( 32.00, 15.00) F island NE alt        -> 1
+F ( 30.00, 12.00) F island NE alt        -> 1
+F ( 30.00, 18.00) F island NE alt        -> 1
+F (  1.05, 15.00) known main west        -> -
+F ( 34.20, 50.00) east strip             -> 1
+F ( 34.20, 60.00) east strip             -> 1
+F ( 34.20, 70.00) east strip             -> 1
+F ( 34.20, 15.00) NE                     -> 1
+F ( 34.20, 25.00) NE                     -> 1
+F ( 33.50, 45.00) east of SOS            -> -
+F ( 33.50, 10.00) NE corner              -> 1
+F ( 32.00, 45.00) center-east            -> 0
+F ( 30.00, 45.00) center-east            -> 0
+F ( 28.00, 45.00) center-east            -> 0
+F ( 26.50, 45.00) sliver LED_EN/BOOT     -> -
+F ( 30.00, 20.00) NE block               -> -
+F ( 30.00, 15.00) NE block               -> 1
+F ( 30.00, 10.00) NE block               -> 1
+F ( 27.00, 10.00) NE block               -> 1
+F ( 26.50,  8.50) NE block west          -> 1
+F ( 31.00, 10.00) NE block               -> 1
+F ( 33.00, 20.00) NE block               -> 1
+F ( 33.00, 30.00) NE mid                 -> 1
+F ( 33.00, 40.00) east mid               -> -
+F ( 30.00, 30.00) NE south edge          -> 1
+F ( 29.00, 35.00) south of y31.7         -> 0
+F ( 31.00, 55.00) center-east low        -> 0
+F ( 29.00, 60.00) center-east low        -> 0
+F ( 30.50, 60.00) center-east low        -> 0
+F ( 33.00, 65.00) SE                     -> -
+F ( 30.00, 70.00) SE band                -> 0
+F ( 29.00, 70.00) SE band                -> 0
+F ( 33.50, 72.00) SE band                -> -
+F ( 30.00, 72.00) SE band                -> 0
+F ( 33.96, 73.30) wiggle pad             -> 1
+F ( 26.50, 30.00) sliver y30             -> -
+F ( 26.50, 20.00) sliver y20             -> 1
+F ( 26.50, 15.00) sliver y15             -> 1
+F ( 27.00, 22.00) between anti bands     -> 1
+F ( 29.00, 40.00) center-east            -> 0
+B ( 30.00, 15.00) B under F-island via   -> 1
+B ( 30.00, 10.00) B under F-island via   -> -
+B ( 31.00, 10.00) B under F-island via   -> -
+B ( 33.00, 20.00) B under F-island via   -> -
+B ( 29.00, 15.00) B under F-island via   -> 1
+B ( 32.00, 15.00) B under F-island via   -> -
+B ( 30.00, 12.00) B under F-island via   -> 1
+B ( 30.00, 18.00) B under F-island via   -> 1
+B ( 27.00, 10.00) B NE                   -> -
+B (  2.50, 71.20) stitch candidate       -> 0
+B (  2.00, 71.20) stitch west            -> 0
+B (  3.00, 71.20) stitch east            -> 0
+B (  2.50, 65.00) B west low             -> 0
+B (  2.50, 50.00) B west mid             -> -
+B (  2.50, 45.00) B west                 -> -
+B ( 10.00, 71.00) B south band           -> 0
+B ( 15.00, 71.00) B south band           -> 0
+B ( 30.00, 45.00) B center-east          -> 1
+B ( 30.00, 40.00) B center-east          -> 1
+B ( 30.00, 60.00) B center-east low      -> -
+B ( 31.00, 55.00) B east                 -> 1
+B ( 33.30, 55.00) B far east             -> 1
+B ( 29.00, 20.00) B NE                   -> 1
+B ( 30.50, 50.00) B center-east          -> 1
+B ( 33.00, 50.00) B far east             -> -
+B ( 33.96, 73.30) wiggle pad B           -> 0
+-- pads inside island fills (F idx1 / B idx0) --
+  J7.3 @ ( 31.00, 25.50) Fpoly=1 Bpoly=1 onF=True onB=False
+  J2.1 @ (  6.19, 71.50) Fpoly=0 Bpoly=0 onF=True onB=False
+  TP6.1 @ ( 19.60, 71.50) Fpoly=0 Bpoly=0 onF=False onB=True

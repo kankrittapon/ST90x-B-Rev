@@ -1,0 +1,46 @@
+board loaded
+total pads: 225
+duplicate refs: none
+U1 fp=ST909B:A7670SA_LGA88 value=A7670SA pads=88 pos=(13.00,17.50) rot=0.0
+   (none)             34
+   /4G_RXD_1V8        1
+   /4G_TXD_1V8        1
+   /ANT_4G_RF         1
+   /GND               35
+   /PKEY              1
+   /SIM_CLK           1
+   /SIM_DATA          1
+   /SIM_DET           1
+   /SIM_RST           1
+   /SIM_VDD           1
+   /UART_LOG_RX       1
+   /UART_LOG_TX       1
+   /USB_BOOT          1
+   /USB_DM_M          1
+   /USB_DP_M          1
+   /USB_VBUS          1
+   /VBAT              3
+   /VDD_EXT           1
+   pad1 abs (1.600, 9.500)
+U2 fp=ST909B:L76KB_LGA18 value=L76KB-A58 pads=18 pos=(9.00,52.00) rot=0.0
+   (none)             11
+   /G3V3              1
+   /GND               3
+   /GPS_RF            1
+   /GPS_RX            1
+   /GPS_TX            1
+   pad1 abs (4.150, 47.600)
+new nets exist:
+   /USB_BOOT      ok
+   /UART_LOG_RX   ok
+   /UART_LOG_TX   ok
+   /SIM_VDD       ok
+   /SIM_DATA      ok
+   /SIM_CLK       ok
+   /SIM_RST       ok
+   /SIM_DET       ok
+zones: 3
+   net /GND         filled=True
+   net /GND         filled=True
+   net              filled=False
+done

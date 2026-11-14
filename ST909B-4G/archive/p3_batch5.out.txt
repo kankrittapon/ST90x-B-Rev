@@ -1,0 +1,5 @@
+board loaded
+deleted old PKEY F tracks: 3/3
+added tracks 3/3
+added vias 2/2
+saved

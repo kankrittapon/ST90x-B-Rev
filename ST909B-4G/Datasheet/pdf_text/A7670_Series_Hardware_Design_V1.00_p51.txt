@@ -1,0 +1,42 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    741.5      49.6 | 6.3 Typical SMT Reflow Profile
+    704.0      49.6 | SIMCom provides a typical soldering profile. Therefore the soldering profile shown below is only a generic
+    688.4      49.6 | recommendation and should be adjusted to the specific application and manufacturing constraints.
+    442.2     160.9 | Figure 28: The ramp-soak-spike reflow profile of A7670
+    403.0      53.0 | NOTE
+    367.5      49.6 | For more details about secondary SMT, please refer to the document [21].
+    294.4      49.6 | 6.4 Moisture Sensitivity Level (MSL)
+    256.8      49.6 | A7670 is qualified to Moisture Sensitivity Level (MSL) 3 in accordance with JEDEC J-STD-033.
+    225.6      49.6 | The following table shows thefeatures ofMoisture Sensitivity Level (MSL). After seal off, storage conditions
+    210.0      49.6 | must meet the following table. If the storage time was expired, module must be baking before SMT.
+    178.6      49.6 | Table 38: Moisture Sensitivity Level and Floor Life
+    162.1      59.3 | Moisture Sensitivity
+    162.1     202.8 | Floor Life (out of bag) at factory ambient≤30°C/60% RH or
+    146.5      59.3 | Level (MSL)
+    146.5     202.8 | as stated
+    130.4     263.5 | ≦
+    130.4     263.5 | 30
+    130.4     263.5 | ℃
+    130.4     263.5 | /85% RH
+    130.3      59.3 | 1 Unlimited at
+    112.9     246.0 | ≦
+    112.9     246.0 | 30
+    112.9     246.0 | ℃
+    112.9     246.0 | /60% RH
+    112.8      59.3 | 2 1 yearat
+     95.4     258.2 | ≦
+     95.4     258.2 | 30
+     95.4     258.2 | ℃
+     95.4     258.2 | /60% RH
+     95.3      59.3 | 2a 4 weeks at
+     77.9     266.5 | ≦
+     77.9     266.5 | 30
+     77.9     266.5 | ℃
+     77.9     266.5 | /60% RH
+     77.8      59.3 | 3 168 hours at
+     60.4     260.6 | ≦
+     60.4     260.6 | 30
+     60.4     260.6 | ℃
+     60.4     260.6 | /60% RH
+     60.3      59.3 | 4 72 hours at
+     19.3      49.6 | www.simcom.com 51/61

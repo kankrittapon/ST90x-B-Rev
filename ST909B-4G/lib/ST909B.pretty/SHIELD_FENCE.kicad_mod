@@ -1,0 +1,102 @@
+(footprint "SHIELD_FENCE"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL shield-can solder fence, L-shape, 11 pads D1.0mm pitch 1.6mm (origin = top of left leg)")
+  (tags "provisional shield fence")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "6612ce3e-1885-4ab2-ad8a-4f9f9f0e0f7d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "SHIELD_FENCE" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "70112b74-1d2d-4067-96be-8f28364792e7")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "e412851f-096c-4266-b321-706987fae17d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (pad "1" smd circle
+    (at 0 0)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "a3ca4ca6-64fa-4d4b-ad9e-55975d2c34f1")
+  )
+
+  (pad "2" smd circle
+    (at 0 1.6)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "07b73666-dadb-4de1-8349-7d34bcd33157")
+  )
+
+  (pad "3" smd circle
+    (at 0 3.2)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "f74d71f8-d7dd-4fe3-a859-a9b84c6d2331")
+  )
+
+  (pad "4" smd circle
+    (at 0 4.8)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "db9ae5cc-fede-405f-92b7-6896e0079d5c")
+  )
+
+  (pad "5" smd circle
+    (at 0 6.4)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "59a42c86-3f3e-4f78-98fc-cd023574752f")
+  )
+
+  (pad "6" smd circle
+    (at 0 8.8)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "47a60943-d3ed-4561-8e70-c1561dbb70df")
+  )
+
+  (pad "7" smd circle
+    (at 2.7 8.8)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "08cb4948-bd41-4e6a-bdd8-63321a4f30a3")
+  )
+
+  (pad "8" smd circle
+    (at 4.3 8.8)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "cbe9233a-e45a-4c98-a8cb-d2479bf04acd")
+  )
+
+  (pad "9" smd circle
+    (at 5.9 8.8)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "f2a1936c-c29a-47a6-b416-6f1d18051693")
+  )
+
+  (pad "10" smd circle
+    (at 7.5 8.8)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "c6c7d883-e546-4337-b009-4c9ef928c3b9")
+  )
+
+  (pad "11" smd circle
+    (at 9.1 8.8)
+    (size 1 1)
+    (layers "B.Cu" "B.Paste" "B.Mask")
+    (uuid "7936c13a-e80f-434b-a034-6af64465af2c")
+  )
+
+)

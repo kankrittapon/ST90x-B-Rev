@@ -1,0 +1,41 @@
+# =====================================================
+#  ST909B-4G Tracker — .gitignore
+#  หลักการ: commit ไฟล์ "แหล่งความจริง" (บอร์ด/แช/สคริปต์/เอกสาร/CSV สถานะล่าสุด)
+#           ข้ามไฟล์ที่เกิดเองจากเครื่องมือหรือ OS
+# =====================================================
+
+# ----- OS / Editor -----
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# ----- KiCad: ไฟล์ที่โปรแกรมสร้างเอง (ไม่ commit) -----
+# ล็อกเมื่อเปิด GUI ค้างอยู่ เช่น ~ST909B-4G.kicad_pro.lck
+*.lck
+# แบ็กอัปอัตโนมัติ: .kicad_pcb-bak, .kicad_sch-bak, *.bak-pre-layout ฯลฯ
+*-bak
+*.bak
+*.bak-*
+# cache คลัง footprint ของ KiCad
+fp-info-cache
+# ตั้งค่ารายผู้ใช้ (ตำแหน่งหน้าต่าง / การมองเห็นเลเยอร์ — ไม่แชร์)
+*.kicad_prl
+
+# ----- Python (โฟลเดอร์ scripts\) -----
+__pycache__/
+*.py[cod]
+
+# ----- สถานะเครื่องมือภายนอก (สำรองไฟล์โดย MCP) -----
+.mcp-backups/
+
+# ----- ผลลัพธ์แผ่นจริงที่จะเกิดตอน P5 (Gerber/DRU) — สร้างแล้วค่อยตัดสินใจอีกที -----
+gerber/
+gerbers/
+plot/
+production/
+*gerber*.zip

@@ -1,0 +1,78 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.4      49.6 | when the temperature exceeds the range of - 30 ~ + 80
+    750.4     329.3 | ℃
+    750.4     329.3 | , A7670 will report warning information
+    734.8      49.6 | through AT port. When the temperature exceeds the range of -  40 ~ + 85
+    734.8     407.0 | ℃
+    734.8     407.0 | , A7670 will shut down
+    719.1      49.6 | automatically. For a detailed description of ‘AT+ CPOF’ and ‘AT+ CPMVT’, please refer to document [1].
+    670.4      49.6 | PWRKEY can be used to power off the module, power off sequence see the following figure:
+    639.5     382.9 | Toff-on
+    628.1     431.1 | Ton
+    627.8     242.0 | Toff
+    624.7     133.5 | PWRKEY
+    618.0     154.1 | )
+    617.9     135.8 | (
+    617.9     138.1 | Input
+    593.9     138.2 | STATUS
+    586.9     138.5 | (
+    586.9     159.9 | )
+    586.4     140.3 | Output
+    577.4     297.9 | Toff(status)
+    560.0     134.0 | VDD_AUX
+    552.4     138.1 | (Output)
+    545.7     292.6 | Toff(VDD_AUX)
+    526.7     300.7 | Toff(uart)
+    504.9     371.8 | UndefinedActicve
+    501.8     138.7 | UART
+    484.1     304.5 | Toff(usb)
+    460.6     137.7 | USB
+    458.6     370.9 | UndefinedActicve
+    425.8     204.3 | Figure 12: Power off timing sequence
+    382.6      49.6 | Table 10: Power off sequence parameters
+    364.3      49.6 | Symbol
+    364.3     138.1 | Parameter
+    364.3     343.1 | Min.
+    364.3     391.6 | Typ.
+    364.3     440.2 | Max.
+    364.3     488.6 | Unit
+    346.1      49.6 | Toff
+    345.4     138.1 | Power off low level pulse width
+    345.4     354.7 | 2.5
+    345.4     408.7 | -
+    345.4     457.3 | -
+    345.4     504.8 | s
+    328.9     138.1 | Power off time(according to status
+    322.1      49.6 | Toff(status)
+    321.4     360.2 | -
+    321.4     403.1 | 1.9
+    321.4     457.3 | -
+    321.4     504.8 | s
+    313.9     138.1 | interface)
+    298.4     138.1 | Power off time(according to UART
+    291.6      49.6 | Toff(uart)
+    290.9     360.2 | -
+    290.9     403.1 | 1.9
+    290.9     457.3 | -
+    290.9     504.8 | s
+    283.4     138.1 | interface)
+    267.8     138.1 | Power off time(according to USB
+    261.1      49.6 | Toff(usb)
+    260.3     360.2 | -
+    260.3     403.1 | 1.9
+    260.3     457.3 | -
+    260.3     504.8 | s
+    252.8     138.1 | interface)
+    237.1      49.6 | Toff-on
+    236.3     138.1 | Power off
+    236.3     185.2 | -
+    236.3     191.6 | power on buffer time
+    236.3     359.0 | 2
+    236.3     408.7 | -
+    236.3     457.3 | -
+    236.3     504.8 | s
+    193.2      53.0 | NOTE
+    157.2      49.6 | The status pin can be used to judge whether the module is powered on or not. When the module is
+    142.2      49.6 | powered on and initialization is completed, the status outputs a high level, otherwise the low level will
+    127.2      49.6 | be maintained all the time.
+     19.3      49.6 | www.simcom.com 27/61

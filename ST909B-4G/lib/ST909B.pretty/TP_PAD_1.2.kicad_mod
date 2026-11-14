@@ -1,0 +1,50 @@
+(footprint "TP_PAD_1.2"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL single round test pad D1.2mm")
+  (tags "provisional pads")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "f7d23662-263b-4b52-b825-3fe9848c552e")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "TP_PAD_1.2" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "84de90df-664f-45c4-8091-96e76764bded")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "86f6c044-60d5-44cc-9aea-807fa1f54686")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -1.2 -1.2)
+    (end 1.2 1.2)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "09b98939-ddcd-47d0-aaf0-2c6e7dd9a6c6")
+  )
+
+  (fp_rect
+    (start -0.6 -0.6)
+    (end 0.6 0.6)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "0d05bd49-00e1-428a-bbfe-2d2574d164ef")
+  )
+
+  (pad "1" smd circle
+    (at 0 0)
+    (size 1.2 1.2)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "db4d43be-27b7-4919-b6e1-2d66a573caac")
+  )
+
+)

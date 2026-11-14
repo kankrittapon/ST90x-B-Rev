@@ -1,0 +1,50 @@
+(footprint "TP_PAD_1.5"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL single round edge-solder pad D1.5mm")
+  (tags "provisional pads")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "518a780f-6f50-4c57-b1ab-a355424097e7")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "TP_PAD_1.5" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "ec29b04d-5377-4c03-b2e6-0431c26c7c9d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "c5e83e29-f843-432b-9244-895ede4b3adb")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -1.35 -1.35)
+    (end 1.35 1.35)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "7ff2c331-2e27-497e-86a9-ddd7e9680241")
+  )
+
+  (fp_rect
+    (start -0.75 -0.75)
+    (end 0.75 0.75)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "a9b90195-87a1-47a8-bda5-44756dc89059")
+  )
+
+  (pad "1" smd circle
+    (at 0 0)
+    (size 1.5 1.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "5024d57c-422f-4311-b0a2-9f14b2eb2f1d")
+  )
+
+)

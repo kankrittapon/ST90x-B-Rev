@@ -1,0 +1,4 @@
+board loaded
+U1.2 net=/GND local_zone_conn(before)=-1
+U1.2 local_zone_conn(after)=2
+saved

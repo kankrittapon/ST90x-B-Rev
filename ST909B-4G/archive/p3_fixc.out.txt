@@ -1,0 +1,4 @@
+board loaded
+deleted tracks 4/4, vias 2/2
+added tracks 4/4, vias 2/2
+saved

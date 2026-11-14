@@ -1,0 +1,115 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    755.1     393.2 | 3.3V 3.8V VDD_1V8
+    746.7     265.1 | BLM21PG221SN1
+    740.9     327.0 | PADGND
+    733.0     327.0 | VSSA
+    732.8     366.3 | VDDA
+    730.5     144.9 | Module
+    725.7     327.1 | VSSSPK
+    722.7     360.0 | VDDSPK
+    712.7     367.0 | VDDD
+    709.2     288.8 | AGNDGND
+    702.3     406.9 | 1.3K
+    700.5     171.1 | PCM_IN
+    700.4     326.3 | ADCOUT
+    697.2     358.7 | MICBIAS
+    692.8     165.5 | PCM_OUT
+    692.4     326.3 | DACIN
+    686.7     400.0 | 1uF
+    685.1     326.2 | FS
+    684.5     161.9 | PCM_SYNC
+    684.1     364.4 | MIC+
+    680.1     400.0 | 1uF
+    678.0     364.4 | MIC-
+    677.2     326.3 | BCLK
+    676.7     166.3 | PCM_CLK
+    671.1     443.4 | MIC
+    666.7     325.9 | MCLK
+    663.7     407.3 | 1.3K
+    656.2     414.9 | 47uF
+    655.3     181.0 | SCL
+    654.6     326.2 | SCLK
+    653.0     363.8 | MOUT
+    648.0     326.2 | SDIO
+    647.4     180.4 | SDA
+    647.1     414.8 | 47uF
+    641.5     358.1 | SPKOUT+
+    639.6     326.2 | VSSD
+    635.4     358.3 | SPKOUT-
+    632.3     326.2 | VREF
+    630.8     427.1 | Receiver (32
+    630.8     456.0 | Ω
+    630.8     461.7 | )
+    628.6     255.0 | 100pF
+    623.8     339.1 | NAU8810
+    617.4     289.1 | 4.7uF
+    616.5     401.8 | AGND
+    595.5     278.6 | AGND
+    595.5     296.7 | AGNDAGND
+    567.0     217.1 | Figure 22: PCM reference circuit
+    499.1      49.6 | 3.7 GPIO Interface
+    461.6      49.6 | A7670 module provides 8 GPIOs.
+    430.2      49.6 | Table 17: Standard GPIO Resources
+    411.0     188.4 | AT command
+    411.0     487.8 | Pad
+    403.2     138.7 | Pin
+    403.2     291.1 | Pin
+    403.2     339.1 | Power
+    403.2     407.6 | Default
+    395.4      71.5 | Pin No.
+    395.4     181.9 | operation GPIO
+    395.4     484.1 | Edge
+    387.6     132.4 | name
+    387.6     289.7 | typ.
+    387.6     335.8 | domain
+    387.6     404.3 | function
+    379.8     204.0 | number
+    379.8     476.8 | wakeup
+    358.3      70.0 | 19
+    358.3     125.1 | GPIO
+    358.3     151.4 | 1
+    358.3     181.8 | GPIO
+    358.3     208.1 | 1
+    358.3     294.8 | IO
+    358.3     346.3 | 1.8V
+    358.3     420.7 | PU
+    358.3     489.7 | Yes
+    342.2      70.0 | 20
+    342.2     125.1 | GPIO
+    342.2     151.4 | 2
+    342.2     181.8 | GPIO
+    342.2     208.1 | 2
+    342.2     294.8 | IO
+    342.2     346.3 | 1.8V
+    342.2     420.7 | PD
+    342.2     489.7 | Yes
+    326.2      70.0 | 21
+    326.2     125.1 | GPIO
+    326.2     151.4 | 3
+    326.2     181.8 | GPIO
+    326.2     208.1 | 3
+    326.2     346.3 | 1.8V
+    326.2     420.7 | PU
+    326.2     489.7 | Yes
+    326.1     294.8 | IO
+    310.0      70.0 | 49
+    310.0     125.1 | GPIO
+    310.0     151.4 | 4
+    310.0     181.8 | GPIO
+    310.0     208.1 | 4
+    310.0     294.8 | IO
+    310.0     346.3 | 1.8V
+    310.0     420.7 | PU
+    310.0     489.7 | Yes
+    293.9      70.0 | 50
+    293.9     125.1 | GPIO5 GPIO5 IO 1.8V PU Yes
+    277.9      70.0 | 48
+    277.9     125.1 | GPIO9 GPIO9 IO 1.8V PD Yes
+    261.7      70.0 | 67
+    261.7     125.1 | GPIO10 GPIO10 IO 1.8V PU Yes
+    245.6      70.0 | 68
+    245.6     125.1 | GPIO11 GPIO11 IO 1.8V PU Yes
+    189.1      49.6 | 3.8 I2C Bus
+    151.6      49.6 | The module provides two sets of I2C interfaces, support standard speed clock frequency 100Kbps, support
+    136.0      49.6 | high speed clockfrequency 400Kbps, its operation voltage is 1.8V.
+     19.3      49.6 | www.simcom.com 35/61

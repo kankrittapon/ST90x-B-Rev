@@ -1,0 +1,57 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    689.8      97.8 | 4 RF Specifications
+    645.7      49.6 | 4.1 GSM/LTE RF Specifications
+    607.9      49.6 | Table 22: Conducted transmission power
+    589.2      59.3 | Frequency
+    589.2     198.6 | Power
+    589.2     367.7 | Min.
+    570.9      59.3 | GSM850
+    570.9     198.6 | 33dBm ±2dB 5dBm ± 5dB
+    553.4      59.3 | EGSM900
+    553.4     198.6 | 33dBm ±2dB 5dBm ± 5dB
+    535.9      59.3 | DCS1800
+    535.9     198.6 | 30dBm ±2dB 0dBm ± 5dB
+    518.4      59.3 | PCS1900
+    518.4     198.6 | 30dBm ±2dB 0dBm ± 5dB
+    500.9      59.3 | GSM850 (8-PSK)
+    500.9     198.6 | 27dBm ±3dB 5dBm ± 5dB
+    483.4      59.3 | EGSM900 (8-PSK)
+    483.4     198.6 | 27dBm ±3dB 5dBm ± 5dB
+    465.9      59.3 | DCS1800 (8-PSK)
+    465.9     198.6 | 26dBm +3/-4dB 0dBm ±5dB
+    448.4      59.3 | PCS1900 (8-PSK)
+    448.4     198.6 | 26dBm +3/-4dB 0dBm ±5dB
+    430.9      59.3 | LTE-FDD B1
+    430.9     198.6 | 23dBm +/-2.7dB <-40dBm
+    413.4      59.3 | LTE-FDD B2
+    413.4     198.6 | 23dBm +/-2.7dB <-40dBm
+    395.9      59.3 | LTE-FDD B3
+    395.9     198.6 | 23dBm +/-2.7dB <-40dBm
+    378.4      59.3 | LTE-FDD B4
+    378.4     198.6 | 23dBm +/-2.7dB <-40dBm
+    360.9      59.3 | LTE-FDD B5
+    360.9     198.6 | 23dBm +/-2.7dB <-40dBm
+    343.4      59.3 | LTE-FDD B7
+    343.4     198.6 | 23dBm +/-2.7dB <-40dBm
+    325.9      59.3 | LTE-FDD B8
+    325.9     198.6 | 23dBm +/-2.7dB <-40dBm
+    308.4      59.3 | LTE-FDD B20
+    308.4     198.6 | 23dBm +/-2.7dB <-40dBm
+    290.9      59.3 | LTE-FDD B28
+    290.9     198.6 | 23dBm +/-2.7dB <-40dBm
+    273.4      59.3 | LTE-FDD B66
+    273.4     198.6 | 23dBm +/-2.7dB <-40dBm
+    255.9      59.3 | LTE-TDD B34
+    255.9     198.6 | 23dBm +/-2.7dB <-40dBm
+    238.4      59.3 | LTE-TDD B38
+    238.4     198.6 | 23dBm +/-2.7dB <-40dBm
+    220.9      59.3 | LTE-TDD B39
+    220.9     198.6 | 23dBm +/-2.7dB <-40dBm
+    203.4      59.3 | LTE-TDD B40
+    203.4     198.6 | 23dBm +/-2.7dB <-40dBm
+    185.9      59.3 | LTE-TDD B41
+    185.9     198.6 | 23dBm +/-2.7dB <-40dBm
+    157.3      53.0 | NOTE
+    121.9      49.6 | he max power is tested result for 1RB in CAT-M1 and single-tone in CAT-NB1. MPR for CAT-M1 please
+    106.3      49.6 | refer to 6.2.3EA.5 part for 3GPP. Multi-tone test results please refer to part 6.2.3F.3 for CAT-NB1.
+     19.3      49.6 | www.simcom.com 39/61

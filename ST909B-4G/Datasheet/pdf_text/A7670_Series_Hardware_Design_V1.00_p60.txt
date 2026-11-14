@@ -1,0 +1,43 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    749.6      59.3 | NMEA National Marine Electronics Association
+    732.1      59.3 | PAP Password Authentication Protocol
+    714.5      59.3 | PBCCH Packet Switched Broadcast Control Channel
+    697.1      59.3 | PCB Printed Circuit Board
+    679.6      59.3 | PCS Personal Communication System, also referred to as GSM 1900
+    662.0      59.3 | RF Radio Frequency
+    644.6      59.3 | RMS Root Mean Square (value)
+    627.1      59.3 | RTC Real Time Clock
+    609.5      59.3 | SIM Subscriber Identification Module
+    592.1      59.3 | SMS Short Message Service
+    574.6      59.3 | SMPS Switched-mode power supply
+    557.0      59.3 | TDMA Time Division Multiple Access
+    539.6      59.3 | TE Terminal Equipment, also referred to as DTE
+    522.1      59.3 | TX Transmit Direction
+    504.5      59.3 | UART Universal Asynchronous Receiver & Transmitter
+    487.1      59.3 | VSWR Voltage Standing Wave Ratio
+    469.6      59.3 | SM SIM phonebook
+    452.0      59.3 | NC Not connect
+    434.6      59.3 | EDGE Enhanced data rates for GSM evolution
+    417.1      59.3 | ZIF Zero intermediate frequency
+    399.5      59.3 | WCDMA Wideband Code Division Multiple Access
+    382.1      59.3 | VCTCXO Voltage control temperature-compensated crystal oscillator
+    364.6      59.3 | SIM Universal subscriber identity module
+    347.0      59.3 | UMTS Universal mobile telecommunications system
+    329.6      59.3 | UART Universal asynchronous receiver transmitter
+    312.1      59.3 | PSM Power saving mode
+    297.0      59.3 | FD
+    297.0     151.9 | SIM fix dialing phonebook
+    279.5      59.3 | LD
+    279.5     151.9 | SIM last
+    279.5     192.8 | dialing phonebook (list of numbers most recently dialed)
+    262.0      59.3 | MC
+    262.0     151.9 | Mobile Equipment list of unanswered MT calls (missed calls)
+    244.5      59.3 | ON
+    244.5     151.9 | SIM (or ME) own numbers (MSISDNs) list
+    227.0      59.3 | RC
+    227.0     151.9 | Mobile Equipment list of received calls
+    209.5      59.3 | SM
+    209.5     151.9 | SIM phonebook
+    192.0      59.3 | NC
+    192.0     151.9 | Not connect
+     19.3      49.6 | www.simcom.com 60/61

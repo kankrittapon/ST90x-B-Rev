@@ -1,0 +1,8 @@
+violations: 45  unconnected: 0  parity: 0
+-- by severity/type --
+   warning  silk_edge_clearance      1
+   warning  silk_over_copper         24
+   warning  silk_overlap             17
+   warning  via_dangling             3
+-- all ERROR details --
+-- unconnected details --

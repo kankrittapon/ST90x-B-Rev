@@ -1,0 +1,43 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.3     239.3 | network settings.
+    713.3     239.3 | There is data transmission in progress. In this case, power
+    705.5     133.0 | GPRS/EDGE/LTE
+    697.7     239.3 | consumption is related to network settings (e.g. power control
+    689.9     133.0 | Data transmission
+    682.1     239.3 | level); uplink/downlink data rates, etc.
+    666.1     239.3 | AT command ‘AT+CFUN=0’ AT+CSCLK=1 can be used to set
+    650.5     239.3 | the module to a minimum functionality mode without removing
+    634.9     239.3 | the power supply. In this mode, the RF part of the module will
+    627.1      55.0 | Minimum functionality mode
+    619.3     239.3 | not work and the USIM card will not be accessible, but the
+    603.7     239.3 | serial port and USB port are still accessible. The power
+    588.1     239.3 | consumption in this mode is lower than normal mode.
+    571.9     239.3 | AT command ‘AT+CFUN=4’
+    571.9     407.5 | or pulling down the
+    556.3     239.3 | FLIGHTMODE pin can be used to set the module to flight
+    540.7     239.3 | mode without removing the power supply. In this mode, the RF
+    532.9      55.0 | Minimum functionality mode
+    525.1     239.3 | part of the module will not work, but the serial port and USB
+    509.5     239.3 | port are still accessible. The power consumption in this m ode
+    493.9     239.3 | is lower than normal mode.
+    477.8     239.3 | Module will go into power off mode by sending the AT
+    462.2     239.3 | command ‘AT+CPOF’ or pull down the PWRKEY pin, normally.
+    446.6      55.0 | Power off
+    446.6     239.3 | In this mode the power management unit shuts down the
+    431.0     239.3 | power supply, and software is not active. The serial port and
+    415.4     239.3 | USB are is not accessible.
+    351.8      49.6 | 5.3.2 Sleep mode
+    321.4      49.6 | In sleep mode, the current consumption of module will be reduced to the minimal level, and module can still
+    305.8      49.6 | receive paging message and SMS.
+    290.2      49.6 | Several hardware and software conditions must be satisfied together in order to let A7670 enter into sleep
+    274.6      49.6 | mode:
+    258.9      49.6 | 
+    258.9      57.5 | USB condition
+    243.3      49.6 | 
+    243.3      57.5 | Software condition
+    227.7      49.6 | 
+    227.7      57.5 | UART condition
+    200.4      53.0 | NOTE
+    164.8      49.6 | Before designing, pay attention to how to realize sleeping/waking function and refer to Document [24]
+    149.2      49.6 | for more details.
+     19.3      49.6 | www.simcom.com 45/61

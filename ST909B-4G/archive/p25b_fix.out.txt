@@ -1,0 +1,23 @@
+board loaded
+deleted tracks 33/34, vias 10/10
+moved U6 (5.00,43.50) -> (5.00,44.90)
+added tracks 24/24, vias 7/7
+saved
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+== U1: F.Cu hits 0 (ต้องเป็น 0), B.Cu tracks 12 (อนุญาต)
+== U2: F.Cu hits 0 (ต้องเป็น 0), B.Cu tracks 0 (อนุญาต)
+U6 at (5.00,44.90)
+TP4 at (2.20,40.60)
+done

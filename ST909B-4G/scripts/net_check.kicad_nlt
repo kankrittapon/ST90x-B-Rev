@@ -1,0 +1,3757 @@
+(export
+	(version "E")
+	(design
+		(source "D:\\Tracker\\ST909B-4G\\ST909B-4G.kicad_sch")
+		(date "2026-11-12T19:45:25")
+		(tool "Eeschema 10.0.8")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "ST909B-4G.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "AE2")
+			(value "GPS patch")
+			(footprint "ST909B:GPS_PATCH_BLOCK")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:GPS_PATCH_BLOCK")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a065f463-2cd7-45e0-8216-4066f64492f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "ANT1")
+			(value "ANT-4G")
+			(footprint "ST909B:ANT_4G_PADS")
+			(description "Reconstruction symbol: ANT-4G spring-contact pads (RF + GND)")
+			(fields
+				(field
+					(name "Footprint") "ST909B:ANT_4G_PADS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: ANT-4G spring-contact pads (RF + GND)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "ANT1_ANT4G")
+				(description "Reconstruction symbol: ANT-4G spring-contact pads (RF + GND)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cbf34991-402d-40dc-97c3-0e8cadeca1a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "220uF/6.3V")
+			(footprint "ST909B:CAP_TANT_220U_BLOCK")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "ST909B:CAP_TANT_220U_BLOCK")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d45bbcd7-cc8c-4844-82e0-5b1592813892")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "SIM nano")
+			(footprint "ST909B:SIM_NANO_PUSH")
+			(description "Reconstruction symbol: nano-SIM push connector, contacts C1 VCC / C2 RST / C3 CLK / C5 GND / C6 VPP / C7 DATA")
+			(fields
+				(field
+					(name "Footprint") "ST909B:SIM_NANO_PUSH")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: nano-SIM push connector, contacts C1 VCC / C2 RST / C3 CLK / C5 GND / C6 VPP / C7 DATA")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "J1_SIM6")
+				(description "Reconstruction symbol: nano-SIM push connector, contacts C1 VCC / C2 RST / C3 CLK / C5 GND / C6 VPP / C7 DATA")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e5937c77-ba63-4743-92e5-f6137f3db88f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "C6")
+						)
+						(pin
+							(num "C3")
+						)
+						(pin
+							(num "C2")
+						)
+						(pin
+							(num "C1")
+						)
+						(pin
+							(num "C7")
+						)
+						(pin
+							(num "C5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "GND/URX/UTX/+5V")
+			(footprint "ST909B:PADS_SERVICE_4")
+			(description "Reconstruction symbol: bottom-edge service pads GND/URX/UTX/+5V")
+			(fields
+				(field
+					(name "Footprint") "ST909B:PADS_SERVICE_4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: bottom-edge service pads GND/URX/UTX/+5V")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "J2_SERVICE4")
+				(description "Reconstruction symbol: bottom-edge service pads GND/URX/UTX/+5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2d7fcdb3-d4e7-4bc8-b185-28cb636a8319")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "VBUS/DP/DM")
+			(footprint "ST909B:PADS_ROW_3")
+			(description "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			(fields
+				(field
+					(name "Footprint") "ST909B:PADS_ROW_3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "PADS_ROW3")
+				(description "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f14cf45f-b89f-43e6-a613-a9ea64f1921c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "M3V3 x3")
+			(footprint "ST909B:PADS_ROW_3")
+			(description "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			(fields
+				(field
+					(name "Footprint") "ST909B:PADS_ROW_3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "PADS_ROW3")
+				(description "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f0724f5c-1d07-40dd-8e2d-cd87ec7d4f16")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "BAT")
+			(footprint "ST909B:BAT_PAD")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:BAT_PAD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8c0ceb1b-c15c-4640-819c-2150c42f549d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "+SPK")
+			(footprint "ST909B:SPK_2PAD")
+			(description "Reconstruction symbol: speaker solder points +SPK (2 pads)")
+			(fields
+				(field
+					(name "Footprint") "ST909B:SPK_2PAD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: speaker solder points +SPK (2 pads)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "J6_SPK2")
+				(description "Reconstruction symbol: speaker solder points +SPK (2 pads)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dc1f4169-c997-4671-86ca-a66c3cecf194")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J7")
+			(value "BOOT")
+			(footprint "ST909B:PADS_ROW_3")
+			(description "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			(fields
+				(field
+					(name "Footprint") "ST909B:PADS_ROW_3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "PADS_ROW3")
+				(description "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "33fc506b-ef4e-48f0-8432-ab0923dc3cb1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1")
+			(value "GPS")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8ec77a23-5e7e-4c52-89f2-b604ee2f4511")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED2")
+			(value "CHR")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "280cd736-c58e-4720-a882-b59624d7612b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3")
+			(value "4G")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a31ad5b-c292-470d-9096-92afe0482a0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "0?")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "38357ed2-a913-4c6d-84ec-de907c8f4b97")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "0?")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9d29decb-33bd-4be9-8677-6351a0711968")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "2.0k?")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4ada772a-1685-4184-b4f8-92d0c5e95599")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RN1")
+			(value "22R x4?")
+			(footprint "Resistor_SMD:R_Array_Convex_4x0603")
+			(description "Reconstruction symbol: 4-resistor 0603 array (22R x4 series UART/USB assumed)")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_Array_Convex_4x0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: 4-resistor 0603 array (22R x4 series UART/USB assumed)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "RN1_ARRAY4")
+				(description "Reconstruction symbol: 4-resistor 0603 array (22R x4 series UART/USB assumed)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71d080be-2c58-49c1-a212-9ef4093a2535")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "PKEY")
+			(footprint "ST909B:SW_PKEY_2PAD")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "ST909B:SW_PKEY_2PAD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d944a1e3-dad4-497b-892a-ca59c3424fe3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "SOS")
+			(footprint "ST909B:SW_SOS")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "ST909B:SW_SOS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "19f4c950-2751-49ad-8a4d-464f30508c08")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "LRX")
+			(footprint "ST909B:TP_PAD_1.2")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:TP_PAD_1.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7ab536fc-4b8d-4285-a204-9470f7794ba7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "LTX")
+			(footprint "ST909B:TP_PAD_1.2")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:TP_PAD_1.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1b8d81fa-f6fd-4aa8-b0c3-abf171a5e533")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "GTX")
+			(footprint "ST909B:TP_PAD_1.2")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:TP_PAD_1.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9f6a74cd-1a03-4019-b999-75003237cbdc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP4")
+			(value "Quectel TP")
+			(footprint "ST909B:TP_PAD_1.2")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:TP_PAD_1.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f9826389-ab5d-40a3-900e-ae8da589ea13")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP5")
+			(value "MIC")
+			(footprint "ST909B:TP_PAD_1.5")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:TP_PAD_1.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5a8ec353-bad8-40dd-ac8d-94b969009d4b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP6")
+			(value "GND")
+			(footprint "ST909B:TP_PAD_1.5")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:TP_PAD_1.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "885d8753-422b-47d8-aec2-f7302d074f32")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP7")
+			(value "BAT")
+			(footprint "ST909B:TP_PAD_1.5")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:TP_PAD_1.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6d1132ee-20fd-4e1e-b295-25360551ce9c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP8")
+			(value "PKEY")
+			(footprint "ST909B:TP_PAD_1.5")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "ST909B:TP_PAD_1.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0609f0b-fcf9-4abf-ae1b-a4f557bbdc6d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "A7670SA")
+			(footprint "ST909B:A7670SA_MODULE")
+			(description "Reconstruction symbol: SIMCom A7670SA 4G LTE Cat-1 module (pin set assumed from board analysis)")
+			(fields
+				(field
+					(name "Footprint") "ST909B:A7670SA_MODULE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: SIMCom A7670SA 4G LTE Cat-1 module (pin set assumed from board analysis)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "U1_A7670SA")
+				(description "Reconstruction symbol: SIMCom A7670SA 4G LTE Cat-1 module (pin set assumed from board analysis)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "46ebe8b9-dfe7-4fb0-a152-475eb990fa09")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "L76KB-A58")
+			(footprint "ST909B:L76KB_MODULE")
+			(description "Reconstruction symbol: Quectel L76KB-A58 GNSS module (assumed pin set)")
+			(fields
+				(field
+					(name "Footprint") "ST909B:L76KB_MODULE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: Quectel L76KB-A58 GNSS module (assumed pin set)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "U2_L76KB")
+				(description "Reconstruction symbol: Quectel L76KB-A58 GNSS module (assumed pin set)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e3f1ffa5-e7a9-4b64-b405-d3b1ab1607d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "TP4056?")
+			(footprint "ST909B:IC_SO8_BLOCK")
+			(description "Reconstruction symbol: TP4056 Li-ion charger ESOP8 (1 TEMP 2 PROG 3 GND 4 VCC 5 BAT 6 STDBy 7 CHRG 8 CE)")
+			(fields
+				(field
+					(name "Footprint") "ST909B:IC_SO8_BLOCK")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: TP4056 Li-ion charger ESOP8 (1 TEMP 2 PROG 3 GND 4 VCC 5 BAT 6 STDBy 7 CHRG 8 CE)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "U3_TP4056")
+				(description "Reconstruction symbol: TP4056 Li-ion charger ESOP8 (1 TEMP 2 PROG 3 GND 4 VCC 5 BAT 6 STDBy 7 CHRG 8 CE)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "62e76a3a-b8d9-4f7a-9e3d-133bbec4a885")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "MCU? (LQFP-48)")
+			(footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+			(description "Reconstruction symbol: MCU LQFP-48 (identity unknown, removed) - functional pin groups only")
+			(fields
+				(field
+					(name "Footprint") "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: MCU LQFP-48 (identity unknown, removed) - functional pin groups only")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "U4_MCU_LQFP48")
+				(description "Reconstruction symbol: MCU LQFP-48 (identity unknown, removed) - functional pin groups only")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7f502a4c-5b24-4a0e-b2ad-612d843fd8a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "LevelShift?")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(description "Reconstruction symbol: level shifter 1.8V<->3.3V (marking unreadable, SOT-23-6 assumed)")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: level shifter 1.8V<->3.3V (marking unreadable, SOT-23-6 assumed)")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "U5_LEVELSHIFT")
+				(description "Reconstruction symbol: level shifter 1.8V<->3.3V (marking unreadable, SOT-23-6 assumed)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ded5728-6d73-41d2-bd54-bef3a30a29c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "GPS LDO 3.3V")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(description "Reconstruction symbol: GPS LDO 3.3V (G3V3), SOT-23, pinout 1=GND 2=OUT 3=IN")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: GPS LDO 3.3V (G3V3), SOT-23, pinout 1=GND 2=OUT 3=IN")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "U6_LDO_SOT23")
+				(description "Reconstruction symbol: GPS LDO 3.3V (G3V3), SOT-23, pinout 1=GND 2=OUT 3=IN")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f6b26bda-099b-48df-8f29-41547dcf745b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U7")
+			(value "LED drv?")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(description "Reconstruction symbol: LED driver SOT-23 (function uncertain), 1=IN 2=GND 3=OUT")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reconstruction symbol: LED driver SOT-23 (function uncertain), 1=IN 2=GND 3=OUT")
+			)
+			(libsource
+				(lib "ST909B")
+				(part "U7_LEDDRV")
+				(description "Reconstruction symbol: LED driver SOT-23 (function uncertain), 1=IN 2=GND 3=OUT")
+			)
+			(property
+				(name "Sheetname")
+				(value "ST909B-4G")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ST909B-4G.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2f7e92fe-28cd-4da7-a489-51f08c37ef3a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "ANT1_ANT4G")
+			(description "Reconstruction symbol: ANT-4G spring-contact pads (RF + GND)")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "ANT")
+				(field
+					(name "Value") "ANT1_ANT4G")
+				(field
+					(name "Footprint") "ST909B:ANT_4G_PADS")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: ANT-4G spring-contact pads (RF + GND)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "J1_SIM6")
+			(description "Reconstruction symbol: nano-SIM push connector, contacts C1 VCC / C2 RST / C3 CLK / C5 GND / C6 VPP / C7 DATA")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "J1_SIM6")
+				(field
+					(name "Footprint") "ST909B:SIM_NANO_PUSH")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: nano-SIM push connector, contacts C1 VCC / C2 RST / C3 CLK / C5 GND / C6 VPP / C7 DATA")
+			)
+			(pins
+				(pin
+					(num "C1")
+					(name "C1_VCC")
+					(type "passive")
+				)
+				(pin
+					(num "C2")
+					(name "C2_RST")
+					(type "passive")
+				)
+				(pin
+					(num "C3")
+					(name "C3_CLK")
+					(type "passive")
+				)
+				(pin
+					(num "C5")
+					(name "C5_GND")
+					(type "passive")
+				)
+				(pin
+					(num "C6")
+					(name "C6_VPP")
+					(type "passive")
+				)
+				(pin
+					(num "C7")
+					(name "C7_DATA")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "J2_SERVICE4")
+			(description "Reconstruction symbol: bottom-edge service pads GND/URX/UTX/+5V")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "J2_SERVICE4")
+				(field
+					(name "Footprint") "ST909B:PADS_SERVICE_4")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: bottom-edge service pads GND/URX/UTX/+5V")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "J6_SPK2")
+			(description "Reconstruction symbol: speaker solder points +SPK (2 pads)")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "J6_SPK2")
+				(field
+					(name "Footprint") "ST909B:SPK_2PAD")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: speaker solder points +SPK (2 pads)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "PADS_ROW3")
+			(description "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "PADS_ROW3")
+				(field
+					(name "Footprint") "ST909B:PADS_ROW_3")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: 3 round pads row (VBUS/DP/DM, M3V3 x3, BOOT)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "RN1_ARRAY4")
+			(description "Reconstruction symbol: 4-resistor 0603 array (22R x4 series UART/USB assumed)")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "RN")
+				(field
+					(name "Value") "RN1_ARRAY4")
+				(field
+					(name "Footprint") "Resistor_SMD:R_Array_Convex_4x0603")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: 4-resistor 0603 array (22R x4 series UART/USB assumed)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "R1A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "R1B")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "R2A")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "R2B")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "R3A")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "R3B")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "R4A")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "R4B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "U1_A7670SA")
+			(description "Reconstruction symbol: SIMCom A7670SA 4G LTE Cat-1 module (pin set assumed from board analysis)")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U1_A7670SA")
+				(field
+					(name "Footprint") "ST909B:A7670SA_MODULE")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: SIMCom A7670SA 4G LTE Cat-1 module (pin set assumed from board analysis)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VBAT")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "VDD_EXT")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "MIC_P")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "MIC_N")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "SPK_P")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "SPK_N")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "ANT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "TXD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "RXD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "USB_DP")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "USB_DM")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "VBUS")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "SIM_VDD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "SIM_RST")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "SIM_CLK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "SIM_DATA")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "U2_L76KB")
+			(description "Reconstruction symbol: Quectel L76KB-A58 GNSS module (assumed pin set)")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U2_L76KB")
+				(field
+					(name "Footprint") "ST909B:L76KB_MODULE")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: Quectel L76KB-A58 GNSS module (assumed pin set)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "TX")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "RX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "RF_IN")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "U3_TP4056")
+			(description "Reconstruction symbol: TP4056 Li-ion charger ESOP8 (1 TEMP 2 PROG 3 GND 4 VCC 5 BAT 6 STDBy 7 CHRG 8 CE)")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U3_TP4056")
+				(field
+					(name "Footprint") "ST909B:IC_SO8_BLOCK")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: TP4056 Li-ion charger ESOP8 (1 TEMP 2 PROG 3 GND 4 VCC 5 BAT 6 STDBy 7 CHRG 8 CE)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEMP")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "PROG")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "BAT")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "STDBY")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "CHRG")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "CE")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "U4_MCU_LQFP48")
+			(description "Reconstruction symbol: MCU LQFP-48 (identity unknown, removed) - functional pin groups only")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U4_MCU_LQFP48")
+				(field
+					(name "Footprint") "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: MCU LQFP-48 (identity unknown, removed) - functional pin groups only")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "M3V3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GRX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GTX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "USB_DP")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "USB_DM")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "PKEY")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "SOS")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "LED_EN")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "UTX4G")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "URX4G")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "LED_GPS")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "LED_CHR")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "LED_4G")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "BOOT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "SPARE1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "SPARE2")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "U5_LEVELSHIFT")
+			(description "Reconstruction symbol: level shifter 1.8V<->3.3V (marking unreadable, SOT-23-6 assumed)")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U5_LEVELSHIFT")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: level shifter 1.8V<->3.3V (marking unreadable, SOT-23-6 assumed)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCCA")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "A1")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "A2")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "B2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "B1")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "U6_LDO_SOT23")
+			(description "Reconstruction symbol: GPS LDO 3.3V (G3V3), SOT-23, pinout 1=GND 2=OUT 3=IN")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U6_LDO_SOT23")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: GPS LDO 3.3V (G3V3), SOT-23, pinout 1=GND 2=OUT 3=IN")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "IN")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ST909B")
+			(part "U7_LEDDRV")
+			(description "Reconstruction symbol: LED driver SOT-23 (function uncertain), 1=IN 2=GND 3=OUT")
+			(docs "~")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U7_LEDDRV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description") "Reconstruction symbol: LED driver SOT-23 (function uncertain), 1=IN 2=GND 3=OUT")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "output")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Push")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "ST909B")
+			(uri "${KIPRJMOD}/lib/ST909B.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/+5V")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "VCC_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/4G_RXD_1V8")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "RXD_10")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "A2_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/4G_RXD_3V3")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "B2_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "/4G_TXD_1V8")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "TXD_9")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "A1_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "5")
+			(name "/4G_TXD_3V3")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "6")
+				(pinfunction "B1_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/ANT_4G_RF")
+			(class "Default")
+			(node
+				(ref "ANT1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "ANT_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "/BOOT")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "15")
+				(pinfunction "BOOT_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/G3V3")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "OUT_2")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "9")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "ANT1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "C5")
+				(pinfunction "C5_GND_C5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "GND_8")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "10")
+			(name "/GPS_RF")
+			(class "Default")
+			(node
+				(ref "AE2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "RF_IN_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "/GPS_RX")
+			(class "Default")
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "RX_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "GTX_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "/GPS_TX")
+			(class "Default")
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "TX_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "GRX_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "/LED_4G")
+			(class "Default")
+			(node
+				(ref "LED3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "14")
+				(pinfunction "LED_4G_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "/LED_CHR")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "13")
+				(pinfunction "LED_CHR_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "/LED_EN")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "9")
+				(pinfunction "LED_EN_9")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U7")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "/LED_GPS")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "12")
+				(pinfunction "LED_GPS_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "/LED_K")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "18")
+			(name "/M3V3")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "M3V3_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "19")
+			(name "/MCU_URX4G")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "11")
+				(pinfunction "URX4G_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "20")
+			(name "/MCU_UTX4G")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "10")
+				(pinfunction "UTX4G_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "21")
+			(name "/MIC_N")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "MIC_N_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/MIC_P")
+			(class "Default")
+			(node
+				(ref "TP5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "MIC_P_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/PKEY")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "7")
+				(pinfunction "PKEY_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "24")
+			(name "/PROG")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "PROG_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/QUECTEL_TP")
+			(class "Default")
+			(node
+				(ref "TP4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/R1_A")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/R1_B")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/R2_A")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/R2_B")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "/SIM_CLK")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "C3")
+				(pinfunction "C3_CLK_C3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "SIM_CLK_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
+			(name "/SIM_DATA")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "C7")
+				(pinfunction "C7_DATA_C7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "SIM_DATA_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "/SIM_RST")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "C2")
+				(pinfunction "C2_RST_C2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "SIM_RST_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "/SIM_VDD")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "C1")
+				(pinfunction "C1_VCC_C1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "SIM_VDD_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "34")
+			(name "/SIM_VPP")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "C6")
+				(pinfunction "C6_VPP_C6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "/SOS")
+			(class "Default")
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "8")
+				(pinfunction "SOS_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "36")
+			(name "/SPK_N")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "SPK_N_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "/SPK_P")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "SPK_P_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "/TEMP")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "TEMP_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "/USB_DM_F")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN1")
+				(pin "3")
+				(pinfunction "R2A_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "USB_DM_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "40")
+			(name "/USB_DM_M")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "4")
+				(pinfunction "R2B_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "USB_DM_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "41")
+			(name "/USB_DP_F")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RN1")
+				(pin "1")
+				(pinfunction "R1A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "USB_DP_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "42")
+			(name "/USB_DP_M")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "2")
+				(pinfunction "R1B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "USB_DP_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "43")
+			(name "/USB_VBUS")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "VBUS_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "44")
+			(name "/VBAT")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "VBAT_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "BAT_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "IN_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "45")
+			(name "/VDD_EXT")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "VDD_EXT_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "VCCA_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(RN1-R3A-Pad5)")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "5")
+				(pinfunction "R3A_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(RN1-R3B-Pad6)")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "6")
+				(pinfunction "R3B_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(RN1-R4A-Pad7)")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "7")
+				(pinfunction "R4A_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(RN1-R4B-Pad8)")
+			(class "Default")
+			(node
+				(ref "RN1")
+				(pin "8")
+				(pinfunction "R4B_8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(U3-CE-Pad8)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "8")
+				(pinfunction "CE_8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(U3-CHRG-Pad7)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "7")
+				(pinfunction "CHRG_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(U3-STDBY-Pad6)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "STDBY_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(U4-SPARE1-Pad16)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "16")
+				(pinfunction "SPARE1_16")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(U4-SPARE2-Pad17)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "17")
+				(pinfunction "SPARE2_17")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+	)
+)

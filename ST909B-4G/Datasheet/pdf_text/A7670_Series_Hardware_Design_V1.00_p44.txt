@@ -1,0 +1,46 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    750.3     129.1 | Input low leakage current(no pull up resistor) -10 - - uA
+    742.5      59.3 | IIL
+    706.9      53.0 | NOTE
+    671.3      49.6 | These parameters are for digital interface pins, such as GPIO, I2C, UART, and PCM.
+    623.0      49.6 | The operating temperature of A7670 is listed in the following table.
+    591.6      49.6 | Table 33: Operating temperature
+    572.9      59.3 | Parameter
+    572.9     297.4 | Min.
+    572.9     369.9 | Typ.
+    572.9     438.7 | Max.
+    572.9     497.7 | Unit
+    554.7     497.7 | ℃
+    554.6      59.3 | Normal operation temperature
+    554.6     297.4 | -30 25 80
+    537.2     497.7 | ℃
+    537.1      59.3 | Extended operation temperature*
+    537.1     297.4 | -40 25 85
+    519.7      59.3 | Storage temperature
+    519.7     297.4 | -45 25 90
+    519.7     497.7 | ℃
+    475.5      53.0 | NOTE
+    439.9      49.6 | The performance will be reduced slightly from the 3GPP specifications if the temperature is outside the
+    424.3      49.6 | normal operating temperature range and still within the extreme operating temperature range.
+    351.2      49.6 | 5.3 Operating Mode
+    313.0      49.6 | 5.3.1 Operating Mode Definition
+    282.4      49.6 | The table belowsummarizes the various operating modes of A7670 product.
+    251.0      49.6 | Table 34: Operating mode Definition
+    232.4      55.0 | Mode
+    232.4     239.3 | Function
+    214.8     239.3 | In this case, the current consumption of module will be reduced
+    199.2     133.0 | GSM/ LTE Sleep
+    199.2     239.3 | to the minimal level and the module can still receive paging
+    183.6     239.3 | message and SMS.
+    167.5     239.3 | Software is active. Module is registered to the network, and the module is ready to communicate.
+    159.7     133.0 | GSM/LTE Idle
+    141.2      55.0 | Normal
+    135.8     239.3 | Connection between two subscribers is in progress. In this
+    125.6      55.0 | operation
+    120.2     239.3 | case, the power consumption depends on network settings
+    112.4     133.0 | GSM/ LTE Talk
+    104.6     239.3 | such as DTX off/on, FR/EFR/HR, hopping sequences, and
+     89.0     239.3 | antenna.
+     70.3     239.3 | Module is ready for data transmission, but no data is currently sent or received. In this case, power consumption depends on
+     62.5     133.0 | GSM/LTE Standby
+     19.3      49.6 | www.simcom.com 44/61

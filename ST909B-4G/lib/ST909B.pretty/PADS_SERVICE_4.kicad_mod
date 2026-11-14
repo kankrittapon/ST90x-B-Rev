@@ -1,0 +1,71 @@
+(footprint "PADS_SERVICE_4"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL 4 round service pads on bottom edge: GND / URX / UTX / +5V, pitch 2.54, pad D1.5")
+  (tags "provisional block outline")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "d509c52d-c1e3-45f7-9883-3a214eeb3366")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "PADS_SERVICE_4" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "42eb27d2-bb6b-47d4-beda-4bdff9f3d2f1")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "c6b59dff-7703-4319-ae09-5fb9046e3d78")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -5.3 -1.7)
+    (end 5.3 1.7)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "9cd58eef-1e57-41d4-a597-b23c6c9eb428")
+  )
+
+  (fp_rect
+    (start -4.7 -1.1)
+    (end 4.7 1.1)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "7e1cf686-7d01-4091-9974-8f55827eb67d")
+  )
+
+  (pad "1" smd circle
+    (at -3.81 0)
+    (size 1.5 1.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "77f44878-7904-4ca2-bd67-736d8904c21c")
+  )
+
+  (pad "2" smd circle
+    (at -1.27 0)
+    (size 1.5 1.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "8161667b-1846-4666-bedc-a69a0ee071b7")
+  )
+
+  (pad "3" smd circle
+    (at 1.27 0)
+    (size 1.5 1.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "d2b824e9-1dac-4429-b911-d844273aab9c")
+  )
+
+  (pad "4" smd circle
+    (at 3.81 0)
+    (size 1.5 1.5)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "acb5b82d-0b08-4563-bd96-f2ee7abeea38")
+  )
+
+)

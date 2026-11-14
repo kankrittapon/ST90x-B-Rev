@@ -1,0 +1,34 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    718.9      49.6 | 3.1.1 Power Supply Design Guide
+    688.4      49.6 | In the user's design, special attention must be paid to the design of the power supply. If the voltage drops
+    672.8      49.6 | below 3.4V, the RF performance of the module will be affected, The module will shut down if the voltage is
+    657.2      49.6 | too low. It is recommended to select an LDO or DC- DC chip with an enable pin, and the enable pin is
+    641.6      49.6 | controlled by the MCU.
+    614.2      53.0 | NOTE
+    578.3      49.6 | when the power supply can provide a peak current of 2.8A, the total capacity of the external power
+    563.3      49.6 | supply capacitance is recommended to be no less than 300uf. If the peak current of 2.8A cannot be
+    548.3      49.6 | provided, the total capacity of the external capacitance is recommended to be no less than 1000uf to
+    533.3      49.6 | ensure that the voltage drop on the Vbat pin at any time is not more than 300mV.
+    486.0      49.6 | It is recommended to place four33PF/10PF/ 0.1UF/1UF ceramic capacitors near Vbat to improve RF
+    470.4      49.6 | performance and system stability. At the same time, it is recommended that the Vbat layout routing width
+    454.8      49.6 | from the power supply on the PCB to the module be at least 2mm. Reference design recommendations are
+    439.2      49.6 | as follows:
+    408.0      49.6 | If the Vbat input contains high-frequency interference, it is recommended to add magnetic beads for filtering.
+    392.4      49.6 | The recommended types of magnetic beads are BLM21PG300SN1D and MPZ2012S221A.
+    208.6     193.6 | Figure 7: Power supply application circuit
+    159.6      49.6 | In addition, in order to prevent the damage of A7670 caused by surge and overvoltage, it is recommended
+    144.0      49.6 | to parallel one TVS on the Vbat pin of the module.
+    100.6      49.6 | Table 8: Recommended TVS diode list
+     78.3      59.3 | No.
+     78.3     107.3 | Manufacturer
+     78.3     241.9 | Part Number
+     78.3     351.8 | VRWM
+     78.3     449.3 | Package
+     59.1      59.3 | 1
+     59.1     107.3 | JCET
+     59.1     241.9 | ESDBW5V0A1
+     59.1     351.8 | 5V
+     59.1     449.3 | DFN1006
+     59.1     494.2 | -
+     59.1     497.8 | 2L
+     19.3      49.6 | www.simcom.com 23/61

@@ -1,0 +1,52 @@
+(footprint "CAP_TANT_220U_BLOCK"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "PROVISIONAL block outline for tantalum cap 220uF/6.3V (VBAT bulk, marked '220 6.3V') ~7.3x4.3mm")
+  (tags "provisional block outline tantalum capacitor")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "fd0a00f5-2041-40b2-8134-679159f20fb6")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "CAP_TANT_220U_BLOCK" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "9647fd80-3580-4a5a-9fff-b9b3fafc0e91")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "9296da2f-1398-4d64-adb1-cb62d06e00b0")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -3.95 -2.45)
+    (end 3.95 2.45)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "deb73a57-3834-4ea6-adfa-64fead6e75a4")
+  )
+
+  (fp_rect
+    (start -3.35 -1.85)
+    (end 3.35 1.85)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "7ff6310a-0091-4a63-84ba-c74207ba651b")
+  )
+
+  (fp_rect
+    (start -3.35 -1.85)
+    (end 3.35 1.85)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "d5251c83-ce05-4769-8bd7-64719db14ac9")
+  )
+
+)

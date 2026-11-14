@@ -1,0 +1,84 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    749.6      79.3 | 77
+    749.6     121.9 | GND
+    749.6     321.2 | 78
+    749.6     363.9 | GND
+    732.1      79.3 | 79
+    732.1     121.9 | GND
+    732.1     321.2 | 80
+    732.1     363.9 | GND
+    714.6      79.3 | 81
+    714.6     121.9 | GND
+    714.6     321.2 | 82
+    714.6     363.9 | GND
+    697.1      79.3 | 83
+    697.1     121.9 | GND
+    697.1     321.2 | 84
+    697.1     363.9 | GND
+    679.6      79.3 | 85
+    679.6     121.9 | GND
+    679.6     321.2 | 86
+    679.6     363.9 | GND
+    662.1      79.3 | 87
+    662.1     121.9 | GND
+    662.1     321.2 | 88
+    662.1     363.9 | GND
+    618.1      53.0 | NOTE
+    582.7      49.6 | 'USB_BOOT' cannot be pulled up before the module powered up, otherwise it will affect the normal
+    567.1      49.6 | start-up of the module.
+    493.9      49.6 | 2.2 Pin Description
+    456.2      49.6 | Table 4: Pin parameter abbreviation
+    437.9      59.3 | Pintype
+    437.9     121.9 | Description
+    419.7      59.3 | PI Power input
+    402.2      59.3 | PO Power output
+    384.7      59.3 | AI Analog input
+    367.2      59.3 | AIO Analog input/output
+    349.7      59.3 | I/O Bidirectional input /output
+    332.2      59.3 | DI Digital input
+    314.7      59.3 | DO Digital output
+    297.2      59.3 | DOH Digital output with high level
+    279.7      59.3 | DOL Digital output with low level
+    262.2      59.3 | PU Pull up
+    244.7      59.3 | PD Pull down
+    212.3      49.6 | Table 5: IO parameters definition
+    196.5      59.3 | Power
+    189.0     121.9 | Parameter
+    189.0     202.6 | Description
+    189.0     307.4 | Min
+    189.0     388.1 | Typ.
+    189.0     468.8 | Max
+    181.5      59.3 | domain
+    165.7     121.9 | VCC=1.8V
+    148.2     121.9 | VIH
+    148.2     202.6 | High level input
+    148.2     319.0 | VCC * 0.7
+    148.2     412.2 | 1.8V
+    148.2     478.0 | VCC + 0.4
+    130.7      59.3 | 1.8V
+    130.7     121.9 | VIL
+    130.7     202.6 | Low level input
+    130.7     333.3 | -0.4
+    130.7     416.6 | 0V
+    130.7     477.6 | VCC *0.25
+    113.2     121.9 | Rpu
+    113.2     202.6 | Pull up resistor
+    113.2     340.6 | -
+    113.2     405.4 | 100 K
+    113.2     432.8 | Ω
+    113.2     500.6 | -
+     95.7     121.9 | Rpd
+     95.7     202.6 | Pull down resistor
+     95.7     340.6 | -
+     95.7     405.4 | 100 K
+     95.7     432.8 | Ω
+     95.7     500.6 | -
+     78.2     121.9 | VCC = 1.8
+     65.9      59.3 | 1.8V
+     63.2     202.6 | Input leakage
+     57.1     121.9 | IIL
+     57.1     340.6 | -
+     57.1     421.3 | -
+     57.1     490.1 | 10uA
+     51.1     202.6 | current
+     19.3      49.6 | www.simcom.com 15/61

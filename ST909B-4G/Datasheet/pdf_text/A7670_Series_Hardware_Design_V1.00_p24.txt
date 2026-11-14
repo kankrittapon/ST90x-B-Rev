@@ -1,0 +1,89 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    749.3      59.3 | 2
+    749.3     107.3 | WAYON
+    749.3     241.9 | WS05DPF
+    749.3     291.5 | -
+    749.3     295.0 | B
+    749.3     351.8 | 5V
+    749.3     449.3 | DFN1006
+    749.3     494.2 | -
+    749.3     497.8 | 2L
+    731.9      59.3 | 3
+    731.9     107.3 | WILL
+    731.9     241.9 | ESD5611N
+    731.9     351.8 | 5V
+    731.9     449.3 | DFN1006-2L
+    714.4      59.3 | 4
+    714.4     107.3 | WILL
+    714.4     241.9 | ESD56151W05
+    714.4     351.8 | 5V
+    714.4     449.3 | SOD
+    714.4     472.1 | -
+    714.4     475.6 | 323
+    666.6      49.6 | 3.1.2 Recommended Power Supply Circuit
+    636.1      49.6 | The MCU must have the function to power off the module, but the module can not be shut down or restarted
+    620.5      49.6 | normally. Only when the module is abnormal and cannot be shut down or restarted normally can the module
+    604.9      49.6 | be powered off. If you use the module's OPEN LI NUX secondary development function, because there is
+    589.3      49.6 | no MCU, you can add a low- cost single-chip microcomputer to play the role of hardware watchdog to pull
+    573.7      49.6 | POWERKEY to boot and can be powered off.
+    558.1      49.6 | It is recommended that a switching mode power supply or a l inear regulator power supply is used. The
+    542.5      49.6 | following figure shows the linear regulator reference circuit:
+    503.1     264.3 | U101 MIC29302
+    501.0      75.1 | DC IN
+    500.4     515.3 | VBAT
+    492.8     256.6 | 2
+    492.5     335.7 | 4
+    487.1     267.8 | Vin Vout
+    481.6     111.5 | FUSE
+    470.7     255.5 | 1
+    468.8     154.5 | C101 C102
+    468.2     336.2 | 5
+    467.5     373.1 | R101
+    466.4     173.0 | +
+    465.2     265.2 | On/Off
+    460.7     419.7 | R103
+    460.3     456.8 | C103
+    460.2     443.7 | +
+    459.7     486.9 | C104
+    459.3     372.7 | 100K
+    459.1     301.3 | GNDFB
+    456.9     150.8 | 100uF 1uF
+    452.5     419.5 | 470R
+    449.3     291.5 | 3
+    448.7     223.2 | PWR_CTRL
+    443.9     456.9 | 330uF
+    443.9     487.4 | 100nF
+    429.6     373.1 | R102
+    419.5     373.1 | 47K
+    358.7     191.8 | Figure 8: Linear regulator reference circuit
+    315.7      49.6 | The following figure shows the DC-DC regulator reference circuit:
+    283.6     242.4 | LM 2596- ADJ
+    283.5     214.7 | U 101
+    281.7      68.8 | DC IN
+    280.3     343.1 | L101
+    280.3     466.8 | FB 101
+    277.9     503.2 | VBAT
+    272.1     218.4 | 1 2
+    267.9     231.7 | Vin Vout
+    260.5     340.4 | 100uH
+    259.4      99.1 | FUSE
+    259.3     449.3 | 270 ohm@100Mhz
+    256.3     367.9 | R101
+    253.2     136.5 | C101 + C102 D102 C103
+    249.7     292.5 | 45
+    249.0     230.3 | On/Off
+    247.9     445.9 | C104
+    246.5     422.1 | +
+    246.1     368.0 | 2.2K
+    246.0     275.9 | FB
+    240.9     134.4 | 100uF 1uF
+    239.0     262.7 | GND
+    231.2     251.9 | 3
+    230.7     188.5 | PWR_CTRL
+    227.6     399.1 | 330uF
+    227.6     445.3 | 100nF
+    222.4     320.8 | MBR360
+    203.4     354.5 | R102
+    203.4     375.6 | 1K
+    131.9     197.9 | Figure 9: power supply reference circuit
+     19.3      49.6 | www.simcom.com 24/61

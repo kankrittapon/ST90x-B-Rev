@@ -1,0 +1,49 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    752.3     251.0 | Electromagnetic compatibility and Radio Spectrum Matters
+    740.2     251.0 | (ERM); Electromagnetic Compatibility
+    740.2     439.4 | (EMC) standard for
+    728.2      59.3 | [16]
+    728.2      94.9 | EN 301 489-24 V1.2.1
+    728.2     251.0 | radio equipment and services; Part 24: Specific conditions for
+    716.0     251.0 | IMT-
+    716.0     272.0 | 2000 CDMA Direct Spread (UTRA) for Mobile and
+    704.0     251.0 | portable (UE) radio and ancillary equipment
+    689.9      59.3 | [17]
+    689.9      94.9 | IEC/EN60950-1(2001) Safety of information technology equipment (2000)
+    675.8     251.0 | Digital cellular telecommunications system (Release 5);
+    669.8      59.3 | [18]
+    669.8      94.9 | 3GPP TS 51.010-1
+    663.7     251.0 | Mobile Station (MS) conformance specification
+    649.7      94.9 | GCF-CC V3.23.1 Global Certification Forum - Certification Criteria
+    649.6      59.3 | [19]
+    635.6     251.0 | Directive of the European Parliament and of
+    635.6     457.3 | the Council of 27
+    623.5     251.0 | January 2003 on the restriction of the use of certain
+    617.5      59.3 | [20]
+    617.5      94.9 | 2002/95/EC
+    611.4     251.0 | hazardous substances in electrical and electronic equipment
+    599.3     251.0 | (RoHS)
+    587.0      94.9 | Module
+    581.0      59.3 | [21]
+    581.0     256.4 | Module secondary SMT Guidelines
+    574.9      94.9 | secondary
+    574.9     143.3 | -
+    574.9     146.8 | SMT
+    574.9     168.4 | -
+    574.9     171.8 | UGD
+    574.9     195.1 | -
+    574.9     198.6 | V1.xx
+    562.6      94.9 | A7600Series_UART_Applicati
+    562.6     251.0 | This document describes how to use UART interface of
+    556.6      59.3 | [22]
+    550.6      94.9 | on Note_V1.xx
+    550.6     251.0 | SIMCom modules.
+    538.2      94.9 | Antenna design guidelines for
+    532.2      59.3 | [23]
+    532.2     251.0 | Antenna design guidelines for diversity receiver system
+    526.1      94.9 | diversity receiver system
+    513.8      94.9 | A7600 Series_Sleep
+    507.8      59.3 | [24]
+    507.8     251.0 | Sleep Mode Application Note
+    501.7      94.9 | Mode_Application Note_V1.xx
+     19.3      49.6 | www.simcom.com 58/61

@@ -1,0 +1,229 @@
+violations: 81  unconnected: 17  parity: 0
+-- by severity/type --
+   error    clearance                6
+   error    courtyards_overlap       2
+   error    hole_clearance           2
+   error    shorting_items           4
+   error    solder_mask_bridge       23
+   warning  silk_edge_clearance      1
+   warning  silk_over_copper         25
+   warning  silk_overlap             17
+   warning  via_dangling             1
+-- all ERROR details --
+  shorting_items         (25.00, 14.65)
+     Items shorting two nets (nets /LED_4G and /GND)
+       - Via [/LED_4G] on F.Cu - B.Cu @(25.00, 14.65)
+       - Pad 46 [/GND] of U1 on F.Cu @(24.40, 14.50)
+  shorting_items         (24.35, 59.75)
+     Items shorting two nets (nets /LED_EN and /GND)
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 39 [/GND] of U1 on F.Cu @(24.40, 21.50)
+  shorting_items         (24.40, 12.50)
+     Items shorting two nets (nets <no net> and /LED_EN)
+       - Pad 48 [<no net>] of U1 on F.Cu @(24.40, 12.50)
+       - Via [/LED_EN] on F.Cu - B.Cu @(24.35, 12.20)
+  shorting_items         (3.20, 50.50)
+     Items shorting two nets (nets /GPS_RX and <no net>)
+       - Track [/GPS_RX] on F.Cu, length 9.5000 mm @(3.20, 50.50)
+       - Pad 6 [<no net>] of U2 on F.Cu @(4.15, 53.10)
+  clearance              (4.15, 47.60)
+     Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+       - Pad 1 [/GND] of U2 on F.Cu @(4.15, 47.60)
+       - Track [/GPS_RX] on F.Cu, length 16.0000 mm @(2.95, 34.50)
+  clearance              (2.95, 50.50)
+     Clearance violation ( clearance 0.2000 mm; actual 0.0771 mm)
+       - Track [/GPS_RX] on F.Cu, length 0.2500 mm @(2.95, 50.50)
+       - Pad 4 [<no net>] of U2 on F.Cu @(4.15, 50.90)
+  clearance              (24.40, 21.50)
+     Clearance violation ( clearance 0.2000 mm; actual 0.0750 mm)
+       - Pad 39 [/GND] of U1 on F.Cu @(24.40, 21.50)
+       - Track [/LED_4G] on F.Cu, length 53.6000 mm @(25.00, 68.25)
+  clearance              (13.85, 56.40)
+     Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+       - Pad 10 [/GND] of U2 on F.Cu @(13.85, 56.40)
+       - Track [/M3V3] on F.Cu, length 6.5000 mm @(10.50, 55.70)
+  clearance              (24.40, 11.50)
+     Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+       - Pad 49 [<no net>] of U1 on F.Cu @(24.40, 11.50)
+       - Track [/LED_GPS] on F.Cu, length 11.9900 mm @(23.70, 11.40)
+  clearance              (23.70, 61.25)
+     Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)
+       - Track [/LED_GPS] on F.Cu, length 49.8500 mm @(23.70, 61.25)
+       - Pad 39 [/GND] of U1 on F.Cu @(24.40, 21.50)
+  hole_clearance         (24.40, 14.50)
+     Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0500 mm)
+       - Pad 46 [/GND] of U1 on F.Cu @(24.40, 14.50)
+       - Via [/LED_4G] on F.Cu - B.Cu @(25.00, 14.65)
+  hole_clearance         (24.40, 12.50)
+     Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+       - Pad 48 [<no net>] of U1 on F.Cu @(24.40, 12.50)
+       - Via [/LED_EN] on F.Cu - B.Cu @(24.35, 12.20)
+  courtyards_overlap     (5.00, 44.50)
+     Courtyards overlap
+       - Footprint U6 @(5.00, 44.50)
+       - Footprint U2 @(9.00, 52.00)
+  courtyards_overlap     (2.20, 52.00)
+     Courtyards overlap
+       - Footprint TP4 @(2.20, 52.00)
+       - Footprint U2 @(9.00, 52.00)
+  solder_mask_bridge     (10.50, 55.70)
+     Front solder mask aperture bridges items with different nets
+       - Track [/M3V3] on F.Cu, length 6.5000 mm @(10.50, 55.70)
+       - Pad 11 [/GPS_RF] of U2 on F.Cu @(13.85, 55.30)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 35 [<no net>] of U1 on F.Cu @(24.40, 25.50)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 36 [<no net>] of U1 on F.Cu @(24.40, 24.50)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 37 [<no net>] of U1 on F.Cu @(24.40, 23.50)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 38 [<no net>] of U1 on F.Cu @(24.40, 22.50)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 39 [/GND] of U1 on F.Cu @(24.40, 21.50)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 40 [<no net>] of U1 on F.Cu @(24.40, 20.50)
+  solder_mask_bridge     (3.20, 50.50)
+     Front solder mask aperture bridges items with different nets
+       - Track [/GPS_RX] on F.Cu, length 9.5000 mm @(3.20, 50.50)
+       - Pad 5 [<no net>] of U2 on F.Cu @(4.15, 52.00)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 41 [<no net>] of U1 on F.Cu @(24.40, 19.50)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 42 [<no net>] of U1 on F.Cu @(24.40, 18.50)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 43 [<no net>] of U1 on F.Cu @(24.40, 17.50)
+  solder_mask_bridge     (3.20, 50.50)
+     Front solder mask aperture bridges items with different nets
+       - Track [/GPS_RX] on F.Cu, length 9.5000 mm @(3.20, 50.50)
+       - Pad 6 [<no net>] of U2 on F.Cu @(4.15, 53.10)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 44 [<no net>] of U1 on F.Cu @(24.40, 16.50)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 45 [/GND] of U1 on F.Cu @(24.40, 15.50)
+  solder_mask_bridge     (3.20, 50.50)
+     Front solder mask aperture bridges items with different nets
+       - Track [/GPS_RX] on F.Cu, length 9.5000 mm @(3.20, 50.50)
+       - Pad 7 [<no net>] of U2 on F.Cu @(4.15, 54.20)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 46 [/GND] of U1 on F.Cu @(24.40, 14.50)
+  solder_mask_bridge     (3.20, 50.50)
+     Front solder mask aperture bridges items with different nets
+       - Track [/GPS_RX] on F.Cu, length 9.5000 mm @(3.20, 50.50)
+       - Pad 8 [/G3V3] of U2 on F.Cu @(4.15, 55.30)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 47 [<no net>] of U1 on F.Cu @(24.40, 13.50)
+  solder_mask_bridge     (3.20, 50.50)
+     Front solder mask aperture bridges items with different nets
+       - Track [/GPS_RX] on F.Cu, length 9.5000 mm @(3.20, 50.50)
+       - Pad 9 [<no net>] of U2 on F.Cu @(4.15, 56.40)
+  solder_mask_bridge     (24.35, 59.75)
+     Front solder mask aperture bridges items with different nets
+       - Track [/LED_EN] on F.Cu, length 47.5500 mm @(24.35, 59.75)
+       - Pad 48 [<no net>] of U1 on F.Cu @(24.40, 12.50)
+  solder_mask_bridge     (3.20, 50.50)
+     Front solder mask aperture bridges items with different nets
+       - Track [/GPS_RX] on F.Cu, length 9.5000 mm @(3.20, 50.50)
+       - Pad 4 [<no net>] of U2 on F.Cu @(4.15, 50.90)
+  solder_mask_bridge     (24.35, 12.20)
+     Front solder mask aperture bridges items with different nets
+       - Via [/LED_EN] on F.Cu - B.Cu @(24.35, 12.20)
+       - Pad 48 [<no net>] of U1 on F.Cu @(24.40, 12.50)
+  solder_mask_bridge     (25.00, 14.65)
+     Front solder mask aperture bridges items with different nets
+       - Via [/LED_4G] on F.Cu - B.Cu @(25.00, 14.65)
+       - Pad 46 [/GND] of U1 on F.Cu @(24.40, 14.50)
+-- unconnected details --
+  unconnected_items      (24.40, 14.50)
+     Missing connection between items
+       - Pad 46 [/GND] of U1 on F.Cu @(24.40, 14.50)
+       - Pad 45 [/GND] of U1 on F.Cu @(24.40, 15.50)
+  unconnected_items      (24.40, 14.50)
+     Missing connection between items
+       - Pad 46 [/GND] of U1 on F.Cu @(24.40, 14.50)
+       - Pad 2 [/GND] of U7 on B.Cu @(22.94, 13.95)
+  unconnected_items      (24.40, 21.50)
+     Missing connection between items
+       - Pad 39 [/GND] of U1 on F.Cu @(24.40, 21.50)
+       - Pad 78 [/GND] of U1 on F.Cu @(20.60, 21.30)
+  unconnected_items      (4.06, 45.45)
+     Missing connection between items
+       - Pad 2 [/G3V3] of U6 on F.Cu @(4.06, 45.45)
+       - Pad 8 [/G3V3] of U2 on F.Cu @(4.15, 55.30)
+  unconnected_items      (6.50, 65.00)
+     Missing connection between items
+       - Track [/VBAT] on F.Cu, length 20.5000 mm @(6.50, 65.00)
+       - Pad 57 [/VBAT] of U1 on F.Cu @(16.00, 6.10)
+  unconnected_items      (17.00, 6.10)
+     Missing connection between items
+       - Pad 56 [/VBAT] of U1 on F.Cu @(17.00, 6.10)
+       - Pad 57 [/VBAT] of U1 on F.Cu @(16.00, 6.10)
+  unconnected_items      (18.00, 6.10)
+     Missing connection between items
+       - Pad 55 [/VBAT] of U1 on F.Cu @(18.00, 6.10)
+       - Pad 56 [/VBAT] of U1 on F.Cu @(17.00, 6.10)
+  unconnected_items      (4.15, 49.80)
+     Missing connection between items
+       - Pad 3 [/GPS_TX] of U2 on F.Cu @(4.15, 49.80)
+       - Pad 1 [/GPS_TX] of TP1 on F.Cu @(7.00, 37.00)
+  unconnected_items      (6.50, 40.50)
+     Missing connection between items
+       - Pad 1 [/USB_VBUS] of J3 on F.Cu @(6.50, 40.50)
+       - Pad 24 [/USB_VBUS] of U1 on F.Cu @(11.00, 28.90)
+  unconnected_items      (17.75, 71.50)
+     Missing connection between items
+       - Track [/PKEY] on F.Cu, length 13.6250 mm @(17.75, 71.50)
+       - Pad 1 [/PKEY] of U1 on F.Cu @(1.60, 9.50)
+  unconnected_items      (4.15, 48.70)
+     Missing connection between items
+       - Pad 2 [/GPS_RX] of U2 on F.Cu @(4.15, 48.70)
+       - Track [/GPS_RX] on F.Cu, length 0.2500 mm @(2.95, 50.50)
+  unconnected_items      (3.25, 3.00)
+     Missing connection between items
+       - Pad 1 [/ANT_4G_RF] of ANT1 on F.Cu @(3.25, 3.00)
+       - Pad 60 [/ANT_4G_RF] of U1 on F.Cu @(13.00, 6.10)
+  unconnected_items      (1.60, 23.50)
+     Missing connection between items
+       - Pad 15 [/VDD_EXT] of U1 on F.Cu @(1.60, 23.50)
+       - Pad 1 [/VDD_EXT] of U5 on F.Cu @(28.36, 32.05)
+  unconnected_items      (1.60, 17.50)
+     Missing connection between items
+       - Pad 9 [/4G_TXD_1V8] of U1 on F.Cu @(1.60, 17.50)
+       - Pad 2 [/4G_TXD_1V8] of U5 on F.Cu @(28.36, 33.00)
+  unconnected_items      (1.60, 18.50)
+     Missing connection between items
+       - Pad 10 [/4G_RXD_1V8] of U1 on F.Cu @(1.60, 18.50)
+       - Pad 3 [/4G_RXD_1V8] of U5 on F.Cu @(28.36, 33.95)
+  unconnected_items      (20.10, 32.60)
+     Missing connection between items
+       - Track [/USB_DP_M] on F.Cu, length 1.0600 mm @(20.10, 32.60)
+       - Pad 27 [/USB_DP_M] of U1 on F.Cu @(14.00, 28.90)
+  unconnected_items      (20.10, 34.20)
+     Missing connection between items
+       - Track [/USB_DM_M] on F.Cu, length 0.6000 mm @(20.10, 34.20)
+       - Pad 28 [/USB_DM_M] of U1 on F.Cu @(15.00, 28.90)

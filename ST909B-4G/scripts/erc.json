@@ -1,0 +1,1013 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T19:48:51",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/1a2e9844-a0a5-4e82-bab0-361f1bb23b2a",
+            "violations": [
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 1 [M3V3, Bidirectional, Line]",
+                            "pos": {
+                                "x": 16.46,
+                                "y": 247.0
+                            },
+                            "uuid": "de777fee-5c61-436a-9022-cddb6045475e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'MIC_N'",
+                            "pos": {
+                                "x": 18.46,
+                                "y": 52.5
+                            },
+                            "uuid": "98156390-97bd-45c2-8d7a-4bca3af3337b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1 [VBAT, Passive, Line]",
+                            "pos": {
+                                "x": 18.46,
+                                "y": 60.0
+                            },
+                            "uuid": "607c74b2-8a7d-46ed-a50c-247f0f4403b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 1 [TEMP, Passive, Line]",
+                            "pos": {
+                                "x": 20.46,
+                                "y": 170.25
+                            },
+                            "uuid": "3ea9881d-0a29-4229-b45a-09c974ec800e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'TEMP'",
+                            "pos": {
+                                "x": 20.46,
+                                "y": 170.25
+                            },
+                            "uuid": "ec55bf90-3f39-4490-b9f2-a8c8fff28f30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 1 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 21.46,
+                                "y": 113.0
+                            },
+                            "uuid": "e6914aed-a5f8-4f4d-85b2-c922b3d248ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'U1_A7670SA' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [U1_A7670SA]",
+                            "pos": {
+                                "x": 30.0,
+                                "y": 50.0
+                            },
+                            "uuid": "46ebe8b9-dfe7-4fb0-a152-475eb990fa09"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'U2_L76KB' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [U2_L76KB]",
+                            "pos": {
+                                "x": 30.0,
+                                "y": 110.0
+                            },
+                            "uuid": "e3f1ffa5-e7a9-4b64-b405-d3b1ab1607d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'U3_TP4056' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [U3_TP4056]",
+                            "pos": {
+                                "x": 30.0,
+                                "y": 165.0
+                            },
+                            "uuid": "62e76a3a-b8d9-4f7a-9e3d-133bbec4a885"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'U4_MCU_LQFP48' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [U4_MCU_LQFP48]",
+                            "pos": {
+                                "x": 30.0,
+                                "y": 235.0
+                            },
+                            "uuid": "7f502a4c-5b24-4a0e-b2ad-612d843fd8a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG1 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 30.0,
+                                "y": 270.0
+                            },
+                            "uuid": "c845a51a-ec48-4269-a989-c3ca2427d0ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'MCU_URX4G'",
+                            "pos": {
+                                "x": 43.54,
+                                "y": 242.5
+                            },
+                            "uuid": "ed707093-f4bd-41d7-bcfe-5ec246c0b8c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'MCU_UTX4G'",
+                            "pos": {
+                                "x": 43.54,
+                                "y": 245.5
+                            },
+                            "uuid": "144e4c8c-1f0c-401a-a6e2-411493336d72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG2 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 50.0,
+                                "y": 270.0
+                            },
+                            "uuid": "d9d5e975-e529-4246-a6f6-df89d059ee4f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG3 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 70.0,
+                                "y": 270.0
+                            },
+                            "uuid": "5d793044-b924-4ab4-a9bd-a5286ae33156"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'SIM_VPP'",
+                            "pos": {
+                                "x": 86.46,
+                                "y": 30.5
+                            },
+                            "uuid": "30831667-3120-4775-8b33-19923689cf7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin C1 [C1_VCC, Passive, Line]",
+                            "pos": {
+                                "x": 86.46,
+                                "y": 39.5
+                            },
+                            "uuid": "d0f54aac-75b1-4ee3-9631-23e1d392e4f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J2 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 87.46,
+                                "y": 78.375
+                            },
+                            "uuid": "c524649d-0b48-4f1a-8451-148810ab709f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J3 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 87.46,
+                                "y": 112.0
+                            },
+                            "uuid": "31e11e82-24f4-4057-9240-73c6b0593a00"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J4 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 87.46,
+                                "y": 147.0
+                            },
+                            "uuid": "29cd914b-943a-413c-8e4a-c9de8c50e312"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J7 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 87.46,
+                                "y": 237.0
+                            },
+                            "uuid": "5d51f4af-0044-433f-b060-c257ff035914"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J6 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 88.46,
+                                "y": 206.27
+                            },
+                            "uuid": "9148fbf8-098a-45a4-b980-e3c7384eaa8d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG4 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 90.0,
+                                "y": 270.0
+                            },
+                            "uuid": "9ee60847-553e-4a58-9131-2974cb9fe5b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'J1_SIM6' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [J1_SIM6]",
+                            "pos": {
+                                "x": 95.0,
+                                "y": 35.0
+                            },
+                            "uuid": "e5937c77-ba63-4743-92e5-f6137f3db88f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'J2_SERVICE4' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [J2_SERVICE4]",
+                            "pos": {
+                                "x": 95.0,
+                                "y": 75.0
+                            },
+                            "uuid": "2d7fcdb3-d4e7-4bc8-b185-28cb636a8319"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'PADS_ROW3' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [PADS_ROW3]",
+                            "pos": {
+                                "x": 95.0,
+                                "y": 110.0
+                            },
+                            "uuid": "f14cf45f-b89f-43e6-a613-a9ea64f1921c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'PADS_ROW3' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [PADS_ROW3]",
+                            "pos": {
+                                "x": 95.0,
+                                "y": 145.0
+                            },
+                            "uuid": "f0724f5c-1d07-40dd-8e2d-cd87ec7d4f16"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J5 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 95.0,
+                                "y": 175.0
+                            },
+                            "uuid": "89ebc82f-38e2-4380-b55e-8b9c549cebac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'J6_SPK2' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [J6_SPK2]",
+                            "pos": {
+                                "x": 95.0,
+                                "y": 205.0
+                            },
+                            "uuid": "dc1f4169-c997-4671-86ca-a66c3cecf194"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'PADS_ROW3' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol J7 [PADS_ROW3]",
+                            "pos": {
+                                "x": 95.0,
+                                "y": 235.0
+                            },
+                            "uuid": "33fc506b-ef4e-48f0-8432-ab0923dc3cb1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG5 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 110.0,
+                                "y": 270.0
+                            },
+                            "uuid": "93b07ed3-af19-4a59-a80b-fc87822302dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG6 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 130.0,
+                                "y": 270.0
+                            },
+                            "uuid": "3331dbe4-d01c-4331-9ce1-180ade04821e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 1 [VCCA, Power input, Line]",
+                            "pos": {
+                                "x": 141.46,
+                                "y": 38.0
+                            },
+                            "uuid": "3b02f379-eb22-4bac-870c-ae1f0f7f2480"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol RN1 Pin 1 [R1A, Passive, Line]",
+                            "pos": {
+                                "x": 141.46,
+                                "y": 152.625
+                            },
+                            "uuid": "e12cee7e-bdcd-44c2-b625-e50b3df80e14"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U7 Pin 1 [IN, Input, Line]",
+                            "pos": {
+                                "x": 142.46,
+                                "y": 115.0
+                            },
+                            "uuid": "5cce0a10-c9a4-4629-bd65-cdcacee1fd31"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol ANT1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 143.46,
+                                "y": 246.27
+                            },
+                            "uuid": "7a621bc3-a735-435f-a0d0-da07c3ea9667"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 144.92,
+                                "y": 185.0
+                            },
+                            "uuid": "f1ee1c15-1732-44cf-831f-bd716e6d8611"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol SW2 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 144.92,
+                                "y": 215.0
+                            },
+                            "uuid": "b0006918-8729-4ed0-9837-92f4fb1e551e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'U5_LEVELSHIFT' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [U5_LEVELSHIFT]",
+                            "pos": {
+                                "x": 150.0,
+                                "y": 35.0
+                            },
+                            "uuid": "9ded5728-6d73-41d2-bd54-bef3a30a29c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 150.0,
+                                "y": 73.96
+                            },
+                            "uuid": "6b68d6b3-8332-46bd-bde2-2b4543849af8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'U6_LDO_SOT23' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [U6_LDO_SOT23]",
+                            "pos": {
+                                "x": 150.0,
+                                "y": 80.0
+                            },
+                            "uuid": "f6b26bda-099b-48df-8f29-41547dcf745b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'U7_LEDDRV' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol U7 [U7_LEDDRV]",
+                            "pos": {
+                                "x": 150.0,
+                                "y": 115.0
+                            },
+                            "uuid": "2f7e92fe-28cd-4da7-a489-51f08c37ef3a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'RN1_ARRAY4' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol RN1 [RN1_ARRAY4]",
+                            "pos": {
+                                "x": 150.0,
+                                "y": 150.0
+                            },
+                            "uuid": "71d080be-2c58-49c1-a212-9ef4093a2535"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'ANT1_ANT4G' doesn't match copy in library 'ST909B'",
+                    "items": [
+                        {
+                            "description": "Symbol ANT1 [ANT1_ANT4G]",
+                            "pos": {
+                                "x": 150.0,
+                                "y": 245.0
+                            },
+                            "uuid": "cbf34991-402d-40dc-97c3-0e8cadeca1a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol AE2 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 150.0,
+                                "y": 270.0
+                            },
+                            "uuid": "8cce4167-612f-4e25-869b-aab21af86476"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED1 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 186.19,
+                                "y": 255.0
+                            },
+                            "uuid": "17c56521-2b69-43eb-85a6-3d82b54d8be3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED2 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 186.19,
+                                "y": 270.0
+                            },
+                            "uuid": "177ab230-ae7a-430b-9445-d97cabd9ad40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED3 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 186.19,
+                                "y": 283.0
+                            },
+                            "uuid": "d55c0c33-8ce0-42c8-a9ee-475d04d09911"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C1 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 31.19
+                            },
+                            "uuid": "e67871fe-eb0c-486b-aebf-d03bdd07e236"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 60.0
+                            },
+                            "uuid": "9a06c6d4-43c1-4b6f-b3c9-bffbf36d0798"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP2 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 75.0
+                            },
+                            "uuid": "4421e438-a694-423a-83c4-926c256797bc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP3 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 90.0
+                            },
+                            "uuid": "4aaf7534-9210-4f7b-b9df-1144022e7630"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP4 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 105.0
+                            },
+                            "uuid": "2ca30a0b-8e50-4226-a28b-a405f81a8165"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'QUECTEL_TP'",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 105.0
+                            },
+                            "uuid": "461ed87e-bb3f-47b1-b693-c4ce9fa03f0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP5 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 125.0
+                            },
+                            "uuid": "8b0fc347-2e7c-430a-9c82-0d6302db4678"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP6 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 140.0
+                            },
+                            "uuid": "6ca8f9b8-949f-4eb7-a7e1-420682aa6b53"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP7 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 155.0
+                            },
+                            "uuid": "a3a558ae-9354-4820-badf-aa3cab3c8ba0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP8 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 170.0
+                            },
+                            "uuid": "66a22681-822d-4751-8c14-1cc1987ac3c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R1 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 191.19
+                            },
+                            "uuid": "fc402715-9955-44ec-96d5-f22871213c11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'R1_A'",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 191.19
+                            },
+                            "uuid": "a18b127b-108e-45e7-9a1c-6a9e41195fa3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'R1_B'",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 198.81
+                            },
+                            "uuid": "b11546c1-3adb-473e-b822-6c32ffe4340c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R2 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 211.19
+                            },
+                            "uuid": "112fca3a-7082-4f1a-bf03-9ff91a6dddd2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'R2_A'",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 211.19
+                            },
+                            "uuid": "9ff71644-08f6-434b-a376-4d9361025e5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'R2_B'",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 218.81
+                            },
+                            "uuid": "98156f94-0a56-4183-b8c0-c4d6ddf49977"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R3 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 231.19
+                            },
+                            "uuid": "5bb33137-0ce8-47d8-83b3-4659e3ebe4b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                }
+            ]
+        }
+    ],
+    "source": "ST909B-4G.kicad_sch"
+}

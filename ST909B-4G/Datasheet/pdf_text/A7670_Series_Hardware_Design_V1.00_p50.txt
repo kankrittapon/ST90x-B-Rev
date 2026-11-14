@@ -1,0 +1,12 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    741.5      49.6 | 6.2 Label Information
+    333.0     227.1 | Figure 27: Label information
+    283.8      49.6 | Table 37: The description of label information
+    265.1      59.3 | No.
+    265.1     160.7 | Description
+    246.8      59.3 | A Project name
+    229.3      59.3 | B No.1 Pin
+    211.8      59.3 | C Serial number
+    194.3      59.3 | D International mobile equipment identity
+    176.8      59.3 | E QR code
+     19.3      49.6 | www.simcom.com 50/61

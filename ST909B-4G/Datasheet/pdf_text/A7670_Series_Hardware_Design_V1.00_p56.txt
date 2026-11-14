@@ -1,0 +1,48 @@
+    785.7     351.9 | A7670 Series Hardware Design  V1.00
+    675.7      49.6 | 8 Appendix
+    632.3      49.6 | 8.1 Coding Schemes and Maximum Net Data Rates over Air Interface
+    594.6      49.6 | Table 42: Coding Schemes and Maximum Net Data Rates over Air Interface
+    575.9      59.3 | Multislot definition(GPRS/EDGE)
+    557.7     438.3 | Active slot
+    549.9      59.3 | Slot class
+    549.9     233.3 | DL slot number
+    549.9     332.6 | UL slot number
+    542.1     469.9 | number
+    525.9      59.3 | 1 1 1 2
+    508.4      59.3 | 2 2 1 3
+    490.9      59.3 | 3 2 2 3
+    473.4      59.3 | 4 3 1 4
+    455.9      59.3 | 5 2 2 4
+    438.4      59.3 | 6 3 2 4
+    420.9      59.3 | 7 3 3 4
+    403.4      59.3 | 8 4 1 5
+    385.9      59.3 | 9 3 2 5
+    368.4      59.3 | 10 4 2 5
+    350.9      59.3 | 11 4 3 5
+    333.4      59.3 | 12 4 4 5
+    314.0     233.3 | Max data rata
+    314.0     310.0 | （
+    314.0     322.0 | 4 slots
+    314.0     360.0 | ）
+    313.9      59.3 | GPRS coding scheme
+    313.9     438.3 | Modulation type
+    295.6      59.3 | CS 1 = 9.05 kb/s / time slot 36.2 kb/s GMSK
+    278.0      59.3 | CS 2 = 13.4 kb/s / time slot 53.6 kb/s GMSK
+    260.6      59.3 | CS 3 = 15.6 kb/s / time slot 62.4 kb/s GMSK
+    243.1      59.3 | CS 4 = 21.4 kb/s / time slot 85.6 kb/s GMSK
+    223.7     233.3 | Max data rata
+    223.7     310.0 | （
+    223.7     322.0 | 4 slots
+    223.7     360.0 | ）
+    223.5      59.3 | EDGE coding scheme
+    223.5     438.3 | Modulation type
+    205.2      59.3 | MCS 1 = 8.8 kb/s/ time slot 35.2 kb/s GMSK
+    187.7      59.3 | MCS 2 = 11.2 kb/s/ time slot 44.8 kb/s GMSK
+    170.2      59.3 | MCS 3 = 14.8 kb/s/ time slot 59.2 kb/s GMSK
+    152.7      59.3 | MCS 4 = 17.6 kb/s/ time slot 70.4 kb/s GMSK
+    135.2      59.3 | MCS 5 = 22.4 kb/s/ time slot 89.6 kb/s 8PSK
+    117.7      59.3 | MCS 6 = 29.6 kb/s/ time slot 118.4 kb/s 8PSK
+    100.2      59.3 | MCS 7 = 44.8 kb/s/ time slot 179.2 kb/s 8PSK
+     82.7      59.3 | MCS 8 = 54.4 kb/s/ time slot 217.6 kb/s 8PSK
+     65.2      59.3 | MCS 9 = 59.2 kb/s/ time slot 236.8 kb/s 8PSK
+     19.3      49.6 | www.simcom.com 56/61
