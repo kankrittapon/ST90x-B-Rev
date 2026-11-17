@@ -12,7 +12,8 @@
 | หลัง P3 batch 1–2 | 44 | 0 | 6 | ต่อสำเร็จ: G3V3, VBAT×3, GPS_TX, USB_VBUS, GPS_RX×2, ANT_4G_RF |
 | หลัง P3 batch 3+4 | 46 | 1 | 2 | +1 error starved_thermal (U1.2), +via_dangling PKEY; ที่ค้าง 6 → 2 (คู่เกาะ zone) |
 | หลัง P3 batch 5 | 45 | 0 | 0 | เลื่อนเลน PKEY F x=0.80→0.60 + เติม GND stitching via 2 ตัว |
-| หลัง pad2 solid — **สถานะปัจจุบัน** | **45** | **0** | **0** | starved_thermal หาย • parity 0 |
+| หลัง pad2 solid | 45 | 0 | 0 | starved_thermal หาย • parity 0 |
+| หลัง P4 — ล้าง silkscreen 42 ข้อ + ลบ via M3V3 — **สถานะปัจจุบัน** | **2** | **0** | **0** | silk 0 • text_height 0 • lib_footprint_mismatch 0 • เหลือ via_dangling 2 ที่ยอมรับ (ดู [P4-SILKSCREEN.md](P4-SILKSCREEN.md)) |
 
 ## Punch list ตั้งต้นของ P3 (15 ข้อ จากยุค P2.5)
 
@@ -33,34 +34,26 @@
 
 6 ข้อสุดท้ายที่ค้างหลัง batch 1–2 = PKEY, VDD_EXT, TXD_1V8, RXD_1V8, USB_DP_M, USB_DM_M (จุด (17.75,71.50), (1.60,23.50), (1.60,17.50), (1.60,18.50), (20.10,32.60), (20.10,34.20))
 
-## สถานะปัจจุบัน (DRC 2026-11-14)
+## สถานะปัจจุบัน (DRC 2026-11-17 หลัง P4)
 
-**45 violations = warning ทั้งหมด / 0 error / 0 unconnected / parity 0**
+**2 violations = warning ทั้งหมด / 0 error / 0 unconnected / parity 0**
 
 | ชนิด | จำนวน |
 |---|---|
-| silk_edge_clearance | 1 |
-| silk_over_copper | 24 |
-| silk_overlap | 17 |
-| via_dangling | 3 |
+| via_dangling | 2 |
 
-### 3 ข้อ via_dangling — ยอมรับพร้อมเหตุผล
+### 2 ข้อ via_dangling — ยอมรับพร้อมเหตุผล
 
 | ตำแหน่ง | เน็ต | สาเหตุ | หากต้องการแก้ |
 |---|---|---|---|
 | (1.70, 9.50) | /PKEY | via-in-pad บน pad U1.1 ฝั่ง F **โดยเจตนา**; ฝั่ง B ไม่มีเส้นต่อเพราะทุกทางลง B ถูกปิด (via-in-pad TXD/RXD/VDD + เส้น VBAT v x=1.00) — พิสูจน์แล้วว่า all-B เป็นไปไม่ได้ (ดู [P3-ROUTING.md](P3-ROUTING.md)) | รับไว้ — เอกสารแล้ว |
-| (16.50, 58.50) | /M3V3 | via กลางเส้น F: track F h y=58.50 (10.50→17.00) เดินผ่าน via; ฝั่ง B ไม่มีเส้นต่อ — ไม่มีผลไฟฟ้า | ลบ via ทิ้งได้โดยไม่กระทบเส้น (เหมาะเป็นงานเก็บกวาดของ P4) |
 | (11.50, 44.00) | GPS_RF | เน็ตเสาอากาศ GPS ยังไม่มีเส้นเลย; pad ของ AE2 ไม่ปรากฏใน footprint ที่ import (pads = 0) → ตำแหน่ง pad จริงยังไม่ทราบ | รอ P1 — วัด pad จริงของ AE2 แล้วเดินเส้น GPS_RF ต่อ (อยู่ในบัญชี blocked ของ P5) |
 
-### 42 ข้อ silk — รอ triage ใน P4 (ยังไม่เริ่ม)
+via ที่สาม (เดิม /M3V3 @ 16.50,58.50) **ถูกลบแล้วใน P4** — ฝั่ง B ไม่มีเส้นต่อจริง การลบไม่กระทบการเดินเส้น (DRC ยัง 0 unconnected)
 
-| ชนิด | จำนวน | footprint ที่เกี่ยว |
-|---|---|---|
-| silk_edge_clearance | 1 | U1 — polygon silk ยื่นเลยขอบตะวันตก (pos -0.1, 8.9) |
-| silk_over_copper | 24 | ANT1×2, J3×2, J4×2, J5, J6×2, J7×2, R2, SW1×2, SW2×2, TP1..TP8 |
-| silk_overlap | 17 | AE2×2, ANT1, C1, J2, J3, J4, J5, J6, J7, LED1, LED3, SW1, TP5..TP8 |
+### 42 ข้อ silk ของยุคก่อน P4 — แก้ครบแล้ว
 
-รายการเต็มทุกข้ออยู่ใน `ST909B-4G_drc_violations.json` (field `items[].description` ระบุจุด + uuid)
+แก้ด้วย 3 กลไก (ย้าย Reference 21 จุด • ขยาย silk rect 14 อัน • ย้าน U1 pin-1 poly) + sync lib 6 footprint — สรุปเต็มใน [P4-SILKSCREEN.md](P4-SILKSCREEN.md); dumps รายรอบ `p4_*.out.txt` อยู่ที่ `archive/`
 
 ### Checks ที่โปรเจกต์ปิดไว้ (จากไฟล์ DRC)
 

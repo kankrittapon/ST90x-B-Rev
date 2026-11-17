@@ -10,7 +10,8 @@
 เอกสารงาน PCB (ใน `ST909B-4G\`):
 - [docs/P3-ROUTING.md](ST909B-4G/docs/P3-ROUTING.md) — เส้นทาง P3 ที่ล็อกแล้ว: ตาราง segment รายชิ้น + กติกา clearance + ข้อพิสูจน์
 - [docs/GND-ISLANDS.md](ST909B-4G/docs/GND-ISLANDS.md) — เกาะ GND 4 ชิ้น: โครงสร้าง fill, สาเหตุ, การเย็บ stitching via, วิธี probe
-- [docs/DRC-LOG.md](ST909B-4G/docs/DRC-LOG.md) — วิวัฒนาการ DRC ทุกรอบ + 45 warning ที่ยอมรับพร้อมเหตุผล
+- [docs/P4-SILKSCREEN.md](ST909B-4G/docs/P4-SILKSCREEN.md) — ล้าง silkscreen 42 → 0: กติกากันชน + ตารางย้าย ref/rect ทั้งหมด + sync lib
+- [docs/DRC-LOG.md](ST909B-4G/docs/DRC-LOG.md) — วิวัฒนาการ DRC ทุกรอบ + warning ที่ยอมรับ (ตอนนี้เหลือ 2) พร้อมเหตุผล
 - `export\` — CSV สถานะล่าสุด (components / nets_pads / routes / drc_violations) + PDF schematic/layers/BOM
 - `archive\` — dump ดิบ `.out.txt` (55 ไฟล์) ทุกรอบแก้ + `pads_dump.txt` — ใช้อ้างอิงย้อนหลังเท่านั้น
 - `scripts\` — สคริปต์แก้บอร์ด/ตรวจทั้งหมด (หัวไฟล์มีโน้ตการออกแบบ) • รายงาน DRC ปัจจุบันอยู่ที่ `ST909B-4G_drc_violations.json` (รากโปรเจกต์ — อย่าย้าย)
@@ -155,11 +156,31 @@
 
 **รอ**: การวัดสัดส่วนจากผู้ใช้ (P1) + ตาราง net ลอย (J1 SIM pads, AE2 pads, pinout V1.03) ก่อนปลดล็อก P5 (Gerber)
 
+## P4 — ล้าง silkscreen 42 ข้อ + เก็บกวาด via (17 พ.ย. 2026) — **2 warnings, 0 errors**
+
+แก้ silk ทั้ง 42 ข้อให้หมด (กลยุทธ์ออกแบบบนค่าจริงของบอร์ด: edge clearance 0.5 / mask opening = ขนาด pad / min silk text height 0.8) — สรุปเต็มใน [docs/P4-SILKSCREEN.md](docs/P4-SILKSCREEN.md)
+
+- **ย้าย Reference 21 จุด** — J2–J7, SW1, SW2, ANT1, C1, TP1–8, U4, R1, R2 (พ้น silk rect/pad mask ของตัวเอง); U4 ขยับไปขวาบน (21.60,52.65) หนี rect ใหญ่ AE2
+- **ขยาย silk rect 14 อัน** — TP1–8 (pad+0.5), ANT1, J3, J4, J7, SW2 ให้ล้อม pad โดย stroke ห่าง mask opening 0.15–0.20 (J2/SW1/J5/J6/C1 ไม่แตะ — rect เดิมผ่านอยู่แล้ว)
+- **U1 pin-1 poly** ย้ายเข้าหน้าต่างขอบตะวันตก [0.5..1.2] เป็นสามเหลี่ยม (0.60,9.20)-(0.60,9.80)-(1.10,9.50) — รูปเดิมยื่นเลยขอบ (x −0.10) และย่อไม่ได้เพราะ edge clearance 0.5
+- **ฟอนต์ LED1–3** 1.0 → 0.8 (ผ่านเกณฑ์ min 0.8 พอดี) + LED2 แยกแถวขึ้น (15.50,10.50) — ที่ 0.8 กว้าง 3.22 > pitch 3.0 จึงซ้อนแถวกันไม่ได้
+- **ลบ via /M3V3 (16.50,58.50)** — via_dangling 3 → 2; track F y=58.50 ยังต่อเนื่อง (via 42 → 41)
+- **sync lib 6 footprint** (TP_PAD_1.2/1.5, PADS_ROW_3, ANT_4G_PADS, SW_SOS, A7670SA_LGA88) — จัดการ lib_footprint_mismatch 14 ข้อที่เกิดหลังแก้บอร์ด; J7 rect ปรับ y ±0.80 ให้ใช้ lib PADS_ROW_3 ตัวเดียวกับ J3/J4 ได้
+- ตรวจซ้ำหลังจบ: DRC **2 violations (via_dangling PKEY by design + GPS_RF รอ P1) / 0 error / 0 unconnected / parity 0** • `p3_verify.py` 44 candidates / 0 • refill zone แล้ว (2 fill) • export CSV ใหม่ (153 tracks / 41 vias / 35 footprints)
+
+**รอ** (ไม่เปลี่ยน): P1 การวัดจริง + ตาราง net ลอย → ปลดล็อก GPS_RF เดินเส้น + P5 Gerber
+
 ---
 
 ## ประวัติการแก้
 
-### v7 (รอบนี้ — P3 ปิด: 0 error / 0 unconnected)
+### v8 (รอบนี้ — P4 ปิด: silk 0 / warning เหลือ 2)
+- ✅ **P4 ปิด**: silkscreen 42 → **0** (ย้าย ref 21 จุด • ขยาย rect 14 อัน • ย้าน U1 pin-1 poly • ฟอนต์ LED 0.8) — DRC **2 violations / 0 error / 0 unconnected / parity 0** (via_dangling 2 ที่ยอมรับ)
+- 🔧 ลบ via /M3V3 (16.50,58.50) (3→2) • sync lib 6 footprint จัดการ lib_footprint_mismatch 14 ข้อ • refill zone + export CSV ใหม่ (41 vias)
+- 📚 เอกสารเพิ่ม [docs/P4-SILKSCREEN.md](ST909B-4G/docs/P4-SILKSCREEN.md) + DRC-LOG/README อัปเดตสถานะ • dump `p4_*.out.txt` → `archive\` • สคริปต์ใหม่ `p4_*.py` 7 ตัว
+- ⏳ เหลือ P5 Gerber — บล็อกด้วย P1 (การวัดขอบบอร์ด/pad AE2) จากผู้ใช้
+
+### v7 (P3 ปิด: 0 error / 0 unconnected)
 - ✅ **P3 ปิด**: เดินครบ 6 criticals (PKEY / VDD_EXT / 4G_TXD_1V8 / 4G_RXD_1V8 / USB_DP_M / USB_DM_M) — unconnected 15 → **0**
 - 🔧 ซ่อม 2 เกาะ GND ด้วย stitching via (2.50,71.20) + (30.00,15.00) — ตรวจ fill ด้วย point-in-poly ก่อนทุกจุด • lane PKEY F ขยับ x=0.80→0.60 w0.20 (ขอบ 0.50 พอดี) • U1.2 zone connection = FULL แก้ starved_thermal ตามแนว pad39
 - 📤 สถานะ: **153 tracks + 42 vias**, DRC 45 warning ยอมรับ (silk 42 + via_dangling 3) — เหลือ P4 silkscreen → P5 Gerber (รอการวัด P1 จากผู้ใช้)

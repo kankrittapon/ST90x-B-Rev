@@ -1,57 +1,88 @@
 (footprint "ANT_4G_PADS"
-  (version 20241229)
-  (generator "kicad-mcp")
-  (generator_version "9.0")
-  (layer "F.Cu")
-  (descr "PROVISIONAL 2-pad spring-contact antenna pads (RF + GND) for ANT-4G, ~3.5mm pitch")
-  (tags "provisional block outline")
-
-  (property "Reference" "REF**" (at 0 -1.27 0)
-    (layer "F.SilkS")
-    (uuid "3218538e-cc80-4227-8591-c0f482bb7ac7")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "Value" "ANT_4G_PADS" (at 0 1.27 0)
-    (layer "F.Fab")
-    (uuid "469451ab-fb8d-4273-baba-d63bde5072d5")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "Datasheet" "" (at 0 0 0)
-    (layer "F.Fab")
-    (uuid "a3d62e3a-c5e6-4363-9d4f-e37fcff6820e")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-
-  (fp_rect
-    (start -3.1 -1.5)
-    (end 3.1 1.5)
-    (stroke (width 0.05) (type default))
-    (fill none)
-    (layer "F.CrtYd")
-    (uuid "f5765c21-c22e-4e8c-bbe9-431ce870346b")
-  )
-
-  (fp_rect
-    (start -2.5 -0.9)
-    (end 2.5 0.9)
-    (stroke (width 0.12) (type default))
-    (fill none)
-    (layer "F.SilkS")
-    (uuid "d8616383-e9cd-4bde-b07e-acdd1b6bccde")
-  )
-
-  (pad "1" smd rect
-    (at -1.75 0)
-    (size 1.5 1.2)
-    (layers "F.Cu" "F.Paste" "F.Mask")
-    (uuid "3d1c418f-1f58-4a89-bece-0fab467ce674")
-  )
-
-  (pad "2" smd rect
-    (at 1.75 0)
-    (size 1.5 1.2)
-    (layers "F.Cu" "F.Paste" "F.Mask")
-    (uuid "660f6cc6-0031-4060-ae00-7aca30b28ab4")
-  )
-
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PROVISIONAL 2-pad spring-contact antenna pads (RF + GND) for ANT-4G, ~3.5mm pitch")
+	(tags "provisional block outline")
+	(property "Reference" "REF**"
+		(at 0 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "d1eb54e4-52b6-48f2-82a7-4a55d8f72891")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT_4G_PADS"
+		(at 0 1.27 0)
+		(layer "F.Fab")
+		(uuid "9bf702c5-f3fd-4cb3-85b4-9032388994c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f4e44eff-de0e-4b95-9292-b1bd4faa8d65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "535f6906-7237-472d-aa7c-ab5068dd36f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.7 -0.8)
+		(end 2.7 0.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "459f4623-184f-4dc8-80fa-954c56c5c855")
+	)
+	(fp_rect
+		(start -3.1 -1.5)
+		(end 3.1 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "083db2b2-f515-41df-b8f1-13747295ea17")
+	)
+	(pad "1" smd rect
+		(at -1.75 0)
+		(size 1.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5faed1bb-c749-4130-adda-68f3cc45759e")
+	)
+	(pad "2" smd rect
+		(at 1.75 0)
+		(size 1.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b18080f-91a1-4470-96fe-3805948b00cf")
+	)
+	(embedded_fonts no)
 )

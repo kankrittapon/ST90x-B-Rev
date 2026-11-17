@@ -175,7 +175,6 @@ via,/LED_EN,F<->B,26.05,59.75,,,OD 0.6 / drill 0.3
 via,/M3V3,F<->B,5.5,62.0,,,OD 0.6 / drill 0.3
 via,/M3V3,F<->B,7.5,62.0,,,OD 0.6 / drill 0.3
 via,/M3V3,F<->B,9.5,62.0,,,OD 0.6 / drill 0.3
-via,/M3V3,F<->B,16.5,58.5,,,OD 0.6 / drill 0.3
 via,/M3V3,F<->B,17.0,55.7,,,OD 0.6 / drill 0.3
 via,/PKEY,F<->B,1.65,29.35,,,OD 0.6 / drill 0.3
 via,/PKEY,F<->B,1.7,9.5,,,OD 0.6 / drill 0.3
